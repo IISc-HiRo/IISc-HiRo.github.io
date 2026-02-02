@@ -15,36 +15,17 @@ permalink: /publications/
   </div>
 
   <div class="publications-list">
-    <h2 class="year-header">2026</h2>
-
-    <div class="publication-item" data-category="conference">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="Publication">
-        <div class="pub-venue-tag">ICRA'26</div>
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">Safe and Efficient Robot Learning from Human Demonstrations</div>
-        <div class="pub-authors">Author Name, Ravi Prakash, et al.</div>
-        <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2026</div>
-        <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
-        </div>
-      </div>
-    </div>
-
     <h2 class="year-header">2025</h2>
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/leap2025.png" alt="SEAL">
-        <div class="pub-venue-tag">CoRL'25</div>
+        <img src="/assets/img/publication_preview/placeholder.png" alt="RISE">
+        <div class="pub-venue-tag">IROSW'25</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">SEAL: Safe and Efficient Abstraction Learning for Robotic Planning</div>
-        <div class="pub-authors">Akhil R Kurup and Ravi Prakash</div>
-        <div class="pub-venue">CoRL 2025 LEAP Workshop</div>
+        <div class="pub-title">RISE: Robust Imitation through Stochastic Encodings</div>
+        <div class="pub-authors">M Tayal, M Tayal, R Prakash</div>
+        <div class="pub-venue">IROS 2025 Workshop: LeaPRIDE: Learning, Planning, and Reasoning in Dynamic Environments</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
@@ -55,47 +36,13 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/saferol2025.png" alt="SafeDMPs">
-        <div class="pub-venue-tag">CoRL'25</div>
+        <img src="/assets/img/publication_preview/placeholder.png" alt="DiffusionPack">
+        <div class="pub-venue-tag">NeurIPSW'25</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI</div>
-        <div class="pub-authors">Pranav Tiwari, Soumyadipta Nath, and Ravi Prakash</div>
-        <div class="pub-venue">CoRL 2025 SAFEROL Workshop</div>
-        <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-category="workshop">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/corl25data.png" alt="PACER">
-        <div class="pub-venue-tag">CoRL'25</div>
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">PACER: Progress-Aligned Curation for Error-Resilient Imitation Learning</div>
-        <div class="pub-authors">Shreyas Kumar and Ravi Prakash</div>
-        <div class="pub-venue">CoRL 2025 Making Sense of Data in Robotics Workshop</div>
-        <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-category="workshop">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/corl25data.png" alt="Mixed-Skill">
-        <div class="pub-venue-tag">CoRL'25</div>
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning</div>
-        <div class="pub-authors">Saharsh, Shubham Sonkar, Pushpak Jagtap, and Ravi Prakash</div>
-        <div class="pub-venue">CoRL 2025 Making Sense of Data in Robotics Workshop</div>
+        <div class="pub-title">DiffusionPack: Bin Packing with Custom Human Preferences</div>
+        <div class="pub-authors">A Maurya, S Vyas-b, A Bassunadhar, R Prakash</div>
+        <div class="pub-venue">NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Robotics</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
@@ -110,26 +57,9 @@ permalink: /publications/
         <div class="pub-venue-tag">RA-L'25</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">OVITA: Open Vocabulary Interpretable Trajectory Adaptations</div>
-        <div class="pub-authors">Anurag Maurya, Tashmoy Ghosh, Anh Nguyen, and Ravi Prakash</div>
-        <div class="pub-venue">IEEE Robotics and Automation Letters, 2025</div>
-        <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-category="conference">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/imphrl.gif" alt="Impedance HRL">
-        <div class="pub-venue-tag">ICRA'25</div>
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">Impedance Primitive-augmented Hierarchical Reinforcement Learning for Sequential Tasks</div>
-        <div class="pub-authors">Amin Berjaoui Tahmaz, Ravi Prakash, and Jens Kober</div>
-        <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
+        <div class="pub-title">OVITA: Open-Vocabulary Interpretable Trajectory Adaptations</div>
+        <div class="pub-authors">A Maurya, T Ghosh, A Nguyen, R Prakash</div>
+        <div class="pub-venue">IEEE Robotics and Automation Letters</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
@@ -140,13 +70,13 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/icra25srl.png" alt="Stability-Aware PI2">
-        <div class="pub-venue-tag">ICRA'25</div>
+        <img src="/assets/img/publication_preview/saferol2025.png" alt="SafeDMPs">
+        <div class="pub-venue-tag">CoRLW'25</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">Stability-Aware PI2 for Safe Interaction via Variable Impedance Control</div>
-        <div class="pub-authors">Karthik Swaminathan and Ravi Prakash</div>
-        <div class="pub-venue">ICRA 2025 SRL Workshop</div>
+        <div class="pub-title">SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI</div>
+        <div class="pub-authors">S Nath, P Tiwari, R Prakash</div>
+        <div class="pub-venue">CoRL 2025 2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
@@ -155,15 +85,32 @@ permalink: /publications/
       </div>
     </div>
 
-    <div class="publication-item" data-category="journal">
+    <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/tcst2.gif" alt="Adaptive Critic">
-        <div class="pub-venue-tag">T-CST'25</div>
+        <img src="/assets/img/publication_preview/corl25data.png" alt="Mixed-Skill">
+        <div class="pub-venue-tag">CoRLW'25</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">Adaptive Critic Optimal Control of an Uncertain Robot Manipulator With Applications</div>
-        <div class="pub-authors">Ravi Prakash, Laxmidhar Behera, and Sarangapani Jagannathan</div>
-        <div class="pub-venue">IEEE Transactions on Control Systems Technology, Vol. 33, No. 1, pp. 316-326, 2025</div>
+        <div class="pub-title">Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning</div>
+        <div class="pub-authors">S Saharsh, S Sonkar, P Jagtap, R Prakash</div>
+        <div class="pub-venue">CoRL 2025 Workshop on Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item" data-category="workshop">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/corl25data.png" alt="PACER">
+        <div class="pub-venue-tag">CoRLW'25</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">PACER: Progress-Aligned Curation for Error-Resilient Imitation Learning</div>
+        <div class="pub-authors">S Kumar, R Prakash</div>
+        <div class="pub-venue">CoRL 2025 Workshop on Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
@@ -178,9 +125,26 @@ permalink: /publications/
         <div class="pub-venue-tag">T-RO'25</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">Generalizable Motion Policies Through Keypoint Parameterization and Transportation Maps</div>
-        <div class="pub-authors">Giovanni Franzese, Ravi Prakash, Cosimo Della Santina, and Jens Kober</div>
-        <div class="pub-venue">IEEE Transactions on Robotics, Vol. 41, pp. 4557-4573, 2025</div>
+        <div class="pub-title">Generalizable motion policies through keypoint parameterization and transportation maps</div>
+        <div class="pub-authors">G Franzese, R Prakash, C Della Santina, J Kober</div>
+        <div class="pub-venue">IEEE Transactions on Robotics</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item" data-category="conference">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/imphrl.gif" alt="Impedance HRL">
+        <div class="pub-venue-tag">ICRA'25</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">Impedance Primitive-Augmented Hierarchical Reinforcement Learning for Sequential Tasks</div>
+        <div class="pub-authors">AB Tahmaz, R Prakash, J Kober</div>
+        <div class="pub-venue">2025 IEEE International Conference on Robotics and Automation (ICRA), 10973-10980</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
@@ -191,15 +155,68 @@ permalink: /publications/
 
     <h2 class="year-header">2024</h2>
 
-    <div class="publication-item" data-category="workshop">
+    <div class="publication-item" data-category="journal">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/langrob.png" alt="LLM Trajectory">
-        <div class="pub-venue-tag">CoRL'24</div>
+        <img src="/assets/img/publication_preview/tcst2.gif" alt="Adaptive Critic">
+        <div class="pub-venue-tag">T-CST'24</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">Trajectory Adaptation using Large Language Models</div>
-        <div class="pub-authors">Anurag Maurya, Tashmoy Ghosh, and Ravi Prakash</div>
-        <div class="pub-venue">CoRL 2024 LangRob Workshop</div>
+        <div class="pub-title">Adaptive Critic Optimal Control of an Uncertain Robot Manipulator With Applications</div>
+        <div class="pub-authors">R Prakash, L Behera, S Jagannathan</div>
+        <div class="pub-venue">IEEE Transactions on Control Systems Technology</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item" data-category="workshop">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/placeholder.png" alt="HIRL Workshop">
+        <div class="pub-venue-tag">HRI'24</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">3rd Workshop on Human-Interactive Robot Learning (HIRL)</div>
+        <div class="pub-authors">M Racca, R Mirsky, E Senft, X Xiao, I Idrees, A Kshirsagar, R Prakash</div>
+        <div class="pub-venue">Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="year-header">2023</h2>
+
+    <div class="publication-item" data-category="conference">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/placeholder.png" alt="Imitation Learning">
+        <div class="pub-venue-tag">CVIP'23</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">Imitation Learning of Long-Horizon Manipulation Tasks Through Temporal Sub-action Sequencing</div>
+        <div class="pub-authors">N Singh, S Dutta, A Jain, R Prakash, A Majumder, R Sinha, L Behera</div>
+        <div class="pub-venue">International Conference on Computer Vision and Image Processing, 347-361</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item" data-category="journal">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/placeholder.png" alt="Neural Optimal Control">
+        <div class="pub-venue-tag">T-ASE'23</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">Neural optimal control for constrained visual servoing via learning from demonstration</div>
+        <div class="pub-authors">R Prakash, L Behera</div>
+        <div class="pub-venue">IEEE Transactions on Automation Science and Engineering 21 (3), 2987-3000</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>

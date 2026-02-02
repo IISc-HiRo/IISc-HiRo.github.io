@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<div class="research-page">
+<div class="research-section">
   <h1>Research</h1>
 
   <div class="research-header-image">
