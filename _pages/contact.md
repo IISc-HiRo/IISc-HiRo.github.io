@@ -15,8 +15,8 @@ permalink: /contact/
         and human-robot interaction. View our research at <a href="https://scholar.google.com/citations?user=mV2CW4QAAAAJ" target="_blank">Google Scholar</a>. If you are interested in joining our lab:
       </p>
       <ul>
-        <li>PhD applicants: Apply through the <a href="https://iisc.ac.in/admissions/" target="_blank">IISc admissions portal</a></li>
-        <li>Master's students: If you want to pursue your master's project, visit Prof. Ravi Prakash directly at his office</li>
+        <li>PhD applicants: Apply through the <a href="https://iisc.ac.in/admissions/" target="_blank">IISc admissions portal.</a></li>
+        <li>Master's students: If you want to pursue your master's project, visit Prof. Ravi Prakash directly at his office.</li>
         <li>Project Associates and UG interns: Please email Prof. Ravi Prakash with your interests and CV.</li>
       </ul>
     </div>
@@ -25,7 +25,7 @@ permalink: /contact/
       <h2>Collaborations</h2>
       <p>
         Interested in collaboration? Please reach out to Prof. Ravi Prakash at
-        <a href="mailto:ravipr@iisc.ac.in">ravipr@iisc.ac.in</a>
+        <a href="mailto:ravipr@iisc.ac.in">ravipr@iisc.ac.in</a>.
       </p>
     </div>
 
