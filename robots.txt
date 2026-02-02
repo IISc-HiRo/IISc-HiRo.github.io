@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://IISc-HiRo.github.io/sitemap.xml
+Sitemap: https://hiro.cps.iisc.ac.in/sitemap.xml
