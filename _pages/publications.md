@@ -16,7 +16,6 @@ permalink: /publications/
   </div>
 
   <div class="publications-list">
-    <!-- 2026 Publications -->
     <h2 class="year-header">2026</h2>
 
     <div class="publication-item" data-category="conference">
@@ -36,7 +35,6 @@ permalink: /publications/
       </div>
     </div>
 
-    <!-- 2025 Publications -->
     <h2 class="year-header">2025</h2>
 
     <div class="publication-item" data-category="workshop">
@@ -212,7 +210,6 @@ permalink: /publications/
       </div>
     </div>
 
-    <!-- 2023 Publications -->
     <h2 class="year-header">2023</h2>
 
     <div class="publication-item" data-category="preprint">

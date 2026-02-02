@@ -47,6 +47,22 @@ permalink: /
         <div class="funding-logo">
           <img src="/assets/img/logos/govtofkarnataka.png" alt="Government of Karnataka">
         </div>
+        <!-- Duplicate for seamless loop -->
+        <div class="funding-logo">
+          <img src="/assets/img/logos/iisc.jpg" alt="IISc">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/artpark.png" alt="ARTPARK">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/drdo.png" alt="DRDO">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/dst.jpg" alt="DST">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/govtofkarnataka.png" alt="Government of Karnataka">
+        </div>
       </div>
     </div>
   </div>
@@ -56,14 +72,21 @@ permalink: /
   document.addEventListener('DOMContentLoaded', function() {
     const track = document.querySelector('.carousel-track');
     const logos = document.querySelectorAll('.funding-logo');
-    let currentIndex = 0;
-
-    function autoScroll() {
-      currentIndex = (currentIndex + 1) % logos.length;
-      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    const totalLogos = logos.length / 2; // Original count before duplication
+    let position = 0;
+    
+    function animate() {
+      position -= 0.5; // Scroll speed
+      
+      // Reset position when halfway through (when original logos are fully scrolled)
+      if (Math.abs(position) >= (totalLogos * 300)) {
+        position = 0;
+      }
+      
+      track.style.transform = `translateX(${position}px)`;
+      requestAnimationFrame(animate);
     }
-
-    // Auto-scroll every 3 seconds
-    setInterval(autoScroll, 3000);
+    
+    animate();
   });
 </script>
