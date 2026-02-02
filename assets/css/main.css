@@ -150,9 +150,7 @@ body {
 /* Funding Section */
 .funding-section {
   margin-top: 5rem;
-  padding: 3rem 2rem;
-  background: var(--bg-light);
-  border-radius: 8px;
+  padding: 3rem 0;
 }
 
 .funding-section h2 {
@@ -163,11 +161,9 @@ body {
 }
 
 .funding-carousel {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -197,31 +193,6 @@ body {
   width: auto;
   height: auto;
   object-fit: contain;
-}
-
-.carousel-btn {
-  background: var(--primary-color);
-  color: white;
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.2rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: background 0.3s;
-}
-
-.carousel-btn:hover {
-  background: #333;
-}
-
-.carousel-btn:disabled {
-  background: #ccc;
-  cursor: not-allowed;
 }
 
 /* Lab/People Page */

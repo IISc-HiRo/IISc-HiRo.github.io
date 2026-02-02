@@ -30,7 +30,6 @@ permalink: /
 <div class="funding-section">
   <h2>Funding & Support</h2>
   <div class="funding-carousel">
-    <button class="carousel-btn prev-btn" aria-label="Previous">&lt;</button>
     <div class="carousel-container">
       <div class="carousel-track">
         <div class="funding-logo">
@@ -50,38 +49,21 @@ permalink: /
         </div>
       </div>
     </div>
-    <button class="carousel-btn next-btn" aria-label="Next">&gt;</button>
   </div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const track = document.querySelector('.carousel-track');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
     const logos = document.querySelectorAll('.funding-logo');
     let currentIndex = 0;
 
-    function updateCarousel() {
+    function autoScroll() {
+      currentIndex = (currentIndex + 1) % logos.length;
       track.style.transform = `translateX(-${currentIndex * 100}%)`;
-      prevBtn.disabled = currentIndex === 0;
-      nextBtn.disabled = currentIndex === logos.length - 1;
     }
 
-    prevBtn.addEventListener('click', () => {
-      if (currentIndex > 0) {
-        currentIndex--;
-        updateCarousel();
-      }
-    });
-
-    nextBtn.addEventListener('click', () => {
-      if (currentIndex < logos.length - 1) {
-        currentIndex++;
-        updateCarousel();
-      }
-    });
-
-    updateCarousel();
+    // Auto-scroll every 3 seconds
+    setInterval(autoScroll, 3000);
   });
 </script>
