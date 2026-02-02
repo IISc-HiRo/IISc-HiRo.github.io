@@ -15,6 +15,60 @@ permalink: /publications/
   </div>
 
   <div class="publications-list">
+    <h2 class="year-header">2026</h2>
+
+    <div class="publication-item" data-category="conference">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/saferol2025.png" alt="SafeDMPs">
+        <div class="pub-venue-tag">ICRA'26</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI</div>
+        <div class="pub-authors">P Tiwari, S Nath, R Prakash</div>
+        <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item" data-category="conference">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/placeholder.png" alt="Variable Impedance">
+        <div class="pub-venue-tag">ICRA'26</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">Safe and Optimal Variable Impedance Control via Certified Reinforcement Learning</div>
+        <div class="pub-authors">S Kumar, R Prakash</div>
+        <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item" data-category="conference">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/corl25data.png" alt="Beyond the Teacher">
+        <div class="pub-venue-tag">ICRA'26</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning</div>
+        <div class="pub-authors">S Saharsh, S Sonkar, P Jagtap, R Prakash</div>
+        <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
+        <div class="pub-links">
+          <span class="pub-link-text">Demo</span>
+          <span class="pub-link-text">Paper</span>
+          <span class="pub-link-text">Code</span>
+        </div>
+      </div>
+    </div>
+
+
     <h2 class="year-header">2025</h2>
 
     <div class="publication-item" data-category="workshop">
