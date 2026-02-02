@@ -26,3 +26,62 @@ permalink: /
     <img src="/assets/img/logos/hiro_lab.jpg" alt="HiRo Lab">
   </div>
 </div>
+
+<div class="funding-section">
+  <h2>Funding & Support</h2>
+  <div class="funding-carousel">
+    <button class="carousel-btn prev-btn" aria-label="Previous">&lt;</button>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="funding-logo">
+          <img src="/assets/img/logos/iisc.jpg" alt="IISc">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/artpark.png" alt="ARTPARK">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/drdo.png" alt="DRDO">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/dst.jpg" alt="DST">
+        </div>
+        <div class="funding-logo">
+          <img src="/assets/img/logos/govtofkarnataka.png" alt="Government of Karnataka">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn" aria-label="Next">&gt;</button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const track = document.querySelector('.carousel-track');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const logos = document.querySelectorAll('.funding-logo');
+    let currentIndex = 0;
+
+    function updateCarousel() {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex === logos.length - 1;
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateCarousel();
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentIndex < logos.length - 1) {
+        currentIndex++;
+        updateCarousel();
+      }
+    });
+
+    updateCarousel();
+  });
+</script>
