@@ -1,0 +1,78 @@
+---
+layout: main
+title: Research
+permalink: /research/
+---
+
+<div class="research-page">
+  <h1>Research</h1>
+
+  <div class="research-intro">
+    <p>
+      Our mission is to develop theoretical foundations and practical algorithms for human-interactive robotics.
+      Our group focuses on enabling robots to learn from and collaborate with humans in real-world environments.
+      We leverage tools from machine learning, control theory, and human-robot interaction to build intelligent,
+      adaptive, and safe robotic systems.
+    </p>
+  </div>
+
+  <div class="research-areas">
+    <div class="research-area">
+      <div class="research-area-content">
+        <h2>Robot Learning and Imitation</h2>
+        <p>
+          We develop methods for robots to learn complex manipulation skills from human demonstrations
+          and interactions. Our work focuses on learning from imperfect demonstrations, adapting learned
+          skills to new scenarios, and ensuring robust task execution in unstructured environments.
+        </p>
+      </div>
+      <div class="research-area-image">
+        <img src="/assets/img/research_areas/robot_learning.gif" alt="Robot Learning">
+      </div>
+    </div>
+
+    <div class="research-area">
+      <div class="research-area-content">
+        <h2>Safe Human-Robot Interaction</h2>
+        <p>
+          Safety is paramount when robots work alongside humans. We develop adaptive control strategies
+          and formal verification methods to ensure safe physical interaction. Our research includes
+          variable impedance control, trajectory optimization, and safety-aware learning frameworks.
+        </p>
+      </div>
+      <div class="research-area-image">
+        <img src="/assets/img/research_areas/safe_hri.gif" alt="Safe HRI">
+      </div>
+    </div>
+
+    <div class="research-area">
+      <div class="research-area-content">
+        <h2>Language-Guided Robotics</h2>
+        <p>
+          We explore how natural language can serve as an intuitive interface for programming and
+          commanding robots. Our work leverages large language models to enable robots to understand
+          high-level instructions, adapt trajectories based on verbal feedback, and communicate intent
+          to human collaborators.
+        </p>
+      </div>
+      <div class="research-area-image">
+        <img src="/assets/img/research_areas/language_robotics.gif" alt="Language Robotics">
+      </div>
+    </div>
+
+    <div class="research-area">
+      <div class="research-area-content">
+        <h2>Optimal Control and Planning</h2>
+        <p>
+          We develop optimization-based approaches for robot motion planning and control. Our research
+          includes adaptive control for uncertain systems, reinforcement learning for sequential tasks,
+          and hierarchical planning frameworks that combine learning with classical control methods.
+        </p>
+      </div>
+      <div class="research-area-image">
+        <img src="/assets/img/research_areas/optimal_control.gif" alt="Optimal Control">
+      </div>
+    </div>
+
+  </div>
+</div>

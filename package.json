@@ -1,0 +1,13 @@
+{
+  "name": "iisc-hiro-website",
+  "version": "1.0.0",
+  "description": "Human-interactive Robotics Lab website",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.2.3",
+    "prettier": "^3.0.0"
+  }
+}

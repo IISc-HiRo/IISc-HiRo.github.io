@@ -1,0 +1,49 @@
+<div class="publication-item">
+  <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+    {% if entry.preview %}
+      <div class="pub-preview">
+        {% if entry.preview contains '.mp4' or entry.preview contains '.webm' or entry.preview contains '.gif' %}
+          {% if entry.preview contains '.gif' %}
+            <img src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ entry.title }}">
+          {% else %}
+            <video autoplay loop muted playsinline>
+              <source
+                src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}"
+                type="video/{% if entry.preview contains '.mp4' %}mp4{% else %}webm{% endif %}"
+              >
+            </video>
+          {% endif %}
+        {% else %}
+          <img src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ entry.title }}">
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div style="flex: 1; min-width: 300px;">
+      <div class="pub-title">{{ entry.title }}</div>
+      <div class="pub-authors">{{ entry.author }}</div>
+      <div class="pub-venue">
+        {{ entry.journal -}}
+        {%- if entry.year %}, {{ entry.year }}{% endif %}
+      </div>
+      {% if entry.note %}
+        <div style="color: #ff9800; margin-bottom: 0.5rem;">{{ entry.note }}</div>
+      {% endif %}
+
+      <div class="pub-links">
+        {% if entry.website %}
+          <a href="{{ entry.website }}">Website</a>
+        {% endif %}
+        {% if entry.arxiv %}
+          <a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>
+        {% endif %}
+        {% if entry.github %}
+          <a href="{{ entry.github }}">Code</a>
+        {% endif %}
+        {% if entry.pdf %}
+          <a href="{{ entry.pdf }}">PDF</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
