@@ -19,7 +19,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/saferol2025.png" alt="SafeDMPs">
+        <img src="/assets/img/publication_preview/placeholder.png" alt="SafeDMPs">
         <div class="pub-venue-tag">ICRA'26</div>
       </div>
       <div class="pub-content">
@@ -53,7 +53,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/corl25data.png" alt="Beyond the Teacher">
+        <img src="/assets/img/publication_preview/placeholder.png" alt="Beyond the Teacher">
         <div class="pub-venue-tag">ICRA'26</div>
       </div>
       <div class="pub-content">
