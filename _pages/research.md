@@ -7,6 +7,10 @@ permalink: /research/
 <div class="research-page">
   <h1>Research</h1>
 
+  <div class="research-header-image">
+    <img src="/assets/img/others/HRT.png" alt="Human-Robot Teams">
+  </div>
+
   <div class="research-intro">
     <p>
       Our mission is to develop theoretical foundations and practical algorithms for human-interactive robotics.

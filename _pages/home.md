@@ -23,6 +23,6 @@ permalink: /
   </div>
   
   <div class="hero-media">
-    <img src="/assets/img/hiro_lab.jpg" alt="HiRo Lab">
+    <img src="/assets/img/logos/hiro_lab.jpg" alt="HiRo Lab">
   </div>
 </div>

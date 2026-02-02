@@ -254,10 +254,41 @@ body {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color);
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 .publication-item:last-child {
   border-bottom: none;
+}
+
+.pub-thumbnail {
+  position: relative;
+  flex-shrink: 0;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.pub-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pub-venue-tag {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .pub-content {
@@ -306,6 +337,15 @@ body {
   background: var(--link-color);
   color: white;
   text-decoration: none;
+}
+
+.pub-link-text {
+  color: #888;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: not-allowed;
 }
 
 .person-card .name {
@@ -422,6 +462,19 @@ a:hover {
 .research-page {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.research-header-image {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.research-header-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .research-intro {
