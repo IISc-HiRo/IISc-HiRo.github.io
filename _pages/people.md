@@ -7,22 +7,17 @@ permalink: /people/
 <div class="people-section">
   <h1>People</h1>
 
-  <h2>Faculty Members</h2>
+  <h2>Faculty</h2>
   <div class="people-grid">
     <div class="person-card">
       <img src="/assets/img/people/ravi_prakash.jpg" alt="Dr. Ravi Prakash"/>
-      <span class="name">Dr. Ravi Prakash</span>
+      <span class="name">Prof. Ravi Prakash</span>
       <span class="role">Principal Investigator</span>
     </div>
   </div>
 
   <h2>PhD Students</h2>
   <div class="people-grid">
-    <div class="person-card">
-      <img src="/assets/img/people/shubham_sonkar.jpg" alt="Shubham Sonkar"/>
-      <span class="name">Shubham Sonkar</span>
-      <span class="role">PhD Student</span>
-    </div>
     <div class="person-card">
       <img src="/assets/img/people/basu_hela.jpg" alt="Basu Hela"/>
       <span class="name">Basu Hela</span>
@@ -35,7 +30,7 @@ permalink: /people/
     </div>
   </div>
 
-  <h2>Master's (Research)</h2>
+  <h2>MTech(R) Students</h2>
   <div class="people-grid">
     <div class="person-card">
       <img src="/assets/img/people/akhil_kurup.jpeg" alt="Akhil R Kurup"/>
