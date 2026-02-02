@@ -4,7 +4,12 @@
       <img src="/assets/img/logos/hiro.jpg" alt="HiRo Lab">
       <img src="/assets/img/logos/iisc.jpg" alt="IISc">
     </a>
-    <div class="nav-links">
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
+    <div class="nav-links" id="navLinks">
       <a href="/" class="nav-link">Home</a>
       <a href="/people/" class="nav-link">People</a>
       <a href="/research/" class="nav-link">Research</a>
@@ -13,3 +18,17 @@
     </div>
   </div>
 </nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    
+    if (navToggle) {
+      navToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+        navToggle.classList.toggle('active');
+      });
+    }
+  });
+</script>
