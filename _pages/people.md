@@ -54,7 +54,7 @@ permalink: /people/
         <img src="/assets/img/people/sasidhar_alavala.JPG" alt="Sasidhar Alavala"/>
       </a>
       <div class="person-links">
-        <a href="https://sasidharalavala.github.io/" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
         <a href="https://scholar.google.com/citations?user=1PStmj8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
