@@ -19,7 +19,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="SafeDMPs">
+        <img src="/assets/img/publication_preview/safedmps_26.png" alt="SafeDMPs">
         <div class="pub-venue-tag">ICRA'26</div>
       </div>
       <div class="pub-content">
@@ -36,7 +36,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="Variable Impedance">
+        <img src="/assets/img/publication_preview/rlcgms_26.png" alt="Variable Impedance">
         <div class="pub-venue-tag">ICRA'26</div>
       </div>
       <div class="pub-content">
@@ -53,7 +53,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="Beyond the Teacher">
+        <img src="/assets/img/publication_preview/byt_26.png" alt="Beyond the Teacher">
         <div class="pub-venue-tag">ICRA'26</div>
       </div>
       <div class="pub-content">
@@ -73,7 +73,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="RISE">
+        <img src="/assets/img/publication_preview/irosw_leap_25.png" alt="RISE">
         <div class="pub-venue-tag">IROSW'25</div>
       </div>
       <div class="pub-content">
@@ -90,7 +90,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="DiffusionPack">
+        <img src="/assets/img/publication_preview/neuripsw_law_25.png" alt="DiffusionPack">
         <div class="pub-venue-tag">NeurIPSW'25</div>
       </div>
       <div class="pub-content">
@@ -107,7 +107,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="journal">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/ovita.gif" alt="OVITA">
+        <img src="/assets/img/publication_preview/ovita_25.gif" alt="OVITA">
         <div class="pub-venue-tag">RA-L'25</div>
       </div>
       <div class="pub-content">
@@ -124,7 +124,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/saferol2025.png" alt="SafeDMPs">
+        <img src="/assets/img/publication_preview/corlw_saferol_25.png" alt="SafeDMPs">
         <div class="pub-venue-tag">CoRLW'25</div>
       </div>
       <div class="pub-content">
@@ -141,7 +141,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/corl25data.png" alt="Mixed-Skill">
+        <img src="/assets/img/publication_preview/corlw_data_25.png" alt="Mixed-Skill">
         <div class="pub-venue-tag">CoRLW'25</div>
       </div>
       <div class="pub-content">
@@ -158,7 +158,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/corl25data.png" alt="PACER">
+        <img src="/assets/img/publication_preview/corlw_data_25.png" alt="PACER">
         <div class="pub-venue-tag">CoRLW'25</div>
       </div>
       <div class="pub-content">
@@ -175,7 +175,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="journal">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/tro.gif" alt="Transportation Maps">
+        <img src="/assets/img/publication_preview/tro_25.gif" alt="Transportation Maps">
         <div class="pub-venue-tag">T-RO'25</div>
       </div>
       <div class="pub-content">
@@ -192,7 +192,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/imphrl.gif" alt="Impedance HRL">
+        <img src="/assets/img/publication_preview/icra_imphrl_25.gif" alt="Impedance HRL">
         <div class="pub-venue-tag">ICRA'25</div>
       </div>
       <div class="pub-content">
@@ -211,7 +211,7 @@ permalink: /publications/
 
     <div class="publication-item" data-category="journal">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/tcst2.gif" alt="Adaptive Critic">
+        <img src="/assets/img/publication_preview/tcst_ac_24.gif" alt="Adaptive Critic">
         <div class="pub-venue-tag">T-CST'24</div>
       </div>
       <div class="pub-content">
@@ -228,49 +228,13 @@ permalink: /publications/
 
     <div class="publication-item" data-category="workshop">
       <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="HIRL Workshop">
+        <img src="/assets/img/publication_preview/hri_24.png" alt="HIRL Workshop">
         <div class="pub-venue-tag">HRI'24</div>
       </div>
       <div class="pub-content">
         <div class="pub-title">3rd Workshop on Human-Interactive Robot Learning (HIRL)</div>
         <div class="pub-authors">M Racca, R Mirsky, E Senft, X Xiao, I Idrees, A Kshirsagar, R Prakash</div>
         <div class="pub-venue">Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction</div>
-        <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="year-header">2023</h2>
-
-    <div class="publication-item" data-category="conference">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="Imitation Learning">
-        <div class="pub-venue-tag">CVIP'23</div>
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">Imitation Learning of Long-Horizon Manipulation Tasks Through Temporal Sub-action Sequencing</div>
-        <div class="pub-authors">N Singh, S Dutta, A Jain, R Prakash, A Majumder, R Sinha, L Behera</div>
-        <div class="pub-venue">International Conference on Computer Vision and Image Processing, 347-361</div>
-        <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-category="journal">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/placeholder.png" alt="Neural Optimal Control">
-        <div class="pub-venue-tag">T-ASE'23</div>
-      </div>
-      <div class="pub-content">
-        <div class="pub-title">Neural optimal control for constrained visual servoing via learning from demonstration</div>
-        <div class="pub-authors">R Prakash, L Behera</div>
-        <div class="pub-venue">IEEE Transactions on Automation Science and Engineering 21 (3), 2987-3000</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <span class="pub-link-text">Paper</span>
