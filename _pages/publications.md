@@ -96,7 +96,7 @@ permalink: /publications/
       <div class="pub-content">
         <div class="pub-title">DiffusionPack: Bin Packing with Custom Human Preferences</div>
         <div class="pub-authors">A Maurya, S Vyas-b, A Bassunadhar, R Prakash</div>
-        <div class="pub-venue">NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Robotics</div>
+        <div class="pub-venue">NeurIPS 2025 Workshop: Bridging Language, Agent, and World Models for Robotics</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=uReNc199fG" target="_blank" class="pub-link-text">Paper</a>
@@ -130,7 +130,7 @@ permalink: /publications/
       <div class="pub-content">
         <div class="pub-title">SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI</div>
         <div class="pub-authors">S Nath, P Tiwari, R Prakash</div>
-        <div class="pub-venue">CoRL 2025 2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World</div>
+        <div class="pub-venue">CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=Xj3V96qTpf" target="_blank" class="pub-link-text">Paper</a>
@@ -147,7 +147,7 @@ permalink: /publications/
       <div class="pub-content">
         <div class="pub-title">Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning</div>
         <div class="pub-authors">S Saharsh, S Sonkar, P Jagtap, R Prakash</div>
-        <div class="pub-venue">CoRL 2025 Workshop on Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
+        <div class="pub-venue">CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=7Ox8aKIFbA" target="_blank" class="pub-link-text">Paper</a>
@@ -164,7 +164,7 @@ permalink: /publications/
       <div class="pub-content">
         <div class="pub-title">PACER: Progress-Aligned Curation for Error-Resilient Imitation Learning</div>
         <div class="pub-authors">S Kumar, R Prakash</div>
-        <div class="pub-venue">CoRL 2025 Workshop on Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
+        <div class="pub-venue">CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=gaYyBvP2Rz" target="_blank" class="pub-link-text">Paper</a>
@@ -198,7 +198,7 @@ permalink: /publications/
       <div class="pub-content">
         <div class="pub-title">Impedance Primitive-Augmented Hierarchical Reinforcement Learning for Sequential Tasks</div>
         <div class="pub-authors">AB Tahmaz, R Prakash, J Kober</div>
-        <div class="pub-venue">2025 IEEE International Conference on Robotics and Automation (ICRA), 10973-10980</div>
+        <div class="pub-venue">2025 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
           <a href="https://ieeexplore.ieee.org/abstract/document/11128462" target="_blank" class="pub-link-text">Paper</a>
