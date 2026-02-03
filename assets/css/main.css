@@ -278,16 +278,30 @@ body {
   text-decoration: none;
   color: var(--text-color);
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .person-card:hover {
   transform: translateY(-5px);
 }
 
+.person-image-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
 .person-card img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 0.5rem;
+  transition: opacity 0.3s;
+}
+
+.person-image-link:hover img {
+  opacity: 0.8;
 }
 
 /* Research/Publications Section Styles */
@@ -453,6 +467,24 @@ body {
 .person-card .role {
   font-size: 0.9rem;
   color: #666;
+}
+
+.person-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.person-links a {
+  color: var(--link-color);
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.person-links a:hover {
+  color: var(--primary-color);
 }
 
 /* Research Page */

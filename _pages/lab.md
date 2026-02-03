@@ -1,7 +1,7 @@
 ---
 layout: main
-title: People
-permalink: /people/
+title: Lab
+permalink: /lab/
 ---
 
 <div class="people-section">
