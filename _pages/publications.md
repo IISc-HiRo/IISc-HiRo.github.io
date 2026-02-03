@@ -246,6 +246,12 @@ permalink: /publications/
   </div>
 </div>
 
+<!-- Image Modal -->
+<div id="imageModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.9); cursor:pointer;">
+  <span style="position:absolute; top:20px; right:40px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;">&times;</span>
+  <img id="modalImage" style="margin:auto; display:block; max-width:90%; max-height:90%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+</div>
+
 <script>
   // Publication filtering functionality
   document.addEventListener('DOMContentLoaded', function() {
@@ -287,6 +293,32 @@ permalink: /publications/
           header.style.display = hasVisiblePubs || filterValue === 'all' ? 'block' : 'none';
         });
       });
+    });
+
+    // Image modal functionality
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const pubImages = document.querySelectorAll('.pub-thumbnail img');
+
+    pubImages.forEach(img => {
+      img.style.cursor = 'pointer';
+      img.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = 'block';
+        modalImg.src = this.src;
+      });
+    });
+
+    // Close modal on click
+    modal.addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.style.display === 'block') {
+        modal.style.display = 'none';
+      }
     });
   });
 </script>
