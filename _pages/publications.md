@@ -82,7 +82,7 @@ permalink: /publications/
         <div class="pub-venue">IROS 2025 Workshop: LeaPRIDE: Learning, Planning, and Reasoning in Dynamic Environments</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://openreview.net/forum?id=GEexdUmA67" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -99,7 +99,7 @@ permalink: /publications/
         <div class="pub-venue">NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Robotics</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://openreview.net/forum?id=uReNc199fG" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -116,7 +116,7 @@ permalink: /publications/
         <div class="pub-venue">IEEE Robotics and Automation Letters</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://ieeexplore.ieee.org/abstract/document/11150730" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -133,7 +133,7 @@ permalink: /publications/
         <div class="pub-venue">CoRL 2025 2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://openreview.net/forum?id=Xj3V96qTpf" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -150,7 +150,7 @@ permalink: /publications/
         <div class="pub-venue">CoRL 2025 Workshop on Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://openreview.net/forum?id=7Ox8aKIFbA" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -167,7 +167,7 @@ permalink: /publications/
         <div class="pub-venue">CoRL 2025 Workshop on Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://openreview.net/forum?id=gaYyBvP2Rz" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -184,7 +184,7 @@ permalink: /publications/
         <div class="pub-venue">IEEE Transactions on Robotics</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://ieeexplore.ieee.org/abstract/document/11049008" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -201,7 +201,7 @@ permalink: /publications/
         <div class="pub-venue">2025 IEEE International Conference on Robotics and Automation (ICRA), 10973-10980</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://ieeexplore.ieee.org/abstract/document/11128462" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -220,7 +220,7 @@ permalink: /publications/
         <div class="pub-venue">IEEE Transactions on Control Systems Technology</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://ieeexplore.ieee.org/abstract/document/10718695" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
@@ -237,7 +237,7 @@ permalink: /publications/
         <div class="pub-venue">Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction</div>
         <div class="pub-links">
           <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
+          <a href="https://dl.acm.org/doi/abs/10.1145/3610978.3638160" target="_blank" class="pub-link-text">Paper</a>
           <span class="pub-link-text">Code</span>
         </div>
       </div>
