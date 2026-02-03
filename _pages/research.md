@@ -23,25 +23,39 @@ permalink: /research/
   <div class="research-areas">
     <div class="research-area">
       <div class="research-area-content">
-        <h2>Robot Learning and Imitation</h2>
+        <h2>Interactive Reinforcement Learning</h2>
         <p>
-          We develop methods for robots to learn complex manipulation skills from human demonstrations
-          and interactions. Our work focuses on learning from imperfect demonstrations, adapting learned
-          skills to new scenarios, and ensuring robust task execution in unstructured environments.
+          We develop methods for robots to learn complex tasks through interactive feedback from humans.
+          Our work focuses on efficient learning from human corrections, incorporating human preferences,
+          and enabling robots to actively query humans for guidance during learning and execution.
         </p>
       </div>
       <div class="research-area-image">
-        <img src="/assets/img/research_areas/robot_learning.gif" alt="Robot Learning">
+        <img src="/assets/img/research_areas/robot_learning.gif" alt="Interactive RL">
       </div>
     </div>
 
     <div class="research-area">
       <div class="research-area-content">
-        <h2>Safe Human-Robot Interaction</h2>
+        <h2>Foundational Models for Robotics</h2>
         <p>
-          Safety is paramount when robots work alongside humans. We develop adaptive control strategies
-          and formal verification methods to ensure safe physical interaction. Our research includes
-          variable impedance control, trajectory optimization, and safety-aware learning frameworks.
+          We explore how large-scale pre-trained models can be leveraged for robotic manipulation and navigation.
+          Our research includes vision-language models for task understanding, diffusion models for motion generation,
+          and adapting foundation models to physical robot systems with limited data.
+        </p>
+      </div>
+      <div class="research-area-image">
+        <img src="/assets/img/research_areas/language_robotics.gif" alt="Foundation Models">
+      </div>
+    </div>
+
+    <div class="research-area">
+      <div class="research-area-content">
+        <h2>Safe and Compliant Human-Robot Interaction</h2>
+        <p>
+          Safety and compliance are essential when robots work alongside humans. We develop adaptive control strategies,
+          variable impedance methods, and formal verification techniques to ensure safe physical interaction. Our research
+          ensures robots can adapt their behavior based on human intent and environmental constraints.
         </p>
       </div>
       <div class="research-area-image">
@@ -51,30 +65,30 @@ permalink: /research/
 
     <div class="research-area">
       <div class="research-area-content">
-        <h2>Language-Guided Robotics</h2>
+        <h2>3D Reconstruction, SLAM and World Models</h2>
         <p>
-          We explore how natural language can serve as an intuitive interface for programming and
-          commanding robots. Our work leverages large language models to enable robots to understand
-          high-level instructions, adapt trajectories based on verbal feedback, and communicate intent
-          to human collaborators.
+          We develop methods for robots to build accurate 3D models of their environment through active perception.
+          Our work includes SLAM (Simultaneous Localization and Mapping), real-time scene reconstruction, world models
+          for spatial understanding, object-level mapping, and integration with manipulation planning to enable robots
+          to operate effectively in complex, unstructured spaces.
         </p>
       </div>
       <div class="research-area-image">
-        <img src="/assets/img/research_areas/language_robotics.gif" alt="Language Robotics">
+        <img src="/assets/img/research_areas/optimal_control.gif" alt="3D Reconstruction">
       </div>
     </div>
 
     <div class="research-area">
       <div class="research-area-content">
-        <h2>Optimal Control and Planning</h2>
+        <h2>Optimization and Optimal Control</h2>
         <p>
           We develop optimization-based approaches for robot motion planning and control. Our research
-          includes adaptive control for uncertain systems, reinforcement learning for sequential tasks,
-          and hierarchical planning frameworks that combine learning with classical control methods.
+          includes adaptive optimal control for uncertain systems, trajectory optimization under constraints,
+          and hierarchical planning frameworks that combine learning with classical optimization methods.
         </p>
       </div>
       <div class="research-area-image">
-        <img src="/assets/img/research_areas/optimal_control.gif" alt="Optimal Control">
+        <img src="/assets/img/research_areas/optimal_control.gif" alt="Optimization">
       </div>
     </div>
 

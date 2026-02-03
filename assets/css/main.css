@@ -452,6 +452,10 @@ body {
   text-decoration: none;
 }
 
+a.pub-link-text {
+  cursor: pointer;
+}
+
 .pub-link-text {
   color: #888;
   font-size: 0.9rem;
