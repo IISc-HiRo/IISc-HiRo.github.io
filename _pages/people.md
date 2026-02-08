@@ -59,7 +59,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Sasidhar Alavala</span>
-      <span class="role">3D Reconstruction, Active SLAM</span>
+      <span class="role">3D Reconstruction, SLAM, World Models</span>
     </div>
     <div class="person-card">
       <a href="https://mritunjoyh.github.io/" target="_blank" class="person-image-link">
