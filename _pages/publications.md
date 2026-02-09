@@ -17,6 +17,21 @@ permalink: /publications/
   <div class="publications-list">
     <h2 class="year-header">2026</h2>
 
+    <div class="publication-item" data-category="journal">
+      <div class="pub-thumbnail">
+        <img src="/assets/img/publication_preview/ram_26.jpg" alt="Sequentially Teaching Sequential Tasks">
+        <div class="pub-venue-tag">RA-M'26</div>
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">Sequentially Teaching Sequential Tasks (ST)2: Teaching Robots Long-Horizon Manipulation Skills</div>
+        <div class="pub-authors">Z Ajanović, R Prakash, L de Souza Rosa, J Kober</div>
+        <div class="pub-venue">IEEE Robotics & Automation Magazine</div>
+        <div class="pub-links">
+          <a href="https://ieeexplore.ieee.org/document/11369949" target="_blank" class="pub-link-text">Paper</a>
+        </div>
+      </div>
+    </div>
+
     <div class="publication-item" data-category="conference">
       <div class="pub-thumbnail">
         <img src="/assets/img/publication_preview/safedmps_26.png" alt="SafeDMPs">
@@ -27,9 +42,6 @@ permalink: /publications/
         <div class="pub-authors">P Tiwari, S Nath, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -44,9 +56,6 @@ permalink: /publications/
         <div class="pub-authors">S Kumar, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -61,9 +70,6 @@ permalink: /publications/
         <div class="pub-authors">S Saharsh, S Sonkar, P Jagtap, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
-          <span class="pub-link-text">Paper</span>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -81,9 +87,7 @@ permalink: /publications/
         <div class="pub-authors">M Tayal, M Tayal, R Prakash</div>
         <div class="pub-venue">IROS 2025 Workshop: LeaPRIDE: Learning, Planning, and Reasoning in Dynamic Environments</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=GEexdUmA67" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -98,9 +102,7 @@ permalink: /publications/
         <div class="pub-authors">A Maurya, S Vyas-b, A Bassunadhar, R Prakash</div>
         <div class="pub-venue">NeurIPS 2025 Workshop: Bridging Language, Agent, and World Models for Robotics</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=uReNc199fG" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -115,9 +117,7 @@ permalink: /publications/
         <div class="pub-authors">A Maurya, T Ghosh, A Nguyen, R Prakash</div>
         <div class="pub-venue">IEEE Robotics and Automation Letters</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://ieeexplore.ieee.org/abstract/document/11150730" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -132,9 +132,7 @@ permalink: /publications/
         <div class="pub-authors">S Nath, P Tiwari, R Prakash</div>
         <div class="pub-venue">CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=Xj3V96qTpf" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -149,9 +147,7 @@ permalink: /publications/
         <div class="pub-authors">S Saharsh, S Sonkar, P Jagtap, R Prakash</div>
         <div class="pub-venue">CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=7Ox8aKIFbA" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -166,9 +162,7 @@ permalink: /publications/
         <div class="pub-authors">S Kumar, R Prakash</div>
         <div class="pub-venue">CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://openreview.net/forum?id=gaYyBvP2Rz" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -183,9 +177,7 @@ permalink: /publications/
         <div class="pub-authors">G Franzese, R Prakash, C Della Santina, J Kober</div>
         <div class="pub-venue">IEEE Transactions on Robotics</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://ieeexplore.ieee.org/abstract/document/11049008" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -200,9 +192,7 @@ permalink: /publications/
         <div class="pub-authors">AB Tahmaz, R Prakash, J Kober</div>
         <div class="pub-venue">2025 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://ieeexplore.ieee.org/abstract/document/11128462" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -219,9 +209,7 @@ permalink: /publications/
         <div class="pub-authors">R Prakash, L Behera, S Jagannathan</div>
         <div class="pub-venue">IEEE Transactions on Control Systems Technology</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://ieeexplore.ieee.org/abstract/document/10718695" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
@@ -236,9 +224,7 @@ permalink: /publications/
         <div class="pub-authors">M Racca, R Mirsky, E Senft, X Xiao, I Idrees, A Kshirsagar, R Prakash</div>
         <div class="pub-venue">Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction</div>
         <div class="pub-links">
-          <span class="pub-link-text">Demo</span>
           <a href="https://dl.acm.org/doi/abs/10.1145/3610978.3638160" target="_blank" class="pub-link-text">Paper</a>
-          <span class="pub-link-text">Code</span>
         </div>
       </div>
     </div>
