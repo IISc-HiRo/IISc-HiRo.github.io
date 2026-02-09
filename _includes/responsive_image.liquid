@@ -3,24 +3,26 @@
 {% endcomment %}
 
 {% assign image_path = include.path %}
-{% assign image_alt = include.alt | default: "" %}
-{% assign image_class = include.class | default: "" %}
+{% assign image_alt = include.alt | default: '' %}
+{% assign image_class = include.class | default: '' %}
 
 {% comment %} Extract base path without extension {% endcomment %}
 {% assign path_parts = image_path | split: '.' %}
 {% assign extension = path_parts | last %}
-{% assign path_without_ext = image_path | replace_last: extension, "" | remove_last: "." %}
+{% assign path_without_ext = image_path | replace_last: extension, '' | remove_last: '.' %}
 
 <picture>
   {% comment %} WebP sources with different widths {% endcomment %}
-  <source 
+  <source
     type="image/webp"
-    srcset="{{ path_without_ext }}-480.webp 480w,
-            {{ path_without_ext }}-800.webp 800w,
-            {{ path_without_ext }}-1400.webp 1400w"
-    sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1400px">
-  
+    srcset="
+      {{ path_without_ext }}-480.webp 480w,
+      {{ path_without_ext }}-800.webp 800w,
+      {{ path_without_ext }}-1400.webp 1400w
+    "
+    sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1400px"
+  >
+
   {% comment %} Fallback to original image {% endcomment %}
   <img src="{{ image_path }}" alt="{{ image_alt }}" class="{{ image_class }}" loading="lazy">
 </picture>
-
