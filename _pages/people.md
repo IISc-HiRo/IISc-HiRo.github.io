@@ -76,7 +76,7 @@ permalink: /people/
       <span class="role">Safety Critical Control, Formal Methods for Imitation Learning</span>
     </div>
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <a href="https://sasidharalavala.work" target="_blank" class="person-image-link">
         <img src="/assets/img/people/sasidhar_alavala.JPG" alt="Sasidhar Alavala"/>
       </a>
       <div class="person-links">
