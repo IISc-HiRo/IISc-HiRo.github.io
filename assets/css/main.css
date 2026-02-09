@@ -57,6 +57,11 @@ body {
   gap: 1rem;
 }
 
+.nav-logo a {
+  display: inline-block;
+  line-height: 0;
+}
+
 .nav-logo img {
   height: 50px;
   width: auto;
@@ -66,7 +71,7 @@ body {
   display: block;
 }
 
-.nav-logo:hover img {
+.nav-logo a:hover img {
   opacity: 0.8;
 }
 
