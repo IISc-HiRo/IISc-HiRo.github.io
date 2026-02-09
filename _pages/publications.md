@@ -42,6 +42,7 @@ permalink: /publications/
         <div class="pub-authors">P Tiwari, S Nath, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
+          <span class="pub-link-text">Paper</span>
         </div>
       </div>
     </div>
@@ -56,6 +57,7 @@ permalink: /publications/
         <div class="pub-authors">S Kumar, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
+          <span class="pub-link-text">Paper</span>
         </div>
       </div>
     </div>
@@ -70,6 +72,7 @@ permalink: /publications/
         <div class="pub-authors">S Saharsh, S Sonkar, P Jagtap, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
+          <span class="pub-link-text">Paper</span>
         </div>
       </div>
     </div>
