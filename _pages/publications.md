@@ -23,7 +23,7 @@ permalink: /publications/
         <div class="pub-venue-tag">RA-M'26</div>
       </div>
       <div class="pub-content">
-        <div class="pub-title">Sequentially Teaching Sequential Tasks (ST)2: Teaching Robots Long-Horizon Manipulation Skills</div>
+        <div class="pub-title">Sequentially Teaching Sequential Tasks (ST)<sup>2</sup>: Teaching Robots Long-Horizon Manipulation Skills</div>
         <div class="pub-authors">Z Ajanović, R Prakash, L de Souza Rosa, J Kober</div>
         <div class="pub-venue">IEEE Robotics & Automation Magazine</div>
         <div class="pub-links">

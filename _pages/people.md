@@ -7,6 +7,32 @@ permalink: /people/
 <div class="people-section">
   <h1>People</h1>
 
+  <!-- Group Photos Carousel -->
+  <div class="group-carousel" style="max-width: 900px; margin: 2rem auto;">
+    <div id="groupCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Group 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="1" aria-label="Group 2025"></button>
+      </div>
+      <div class="carousel-inner" style="height: 450px;">
+        <div class="carousel-item active">
+          <img src="/assets/img/people/group_1_26.jpeg" class="d-block w-100" alt="HiRo Lab Group 2026" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/people/group_25.jpg" class="d-block w-100" alt="HiRo Lab Group 2025" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#groupCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#groupCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
   <h2>Faculty</h2>
   <div class="people-grid">
     <div class="person-card">
