@@ -101,7 +101,7 @@ permalink: /people/
     </div>
   </div>
 
-  <h2>MTech(R) Students</h2>
+  <h2>MTech(R) & MTech Students</h2>
   <div class="people-grid">
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -126,6 +126,18 @@ permalink: /people/
       </div>
       <span class="name">Mumuksh Tayal</span>
       <span class="role">MTech(R)</span>
+    </div>
+    <div class="person-card">
+      <a href="https://ashrithsagar.github.io/" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/ashrith_yedlapalli.jpeg" alt="Ashrith Sagar Yedlapalli"/>
+      </a>
+      <div class="person-links">
+        <a href="https://ashrithsagar.github.io/" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="https://scholar.google.com/citations?user=io_P3R0AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/ashrith9sagar/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Ashrith Sagar Yedlapalli</span>
+      <span class="role">Obstacle Avoidance</span>
     </div>
   </div>
 

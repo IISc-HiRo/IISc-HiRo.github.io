@@ -42,7 +42,9 @@ permalink: /publications/
         <div class="pub-authors">P Tiwari, S Nath, R Prakash</div>
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
-          <span class="pub-link-text">Paper</span>
+          <a href="https://arxiv.org/abs/2509.16482" target="_blank" class="pub-link-text">Paper</a>
+          <a href="https://tiwari-pranav.github.io/SafeDMPs/" target="_blank" class="pub-link-text">Project Site</a>
+          <a href="https://github.com/Tiwari-Pranav/ghost-In-the-Arm/" target="_blank" class="pub-link-text">Code</a>
         </div>
       </div>
     </div>
@@ -73,6 +75,8 @@ permalink: /publications/
         <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA)</div>
         <div class="pub-links">
           <span class="pub-link-text">Paper</span>
+          <a href="https://focaslab.github.io/beyondtheteacher/" target="_blank" class="pub-link-text">Project Site</a>
+          <a href="https://github.com/FocasLab/ICRA-IL-2026" target="_blank" class="pub-link-text">Code</a>
         </div>
       </div>
     </div>
@@ -136,6 +140,8 @@ permalink: /publications/
         <div class="pub-venue">CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World</div>
         <div class="pub-links">
           <a href="https://openreview.net/forum?id=Xj3V96qTpf" target="_blank" class="pub-link-text">Paper</a>
+          <a href="https://tiwari-pranav.github.io/SafeDMPs/" target="_blank" class="pub-link-text">Project Site</a>
+          <a href="https://github.com/Tiwari-Pranav/ghost-In-the-Arm/" target="_blank" class="pub-link-text">Code</a>
         </div>
       </div>
     </div>
@@ -151,6 +157,8 @@ permalink: /publications/
         <div class="pub-venue">CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches</div>
         <div class="pub-links">
           <a href="https://openreview.net/forum?id=7Ox8aKIFbA" target="_blank" class="pub-link-text">Paper</a>
+          <a href="https://focaslab.github.io/beyondtheteacher/" target="_blank" class="pub-link-text">Project Site</a>
+          <a href="https://github.com/FocasLab/ICRA-IL-2026" target="_blank" class="pub-link-text">Code</a>
         </div>
       </div>
     </div>

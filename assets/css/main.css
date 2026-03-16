@@ -75,6 +75,30 @@ body {
   opacity: 0.8;
 }
 
+.nav-logos-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+.nav-logos-right a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.nav-logos-right img {
+  height: 50px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+.nav-logos-right a:hover img {
+  opacity: 0.8;
+}
+
 .nav-toggle {
   display: none;
   background: none;
@@ -586,6 +610,14 @@ a.pub-link-text {
   }
 
   .nav-logo img {
+    height: 35px;
+  }
+
+  .nav-logos-right {
+    gap: 0.5rem;
+  }
+
+  .nav-logos-right img {
     height: 35px;
   }
 
