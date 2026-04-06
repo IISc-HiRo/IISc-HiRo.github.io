@@ -94,21 +94,6 @@ permalink: /research/
 
     <div class="research-area">
       <div class="research-area-content">
-        <h2>3D Reconstruction, SLAM and World Models</h2>
-        <p>
-          We develop methods for robots to build accurate 3D models of their environment through active perception.
-          Our work includes SLAM (Simultaneous Localization and Mapping), real-time scene reconstruction, world models
-          for spatial understanding, object-level mapping, and integration with manipulation planning to enable robots
-          to operate effectively in complex, unstructured spaces.
-        </p>
-      </div>
-      <div class="research-area-image">
-        <img src="/assets/img/others/slam.png" alt="3D Reconstruction and SLAM">
-      </div>
-    </div>
-
-    <div class="research-area">
-      <div class="research-area-content">
         <h2>Optimization and Optimal Control</h2>
         <p>
           We develop optimization-based and data-driven approaches for robot motion planning and control.
@@ -128,6 +113,21 @@ permalink: /research/
       </div>
       <div class="research-area-image">
         <img src="/assets/img/publication_preview/tcst_ac_24.gif" alt="Adaptive Critic Optimal Control">
+      </div>
+    </div>
+
+    <div class="research-area">
+      <div class="research-area-content">
+        <h2>3D Reconstruction, SLAM and World Models</h2>
+        <p>
+          We develop methods for robots to build accurate 3D models of their environment through active perception.
+          Our work includes SLAM (Simultaneous Localization and Mapping), real-time scene reconstruction, world models
+          for spatial understanding, object-level mapping, and integration with manipulation planning to enable robots
+          to operate effectively in complex, unstructured spaces.
+        </p>
+      </div>
+      <div class="research-area-image">
+        <img src="/assets/img/others/slam.png" alt="3D Reconstruction and SLAM">
       </div>
     </div>
 
