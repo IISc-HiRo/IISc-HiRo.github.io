@@ -60,7 +60,6 @@ permalink: /research/
         </p>
         <div class="pub-links-inline">
           <a href="https://ieeexplore.ieee.org/abstract/document/11150730" target="_blank" class="pub-link-text">OVITA (RA-L'25)</a>
-          <a href="https://anurag1000101.github.io/projects/IISC/" target="_blank" class="pub-link-text">Project Site</a>
           <a href="https://openreview.net/forum?id=uReNc199fG" target="_blank" class="pub-link-text">DiffusionPack</a>
         </div>
       </div>
@@ -83,7 +82,6 @@ permalink: /research/
         </p>
         <div class="pub-links-inline">
           <a href="https://arxiv.org/abs/2509.16482" target="_blank" class="pub-link-text">SafeDMPs (ICRA'26)</a>
-          <a href="https://tiwari-pranav.github.io/SafeDMPs/" target="_blank" class="pub-link-text">Project Site</a>
           <a href="https://openreview.net/forum?id=Xj3V96qTpf" target="_blank" class="pub-link-text">CoRL Workshop</a>
         </div>
       </div>
