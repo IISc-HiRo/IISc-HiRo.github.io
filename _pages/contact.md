@@ -17,7 +17,7 @@ permalink: /contact/
       <ul>
         <li>PhD applicants: Apply through the <a href="https://iisc.ac.in/admissions/" target="_blank">IISc admissions portal.</a></li>
         <li>Master's students: If you want to pursue your master's project, visit Prof. Ravi Prakash directly at his office.</li>
-        <li>Project Associates and UG interns: Please email Prof. Ravi Prakash with your interests and CV.</li>
+        <li>Project Associates and UG interns: Please email <a href="mailto:hiro.cps.iisc@gmail.com">hiro.cps.iisc@gmail.com</a> with your interests and CV.</li>
       </ul>
     </div>
 

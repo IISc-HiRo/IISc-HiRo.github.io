@@ -80,7 +80,7 @@ permalink: /people/
         <img src="/assets/img/people/sasidhar_alavala.JPG" alt="Sasidhar Alavala"/>
       </a>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="https://sasidharalavala.work" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
         <a href="https://scholar.google.com/citations?user=1PStmj8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
@@ -113,7 +113,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/akhil-r-kurup" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Akhil R Kurup</span>
-      <span class="role">Error Detection and Recovery</span>
+      <span class="role">MTech(R)</span>
     </div>
     <div class="person-card">
       <a href="https://mumukshtayal.github.io/" target="_blank" class="person-image-link">
@@ -137,7 +137,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/ashrith9sagar/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Ashrith Sagar Yedlapalli</span>
-      <span class="role">Obstacle Avoidance</span>
+      <span class="role">MTech</span>
     </div>
   </div>
 
