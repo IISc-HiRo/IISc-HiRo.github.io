@@ -116,7 +116,7 @@ permalink: /research/
 
     <div class="research-area">
       <div class="research-area-content">
-        <h2>3D Reconstruction, SLAM and World Models</h2>
+        <h2>3D Vision, SLAM and World Models</h2>
         <p>
           We develop methods for robots to build accurate 3D models of their environment through active perception.
           Our work includes SLAM (Simultaneous Localization and Mapping), real-time scene reconstruction, world models
