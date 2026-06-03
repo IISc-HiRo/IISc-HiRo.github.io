@@ -1,0 +1,36 @@
+---
+layout: main
+---
+<div style="max-width: 800px; margin: 2rem auto; padding: 0 2rem;">
+  <h1 style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;">{{ page.title }}</h1>
+
+  {% if page.img %}
+    <div style="text-align: center; margin: 2rem 0;">
+      <img src="{{ page.img | relative_url }}" alt="{{ page.title }}" style="max-width: 300px; border-radius: 8px;">
+    </div>
+  {% endif %}
+
+  {% if page.description %}
+    <p style="font-size: 1.2rem; color: #666; margin-bottom: 1.5rem;">{{ page.description }}</p>
+  {% endif %}
+
+  {% if page.github %}
+    <p>
+      <strong>GitHub:</strong> <a href="{{ page.github }}">{{ page.github }}</a>
+    </p>
+  {% endif %}
+
+  {% if page.linkedin %}
+    <p>
+      <strong>LinkedIn:</strong> <a href="{{ page.linkedin }}">{{ page.linkedin }}</a>
+    </p>
+  {% endif %}
+
+  <div style="margin-top: 2rem; line-height: 1.8;">
+    {{ content }}
+  </div>
+
+  <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+    <a href="{{ '/lab/' | relative_url }}" style="text-decoration: none; color: var(--primary-color);">← Back to Lab</a>
+  </div>
+</div>
