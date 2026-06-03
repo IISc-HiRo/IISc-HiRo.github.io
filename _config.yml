@@ -3,16 +3,15 @@
 # -----------------------------------------------------------------------------
 
 title: HiRo Lab
-middle_name: HiRo Lab
+middle_name: 
 last_name: IISc
-email: ravipr@iisc.ac.in
+email: hiro.cps.iisc@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Human-Interactive Robotics (HiRo) Lab at the Indian Institute of Science (IISc), Bangalore. 
-  We focus on safe human-robot interaction, learning from demonstration, optimal control, and adaptive robotics.
+  The Human-interactive Robotics (HiRo) Lab is a research group in the Department of Cyber-Physical Systems at the 
+  Indian Institute of Science Bangalore set up and led by Prof. Ravi Prakash.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robotics, human-robot-interaction, machine-learning, reinforcement-learning, imitation-learning, safe-robotics, impedance-control, variable-impedance, trajectory-adaptation, optimal-control
+  Lab website at <a href="https://hiro.cps.iisc.ac.in" target="_blank">HiRo Lab</a>.
+keywords: iisc, hiro, robotics, human-robot-interaction, machine-learning, reinforcement-learning, imitation-learning, safe-robotics, impedance-control, variable-impedance, trajectory-adaptation, optimal-control
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logos/iisc.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -70,7 +69,7 @@ github_username: IISc-HiRo # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: hiro-iisc # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: mV2CW4QAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -97,13 +96,13 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: youtube.com/@HiRo-IISc # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Best reached via email.
+  Best reached via email at <a href="mailto:hiro.cps.iisc@gmail.com">hiro.cps.iisc@gmail.com</a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -122,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: HiRo Lab News # blog_name will be displayed in your blog page
-blog_description: Latest updates and news from the Human-Interactive Robotics Lab at IISc
+blog_name: HiRo Lab # blog_name will be displayed in your blog page
+blog_description: Latest updates and news from the Human-interactive Robotics Lab at IISc.
 permalink: /blog/:year/:title/
 
 # Pagination
