@@ -43,18 +43,18 @@
 - id: v-ocbf
   title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
   authors: "M Tayal, M Tayal, A Singh, S Kolathaya, R Prakash"
-  venue: "Transactions on Machine Learning Research (TMLR)"
+  venue: "Transactions on Machine Learning Research"
   tag: "TMLR'26"
   year: 2026
   type: journal
   image: placeholder.png
   links:
-    - { label: Paper, url: "https://arxiv.org/abs/2512.10822" }
+    - { label: Paper, url: "https://openreview.net/forum?id=PGO9mpIyyb" }
 
 - id: st2
   title: "Sequentially Teaching Sequential Tasks (ST)<sup>2</sup>: Teaching Robots Long-Horizon Manipulation Skills"
   authors: "Z Ajanović, R Prakash, L de Souza Rosa, J Kober"
-  venue: "IEEE Robotics & Automation Magazine"
+  venue: "IEEE Robotics and Automation Magazine"
   tag: "RA-M'26"
   year: 2026
   type: journal
@@ -65,31 +65,30 @@
 - id: safedmps-icra26
   title: "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI"
   authors: "P Tiwari, S Nath, R Prakash"
-  venue: "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'26"
   year: 2026
   type: conference
   image: safedmps_26.png
   links:
-    - { label: Paper, url: "https://arxiv.org/abs/2509.16482" }
+    - { label: Paper, url: "https://arxiv.org/abs/2603.29708" }
     - { label: Project Site, url: "https://tiwari-pranav.github.io/SafeDMPs/" }
-    - { label: Code, url: "https://github.com/Tiwari-Pranav/ghost-In-the-Arm/" }
 
 - id: variable-impedance-icra26
   title: "Safe and Optimal Variable Impedance Control via Certified Reinforcement Learning"
   authors: "S Kumar, R Prakash"
-  venue: "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'26"
   year: 2026
   type: conference
   image: rlcgms_26.png
   links:
-    - { label: Paper }
+    - { label: Paper, url: "https://arxiv.org/abs/2511.16330" }
 
 - id: beyond-the-teacher-icra26
   title: "Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning"
   authors: "S Saharsh, S Sonkar, P Jagtap, R Prakash"
-  venue: "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'26"
   year: 2026
   type: conference
@@ -112,7 +111,7 @@
 
 - id: diffusionpack
   title: "DiffusionPack: Bin Packing with Custom Human Preferences"
-  authors: "A Maurya, S Vyas-b, A Bassunadhar, R Prakash"
+  authors: "A Maurya, S Vats, G Balachandran, R Prakash"
   venue: "NeurIPS 2025 Workshop: Bridging Language, Agent, and World Models for Robotics"
   tag: "NeurIPSW'25"
   year: 2025
@@ -131,6 +130,7 @@
   image: ovita_25.gif
   links:
     - { label: Paper, url: "https://ieeexplore.ieee.org/abstract/document/11150730" }
+    - { label: Code, url: "https://github.com/anurag1000101/OVITA" }
 
 - id: safedmps-corlw25
   title: "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI"
@@ -142,8 +142,6 @@
   image: corlw_saferol_25.png
   links:
     - { label: Paper, url: "https://openreview.net/forum?id=Xj3V96qTpf" }
-    - { label: Project Site, url: "https://tiwari-pranav.github.io/SafeDMPs/" }
-    - { label: Code, url: "https://github.com/Tiwari-Pranav/ghost-In-the-Arm/" }
 
 - id: beyond-the-teacher-corlw25
   title: "Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning"
@@ -155,8 +153,6 @@
   image: corlw_data_25.png
   links:
     - { label: Paper, url: "https://openreview.net/forum?id=7Ox8aKIFbA" }
-    - { label: Project Site, url: "https://focaslab.github.io/beyondtheteacher/" }
-    - { label: Code, url: "https://github.com/FocasLab/ICRA-IL-2026" }
 
 - id: pacer
   title: "PACER: Progress-Aligned Curation for Error-Resilient Imitation Learning"
@@ -179,11 +175,12 @@
   image: tro_25.gif
   links:
     - { label: Paper, url: "https://ieeexplore.ieee.org/abstract/document/11049008" }
+    - { label: Code, url: "https://github.com/franzesegiovanni/policy_transportation" }
 
 - id: imphrl
   title: "Impedance Primitive-Augmented Hierarchical Reinforcement Learning for Sequential Tasks"
   authors: "AB Tahmaz, R Prakash, J Kober"
-  venue: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'25"
   year: 2025
   type: conference
@@ -205,7 +202,7 @@
 - id: hirl-workshop
   title: "3rd Workshop on Human-Interactive Robot Learning (HIRL)"
   authors: "M Racca, R Mirsky, E Senft, X Xiao, I Idrees, A Kshirsagar, R Prakash"
-  venue: "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction"
+  venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
   tag: "HRI'24"
   year: 2024
   type: workshop

@@ -13,10 +13,11 @@ permalink: /research/
 
   <div class="research-intro">
     <p>
-      Our mission is to develop theoretical foundations and practical algorithms for human-interactive robotics.
-      Our group focuses on enabling robots to learn from and collaborate with humans in real-world environments.
-      We leverage tools from machine learning, control theory, and human-robot interaction to build intelligent,
-      adaptive, and safe robotic systems.
+      Our mission is to build the theoretical foundations and practical algorithms that let robots learn from,
+      adapt to, and collaborate with people in unstructured, real-world environments. We draw on machine learning,
+      optimal control, and formal methods to make robotic systems data-efficient, generalizable, and provably safe
+      during physical human-robot interaction. The themes below summarize our current directions and representative
+      results.
     </p>
   </div>
 
@@ -25,13 +26,18 @@ permalink: /research/
       <div class="research-area-content">
         <h2>Interactive Reinforcement Learning</h2>
         <p>
-          We develop methods for robots to learn complex manipulation tasks through hierarchical reinforcement
-          learning and imitation learning. Our work on
-          <a href="/publications/#imphrl" class="work-link">Impedance Primitive-Augmented Hierarchical RL (ICRA'25)</a>
-          augments high-level RL policies with impedance control primitives to solve long-horizon sequential tasks,
-          enabling compliant and adaptive skill acquisition. We also investigate robust imitation learning that
-          exploits mixed-quality demonstrations to improve generalization from imperfect human teachers, as in
-          <a href="/publications/#beyond-the-teacher-icra26" class="work-link">Beyond the Teacher (ICRA'26)</a>.
+          Reinforcement learning (RL) and learning from demonstration let robots acquire manipulation skills directly
+          from interaction and human guidance. The hard cases are long-horizon, contact-rich tasks and learning
+          robustly from limited, imperfect human data. We address the first with
+          <a href="/publications/#imphrl" class="work-link">Impedance Primitive-Augmented Hierarchical RL (ICRA'25)</a>,
+          which gives a high-level RL policy a low-level action space of parameterized impedance-control primitives,
+          yielding compliant, contact-rich skills over extended task sequences. For the second, we make imitation
+          robust to the quality of the teacher:
+          <a href="/publications/#beyond-the-teacher-icra26" class="work-link">Beyond the Teacher (ICRA'26)</a>
+          leverages mixed-skill demonstrations to learn policies that tolerate inconsistent human teachers,
+          <a href="/publications/#rise" class="work-link">RISE (IROSW'25)</a> uses stochastic latent encodings for
+          robust imitation, and <a href="/publications/#pacer" class="work-link">PACER (CoRLW'25)</a> curates
+          demonstrations by task progress to curb the compounding errors that destabilize behavior cloning.
         </p>
       </div>
       <div class="research-area-image">
@@ -41,13 +47,16 @@ permalink: /research/
 
     <div class="research-area">
       <div class="research-area-content">
-        <h2>Foundational Models for Robotics</h2>
+        <h2>Foundation Models for Robotics</h2>
         <p>
-          We explore how large-scale pre-trained vision-language models can enable natural, flexible
-          robot-human interaction. Our work on
+          Foundation models, including large vision-language models (VLMs) and, increasingly, vision-language-action
+          (VLA) models pretrained on web- and robot-scale data, supply semantic priors and broad generalization that
+          can ground robot behavior in natural language and perception. We study how to turn these priors into
+          natural, flexible human-robot interaction. Our work on
           <a href="/publications/#ovita" class="work-link">OVITA (RA-L'25)</a>
-          uses vision-language models to adapt robot trajectories in real time based on open-vocabulary human
-          language instructions, providing interpretable trajectory modifications without retraining.
+          harnesses pretrained foundation models to adapt reference trajectories from open-vocabulary language
+          instructions at execution time, producing interpretable, parameterized edits to robot motion without any
+          task-specific retraining.
         </p>
       </div>
       <div class="research-area-image">
@@ -59,18 +68,19 @@ permalink: /research/
       <div class="research-area-content">
         <h2>Safe and Compliant Human-Robot Interaction</h2>
         <p>
-          Safety and compliance are essential when robots work alongside humans. Our work on
+          When robots make physical contact with people, behavior must be both compliant and provably safe, with
+          guarantees that hold during interaction and not just on average. We bring formal methods and
+          control-theoretic certificates together with learning to enforce this.
           <a href="/publications/#safedmps-icra26" class="work-link">SafeDMPs (ICRA'26)</a>
-          integrates Signal Temporal Logic (STL)-based formal safety specifications directly into Dynamic
-          Movement Primitives, enabling adaptive robot motions that are provably safe during physical human-robot
-          contact. We also develop
-          <a href="/publications/#variable-impedance-icra26" class="work-link">certified reinforcement learning for variable impedance control (ICRA'26)</a>,
-          which combines Lyapunov-based stability certificates with RL to achieve optimal, safe impedance modulation
-          during interaction. More recently, we study how safety can be learned directly from offline data:
+          embeds Signal Temporal Logic (STL) safety specifications directly into Dynamic Movement Primitives, so
+          that adaptive motions remain provably safe during physical human-robot contact, while
+          <a href="/publications/#variable-impedance-icra26" class="work-link">certified RL for variable impedance control (ICRA'26)</a>
+          pairs RL with Lyapunov-based stability certificates to modulate impedance optimally with guaranteed
+          stability. We also learn safety directly from offline data, without online interaction:
           <a href="/publications/#safe-flow-q-learning" class="work-link">Safe Flow Q-Learning (RLC'26)</a>
-          couples reachability analysis with flow-based policies for offline safe reinforcement learning, while
+          couples reachability analysis with flow-based policies for offline safe RL, and
           <a href="/publications/#v-ocbf" class="work-link">V-OCBF (TMLR'26)</a>
-          learns value-guided control barrier functions as safety filters from offline datasets.
+          learns value-guided control barrier functions that act as safety filters.
         </p>
       </div>
       <div class="research-area-image">
@@ -82,15 +92,15 @@ permalink: /research/
       <div class="research-area-content">
         <h2>Optimization and Optimal Control</h2>
         <p>
-          We develop optimization-based and data-driven approaches for robot motion planning and control.
-          Our <a href="/publications/#adaptive-critic" class="work-link">Adaptive Critic (T-CST'24)</a>
-          framework learns optimal controllers for uncertain robot manipulators using neural network-based value
-          function approximation, achieving data-efficient online adaptation without explicit system identification.
-          Our work on
-          <a href="/publications/#transportation-maps" class="work-link">generalizable motion policies through keypoint parameterization and transportation maps (T-RO'25)</a>
-          enables one-shot generalization of manipulation skills to novel object configurations. We also develop
-          <a href="/publications/#st2" class="work-link">ST² (RA-M'26)</a>, a framework for teaching robots
-          long-horizon manipulation skills through sequential human demonstrations.
+          Optimization and optimal control offer principled, data-efficient ways to synthesize controllers and motion
+          policies, often with stability or generalization guarantees. Our
+          <a href="/publications/#adaptive-critic" class="work-link">Adaptive Critic (T-CST'24)</a>
+          framework uses approximate dynamic programming with neural value-function approximation to learn
+          near-optimal controllers for uncertain manipulators online, without explicit system identification.
+          <a href="/publications/#transportation-maps" class="work-link">Keypoint parameterization with transportation (optimal-transport) maps (T-RO'25)</a>
+          yields motion policies that generalize one-shot to novel object configurations, and
+          <a href="/publications/#st2" class="work-link">ST² (RA-M'26)</a>
+          teaches robots long-horizon manipulation by composing skills from sequential human demonstrations.
         </p>
       </div>
       <div class="research-area-image">
@@ -102,12 +112,13 @@ permalink: /research/
       <div class="research-area-content">
         <h2>3D Vision, SLAM and World Models</h2>
         <p>
-          We develop methods for robots to build accurate 3D models of their environment through active perception,
-          including SLAM (Simultaneous Localization and Mapping), real-time scene reconstruction, world models for
-          spatial understanding, and object-level mapping integrated with manipulation planning. Our work on
-          <a href="/publications/#affordmatcher" class="work-link">AffordMatcher (CVPR'26)</a>
-          learns object affordances in 3D scenes from visual signifiers, connecting 3D scene understanding to
-          manipulation in complex, unstructured spaces.
+          Acting in unstructured environments demands spatial understanding from 3D reconstruction, simultaneous
+          localization and mapping (SLAM), and world models that capture both geometry and semantics. We are building
+          active-perception pipelines that tie real-time scene reconstruction and object-level mapping to
+          manipulation planning. A first step in this direction,
+          <a href="/publications/#affordmatcher" class="work-link">AffordMatcher (CVPR'26)</a>,
+          learns object affordances in 3D scenes from visual signifiers, connecting 3D scene understanding to where
+          and how a robot should act in complex, cluttered spaces.
         </p>
       </div>
       <div class="research-area-image">

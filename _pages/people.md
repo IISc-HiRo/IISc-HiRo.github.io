@@ -194,7 +194,7 @@ permalink: /people/
   </div>
 
   <h2>Robots</h2>
-  <div class="people-grid">
+  <div class="people-grid robots-grid">
     <div class="person-card">
       <a href="https://franka.de/franka-research-3" target="_blank" class="person-image-link">
         <img src="/assets/img/people/franka_research_3.jpg" alt="Franka Research 3"/>

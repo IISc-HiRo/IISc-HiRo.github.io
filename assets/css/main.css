@@ -14,6 +14,11 @@
   box-sizing: border-box;
 }
 
+html {
+  /* Scales all rem-based type and spacing down ~6% for a tighter overall layout */
+  font-size: 15px;
+}
+
 body {
   font-family:
     "Noto Sans",
@@ -24,9 +29,9 @@ body {
     "Helvetica Neue",
     Arial,
     sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 /* Navigation */
@@ -297,9 +302,18 @@ body {
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1.25rem;
   margin-bottom: 1rem;
+}
+
+/* Robots render a little larger than the people photos */
+.robots-grid {
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+}
+
+.robots-grid .person-card {
+  max-width: 185px;
 }
 
 .person-card {
@@ -310,7 +324,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 200px;
+  max-width: 165px;
   margin: 0 auto;
 }
 
@@ -353,17 +367,17 @@ body {
 
 .filter-buttons {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
   flex-wrap: wrap;
 }
 
 .filter-btn {
-  padding: 0.5rem 1.5rem;
+  padding: 0.35rem 1rem;
   border: 2px solid var(--link-color);
   background: white;
   color: var(--link-color);
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   cursor: pointer;
   border-radius: 4px;
@@ -382,7 +396,7 @@ body {
 }
 
 .publications-list {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .year-header {
@@ -418,8 +432,8 @@ body {
 .pub-thumbnail {
   position: relative;
   flex-shrink: 0;
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: 113px;
   overflow: hidden;
   border-radius: 8px;
   border: 1px solid var(--border-color);
@@ -479,8 +493,8 @@ body {
 .pub-links a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 0.9rem;
-  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
   border: 1px solid var(--link-color);
   border-radius: 4px;
   transition: all 0.3s;
@@ -498,8 +512,8 @@ a.pub-link-text {
 
 .pub-link-text {
   color: #888;
-  font-size: 0.9rem;
-  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: not-allowed;
@@ -572,15 +586,15 @@ a.pub-link-text {
 
 .pub-links {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
 .pub-links a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 0.9rem;
-  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
   border: 1px solid var(--link-color);
   border-radius: 4px;
   transition: all 0.3s;
@@ -833,7 +847,7 @@ a:hover {
 
 .research-header-image {
   width: 100%;
-  max-width: 800px;
+  max-width: 660px;
   margin: 0 auto 1rem;
   text-align: center;
 }
@@ -894,8 +908,8 @@ a:hover {
 }
 
 .research-area-image {
-  flex: 0 0 400px;
-  max-width: 400px;
+  flex: 0 0 340px;
+  max-width: 340px;
 }
 
 .research-area-image img {
