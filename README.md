@@ -1,4 +1,4 @@
-# Human-Interactive Robotics Lab, IISc
+# Human-interactive Robotics Lab, IISc
 
 **Live site:** https://hiro.cps.iisc.ac.in
 
