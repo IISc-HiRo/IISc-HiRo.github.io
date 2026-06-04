@@ -76,11 +76,11 @@ permalink: /people/
       <span class="role">Safety Critical Control, Formal Methods for Imitation Learning</span>
     </div>
     <div class="person-card">
-      <a href="https://sasidharalavala.work/" target="_blank" class="person-image-link">
+      <a href="https://sasidharalavala.notion.site" target="_blank" class="person-image-link">
         <img src="/assets/img/people/sasidhar_alavala.JPG" alt="Sasidhar Alavala"/>
       </a>
       <div class="person-links">
-        <a href="https://sasidharalavala.work/" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="https://sasidharalavala.notion.site" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
         <a href="https://scholar.google.com/citations?user=1PStmj8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
