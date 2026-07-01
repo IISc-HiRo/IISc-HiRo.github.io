@@ -153,6 +153,18 @@ permalink: /people/
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/siddharth_jain.jpg" alt="Siddharth Jain"/>
+      </a>
+      <div class="person-links">
+        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="https://scholar.google.com/citations?user=Fk_2ncoAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/siddharth-jain-in" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Siddharth Jain</span>
+      <span class="role">MTech</span>
+    </div>
+    <div class="person-card">
+      <a href="#" target="_blank" class="person-image-link">
         <img src="/assets/img/people/swapnil_joshi.jpeg" alt="Swapnil Joshi"/>
       </a>
       <div class="person-links">
@@ -197,6 +209,18 @@ permalink: /people/
         <a href="https://in.linkedin.com/in/shanmukha-rao-jammalamadugu-a94677269" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Shanmukha Rao Jammalamadugu</span>
+      <span class="role">MTech</span>
+    </div>
+    <div class="person-card">
+      <a href="#" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/aryan_dahiya.jpg" alt="Aryan Dahiya"/>
+      </a>
+      <div class="person-links">
+        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/aryan-dahiya-908703255" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Aryan Dahiya</span>
       <span class="role">MTech</span>
     </div>
   </div>
