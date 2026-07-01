@@ -18,6 +18,28 @@
 #   links    List of { label, url }. Omit `url` to show a non-clickable label.
 # -----------------------------------------------------------------------------
 
+- id: gripper-aware-vla
+  title: "Gripper-aware Vision Language Action Models"
+  authors: "H Zhang, Z Luo, T Li, K Nguyen, B Hela, S Kumar, ND Tran, F Dai, C Munasinghe, J Peña Queralta, G Toffetti, K Vo, N Le, R Prakash, Q Vuong, TD Ta, L Hu, A Nguyen, B Huang"
+  venue: "European Conference on Computer Vision (ECCV)"
+  tag: "ECCV'26"
+  year: 2026
+  type: conference
+  image: placeholder.png
+  links:
+    - { label: Paper }
+
+- id: beyond-visual-grasping
+  title: "Beyond Visual Grasping: Benchmarking Complex Grasping from Detection to Execution"
+  authors: "H Zhang, K Nguyen, C Munasinghe, B Hela, T Li, Z Luo, H Nguyen, HW van de Venn, Y Zheng, R Prakash, TD Ta, A Nguyen, B Huang"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  tag: "IROS'26"
+  year: 2026
+  type: conference
+  image: placeholder.png
+  links:
+    - { label: Paper }
+
 - id: affordmatcher
   title: "AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers"
   authors: "N Vu, T Do, K Nguyen, B Huang, N Le, BX Nguyen, E Tjiputra, QD Tran, R Prakash, T-C Chiu, A Nguyen"

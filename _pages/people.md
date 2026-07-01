@@ -175,6 +175,30 @@ permalink: /people/
       <span class="name">Aryan Kumar Singh</span>
       <span class="role">MTech</span>
     </div>
+    <div class="person-card">
+      <a href="#" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/nithish_m.jpg" alt="Nithish M"/>
+      </a>
+      <div class="person-links">
+        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/nithish-m-48182220b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Nithish M</span>
+      <span class="role">MTech</span>
+    </div>
+    <div class="person-card">
+      <a href="#" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/shanmukha_rao.jpg" alt="Shanmukha Rao Jammalamadugu"/>
+      </a>
+      <div class="person-links">
+        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://in.linkedin.com/in/shanmukha-rao-jammalamadugu-a94677269" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Shanmukha Rao Jammalamadugu</span>
+      <span class="role">MTech</span>
+    </div>
   </div>
 
   <h2>Research Staff</h2>
