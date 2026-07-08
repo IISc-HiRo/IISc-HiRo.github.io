@@ -11,11 +11,27 @@ permalink: /people/
   <div class="group-carousel" style="max-width: 900px; margin: 2rem auto;">
     <div id="groupCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Group 2026"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="1" aria-label="Group 2025"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="ICRA 2026 Group 1"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="1" aria-label="ICRA 2026 Group 2"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="2" aria-label="ICRA 2026 Group 3"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="3" aria-label="ICRA 2026 Group 4"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="4" aria-label="Group 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="5" aria-label="Group 2025"></button>
       </div>
       <div class="carousel-inner" style="height: 450px;">
         <div class="carousel-item active">
+          <img src="/assets/img/people/group_icra26_1.jpeg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 1" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/people/group_icra26_2.jpg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 2" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/people/group_icra26_3.jpg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 3" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/people/group_icra26_4.jpg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 4" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+        </div>
+        <div class="carousel-item">
           <img src="/assets/img/people/group_1_26.jpeg" class="d-block w-100" alt="HiRo Lab Group 2026" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
         </div>
         <div class="carousel-item">
