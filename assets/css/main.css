@@ -398,6 +398,14 @@ body {
   font-weight: 700;
 }
 
+.course-details-link {
+  color: var(--link-color) !important;
+}
+
+.course-details-link:hover {
+  text-decoration: underline;
+}
+
 .course-back-link {
   margin-bottom: 1.25rem;
   color: #666;
@@ -406,6 +414,10 @@ body {
 
 .teaching-section a {
   color: #000;
+}
+
+.teaching-section a:hover {
+  color: var(--link-color);
 }
 
 .course-card {
