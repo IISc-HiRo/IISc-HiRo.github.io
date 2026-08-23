@@ -113,7 +113,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Sasidhar Alavala</span>
-      <span class="role">Multimodal Perception, Geometry-Aware Learning and Control, Human–Robot Collaboration, Physical AI</span>
+      <span class="role">Multimodal Perception, Geometry-Aware Learning and Control, Physical AI</span>
     </div>
   </div>
 
