@@ -92,18 +92,6 @@ permalink: /people/
       <span class="role">Safety Critical Control, Formal Methods for Imitation Learning</span>
     </div>
     <div class="person-card">
-      <a href="https://sasidharalavala.notion.site" target="_blank" class="person-image-link">
-        <img src="/assets/img/people/sasidhar_alavala.JPG" alt="Sasidhar Alavala"/>
-      </a>
-      <div class="person-links">
-        <a href="https://sasidharalavala.notion.site" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="https://scholar.google.com/citations?user=1PStmj8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <span class="name">Sasidhar Alavala</span>
-      <span class="role">Multimodal Perception, Spatial Reasoning, Robotic Foundation Models</span>
-    </div>
-    <div class="person-card">
       <a href="https://mritunjoyh.github.io/" target="_blank" class="person-image-link">
         <img src="/assets/img/people/mritunjoy_halder.jpeg" alt="Mritunjoy Halder"/>
       </a>
@@ -113,7 +101,19 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/mritunjoyh/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Mritunjoy Halder</span>
-      <span class="role">Autonomous Space Robotics under Uncertainty</span>
+      <span class="role">Field Robotics, Mobile Manipulation,  Spacecraft Navigation and Manipulation</span>
+    </div>
+    <div class="person-card">
+      <a href="https://sasidharalavala.notion.site" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/sasidhar_alavala.JPG" alt="Sasidhar Alavala"/>
+      </a>
+      <div class="person-links">
+        <a href="https://sasidharalavala.notion.site" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="https://scholar.google.com/citations?user=1PStmj8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Sasidhar Alavala</span>
+      <span class="role">Multimodal Perception, Geometry-Aware Learning and Control, Human–Robot Collaboration, Physical AI</span>
     </div>
   </div>
 
@@ -253,6 +253,18 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/manthan-goyal-00a4601b7" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Manthan Goyal</span>
+      <span class="role">Research Associate</span>
+    </div>
+    <div class="person-card">
+      <a href="#" target="_blank" class="person-image-link">
+        <img src="/assets/img/people/ahan_panda.jpg" alt="Ahan Panda"/>
+      </a>
+      <div class="person-links">
+        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
+        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/ahan-panda-54a895242" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Ahan Panda</span>
       <span class="role">Research Associate</span>
     </div>
   </div>
