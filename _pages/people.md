@@ -237,7 +237,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/aryan-dahiya-908703255" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Aryan Dahiya</span>
-      <span class="role">MTech, AI</span>
+      <span class="role">MTech, ME</span>
     </div>
   </div>
 
