@@ -112,7 +112,7 @@ permalink: /people/
         <a href="https://scholar.google.com/citations?user=1PStmj8AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
-      <span class="name">Sasidhar Alavala</span>
+      <span class="name">Sasidhar Reddy Alavala</span>
       <span class="role">Multimodal Perception, Geometry-Aware Learning and Control, Physical AI</span>
     </div>
   </div>
@@ -129,7 +129,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/akhil-r-kurup" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Akhil R Kurup</span>
-      <span class="role">MTech(R)</span>
+      <span class="role">MTech(R), CPS</span>
     </div>
     <div class="person-card">
       <a href="https://mumukshtayal.github.io/" target="_blank" class="person-image-link">
@@ -141,7 +141,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/mumuksh-tayal-9802aa1b9" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Mumuksh Tayal</span>
-      <span class="role">MTech(R)</span>
+      <span class="role">MTech(R), CPS</span>
     </div>
     <div class="person-card">
       <a href="https://ashrithsagar.github.io/" target="_blank" class="person-image-link">
@@ -153,7 +153,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/ashrith9sagar/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Ashrith Sagar Yedlapalli</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, RAS</span>
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -165,7 +165,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/shubhampurigoswami" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Shubham Puri Goswami</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, RAS</span>
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -177,7 +177,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/siddharth-jain-in" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Siddharth Jain</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, RAS</span>
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -189,7 +189,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/swapnil-joshi-059731357/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Swapnil Joshi</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, AI</span>
     </div>
     <div class="person-card">
       <a href="https://aryansingh27022003.github.io/Portfolio/" target="_blank" class="person-image-link">
@@ -201,7 +201,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/aryan-kumar-singh-334865227/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Aryan Kumar Singh</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, AI</span>
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -213,7 +213,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/nithish-m-48182220b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Nithish M</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, EE</span>
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -225,7 +225,7 @@ permalink: /people/
         <a href="https://in.linkedin.com/in/shanmukha-rao-jammalamadugu-a94677269" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Shanmukha Rao Jammalamadugu</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, EE</span>
     </div>
     <div class="person-card">
       <a href="#" target="_blank" class="person-image-link">
@@ -237,7 +237,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/aryan-dahiya-908703255" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Aryan Dahiya</span>
-      <span class="role">MTech</span>
+      <span class="role">MTech, AI</span>
     </div>
   </div>
 
