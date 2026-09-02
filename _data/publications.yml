@@ -18,6 +18,83 @@
 #   links    List of { label, url }. Omit `url` to show a non-clickable label.
 # -----------------------------------------------------------------------------
 
+- id: where-reasoning-does-not-matter
+  title: "Where Reasoning Does Not Matter: Isolating Chain-of-Thought in a Modular, Agentic VLM Manipulation Pipeline"
+  authors: "B Hela, R Prakash"
+  venue: "RSS 2026 Workshop: Semantic Reasoning and Goal Understanding in Robotics (SemRob)"
+  tag: "RSSW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper, url: "https://openreview.net/forum?id=KmO1G38q18" }
+
+- id: geniemotion
+  title: "GenieMotion: Learning Object-Centric 4D Motion Representations from a Single Image via Generative Demonstrations"
+  authors: "M Halder, R Prakash"
+  venue: "CVPR 2026 Workshop: 4D Vision"
+  tag: "CVPRW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper }
+
+- id: bridging-safety-aiwild26
+  title: "Bridging Safety and Performance in Autonomous Systems using Offline Reinforcement Learning"
+  authors: "M Tayal, M Tayal, R Prakash"
+  venue: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
+  tag: "ICMLW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper, url: "https://openreview.net/forum?id=ffX7tGwAD8" }
+
+- id: safe-flow-q-learning-aiwild26
+  title: "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies"
+  authors: "M Tayal, M Tayal, R Prakash"
+  venue: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
+  tag: "ICMLW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper, url: "https://openreview.net/forum?id=glZK5wks9X" }
+
+- id: topological-cage
+  title: "The Topological Cage: A Search-Less Geometric Handshake for Medial Axis Injection"
+  authors: "SP Goswami, R Prakash"
+  venue: "ICRA 2026 Workshop: Geometry in the Age of Data-Driven Robotics"
+  tag: "ICRAW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper, url: "https://geometric-robotics.github.io/icra-2026-workshop/papers/goswami-topological-cage-navigation.pdf" }
+
+- id: latent-dynamics-modulation
+  title: "Latent Dynamics Modulation Guidance for Semantic Obstacle Avoidance in Diffusion Policies"
+  authors: "S Alavala, V Buereddy, R Prakash"
+  venue: "ICRA 2026 Workshop: Semantics for Reliable Robot Autonomy"
+  tag: "ICRAW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper, url: "https://openreview.net/forum?id=w4rhh0VpES" }
+
+- id: state-corrected-ppl
+  title: "State-Corrected Predictive Preference Learning for Multimodal Robot Navigation on Uneven Terrain"
+  authors: "R Jadhav, AK Singh, S Ganguly, R Prakash, V Kumar"
+  venue: "ICRA 2026 Workshop: Long-term Deployments in the Wild (LoWi)"
+  tag: "ICRAW'26"
+  year: 2026
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper, url: "https://mobile-robotics-hub.github.io/workshop2026/papers/LoWi2026_P20.pdf" }
+
 - id: gripper-aware-vla
   title: "Gripper-aware Vision Language Action Models"
   authors: "H Zhang, Z Luo, T Li, K Nguyen, B Hela, S Kumar, ND Tran, F Dai, C Munasinghe, J Peña Queralta, G Toffetti, K Vo, N Le, R Prakash, Q Vuong, TD Ta, L Hu, A Nguyen, B Huang"
@@ -27,7 +104,8 @@
   type: conference
   image: placeholder.png
   links:
-    - { label: Paper }
+    - { label: Paper, url: "https://arxiv.org/abs/2608.24603" }
+    - { label: Project Site, url: "https://airvlab.github.io/G-VLA/" }
 
 - id: beyond-visual-grasping
   title: "Beyond Visual Grasping: Benchmarking Complex Grasping from Detection to Execution"
@@ -38,7 +116,8 @@
   type: conference
   image: placeholder.png
   links:
-    - { label: Paper }
+    - { label: Paper, url: "https://arxiv.org/abs/2607.14341" }
+    - { label: Project Site, url: "https://airvlab.github.io/GCA-Bench/" }
 
 - id: affordmatcher
   title: "AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers"
@@ -50,6 +129,8 @@
   image: affordmatcher_cvpr_26.png
   links:
     - { label: Paper, url: "https://openaccess.thecvf.com/content/CVPR2026/html/Vu_AffordMatcher_Affordance_Learning_in_3D_Scenes_from_Visual_Signifiers_CVPR_2026_paper.html" }
+    - { label: Code, url: "https://github.com/aioz-ai/AffordMatcher" }
+    - { label: Project Site, url: "https://aioz-ai.github.io/AffordMatcher/" }
 
 - id: safe-flow-q-learning
   title: "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies"
@@ -72,6 +153,8 @@
   image: placeholder.png
   links:
     - { label: Paper, url: "https://openreview.net/forum?id=PGO9mpIyyb" }
+    - { label: Code, url: "https://github.com/tayalmanan28/v-ocbf" }
+    - { label: Project Site, url: "https://tayalmanan28.github.io/v-ocbf/" }
 
 - id: st2
   title: "Sequentially Teaching Sequential Tasks (ST)<sup>2</sup>: Teaching Robots Long-Horizon Manipulation Skills"
@@ -106,6 +189,7 @@
   image: rlcgms_26.png
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2511.16330" }
+    - { label: Code, url: "https://github.com/shr-eyas/safe-vic" }
 
 - id: beyond-the-teacher-icra26
   title: "Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning"
@@ -117,8 +201,8 @@
   image: byt_26.png
   links:
     - { label: Paper }
-    - { label: Project Site, url: "https://focaslab.github.io/beyondtheteacher/" }
     - { label: Code, url: "https://github.com/FocasLab/ICRA-IL-2026" }
+    - { label: Project Site, url: "https://focaslab.github.io/beyondtheteacher/" }
 
 - id: rise
   title: "RISE: Robust Imitation through Stochastic Encodings"

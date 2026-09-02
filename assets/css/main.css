@@ -2,10 +2,27 @@
 
 :root {
   --primary-color: #000000;
-  --text-color: #000000;
+  --text-color: #202124;
+  --muted-color: #5f6368;
   --link-color: #1a73e8;
   --border-color: #e0e0e0;
   --bg-light: #f8f9fa;
+  --content-width: 1000px;
+  --wide-content-width: 1200px;
+  --radius: 8px;
+  --control-radius: 4px;
+  --font-size-xs: 0.8rem;
+  --font-size-sm: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-lead: 1.1rem;
+  --font-size-h3: 1.25rem;
+  --font-size-h3-mobile: 1.2rem;
+  --font-size-subheading: 1.5rem;
+  --font-size-h2: 1.8rem;
+  --font-size-course-title: 2rem;
+  --font-size-h1: 2.5rem;
+  --font-size-h2-mobile: 1.5rem;
+  --font-size-h1-mobile: 2rem;
 }
 
 * {
@@ -29,9 +46,9 @@ body {
     "Helvetica Neue",
     Arial,
     sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: var(--font-size-base);
 }
 
 /* Navigation */
@@ -135,7 +152,7 @@ body {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: var(--font-size-lead);
   transition: color 0.3s;
 }
 
@@ -145,7 +162,7 @@ body {
 
 /* Main Content */
 .main-content {
-  max-width: 1200px;
+  max-width: var(--wide-content-width);
   margin: 0 auto;
   padding: 1.25rem;
 }
@@ -165,7 +182,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
   line-height: 1.2;
   color: var(--primary-color);
@@ -173,7 +190,7 @@ body {
 }
 
 .hero-text p {
-  font-size: 1.1rem;
+  font-size: var(--font-size-lead);
   line-height: 1.7;
   margin-bottom: 1.25rem;
 }
@@ -204,7 +221,7 @@ body {
 .hero-media video {
   width: 100%;
   max-width: 500px;
-  border-radius: 8px;
+  border-radius: var(--radius);
 }
 
 /* Funding Section */
@@ -215,7 +232,7 @@ body {
 
 .funding-section h2 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   color: var(--primary-color);
   margin-bottom: 2rem;
 }
@@ -279,12 +296,12 @@ body {
 /* Lab/People Page */
 .lab-section,
 .people-section {
-  max-width: 1200px;
+  max-width: var(--wide-content-width);
   margin: 0 auto;
 }
 
 .people-section h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -292,7 +309,7 @@ body {
 
 .lab-section h2,
 .people-section h2 {
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   font-weight: 700;
   color: var(--primary-color);
   margin: 1.25rem 0 0.6rem 0;
@@ -343,7 +360,7 @@ body {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top;
-  border-radius: 8px;
+  border-radius: var(--radius);
   margin-bottom: 0.5rem;
   transition: opacity 0.3s;
 }
@@ -354,18 +371,18 @@ body {
 
 /* Research/Publications Section Styles */
 .research-section {
-  max-width: 1000px;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
 /* Teaching Page */
 .teaching-section {
-  max-width: 1000px;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
 .teaching-section > h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
@@ -381,7 +398,7 @@ body {
 
 .course-list-item h2 {
   margin: 0.25rem 0 0.5rem;
-  font-size: 1.5rem;
+  font-size: var(--font-size-subheading);
 }
 
 .course-list-item p {
@@ -399,7 +416,7 @@ body {
 }
 
 .course-details-link {
-  color: var(--link-color) !important;
+  color: var(--link-color);
 }
 
 .course-details-link:hover {
@@ -408,15 +425,20 @@ body {
 
 .course-back-link {
   margin-bottom: 1.25rem;
-  color: #666;
-  font-size: 0.9rem;
+  color: var(--muted-color);
+  font-size: var(--font-size-sm);
 }
 
 .teaching-section a {
-  color: #000;
+  color: var(--link-color);
 }
 
-.teaching-section a:hover {
+.course-list-item h2 a {
+  color: var(--primary-color);
+}
+
+.teaching-section a:hover,
+.course-list-item h2 a:hover {
   color: var(--link-color);
 }
 
@@ -430,15 +452,15 @@ body {
   gap: 2rem;
   align-items: flex-end;
   padding: 1.5rem;
-  color: #000;
-  background: #f1f1f1;
+  color: var(--primary-color);
+  background: var(--bg-light);
   border-bottom: 1px solid var(--border-color);
 }
 
 .course-code {
   display: block;
   margin-bottom: 0.4rem;
-  font-size: 0.9rem;
+  font-size: var(--font-size-sm);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -446,15 +468,21 @@ body {
 
 .course-header h2 {
   margin: 0;
-  font-size: 2rem;
-  color: #000;
+  font-size: var(--font-size-course-title);
+  color: var(--primary-color);
 }
 
 .course-intro {
   margin: 0;
   padding: 1.5rem 0;
   background: transparent;
-  font-size: 1.05rem;
+  font-size: var(--font-size-lead);
+}
+
+.course-source-note {
+  margin: -0.5rem 0 1.5rem;
+  color: var(--muted-color);
+  font-size: var(--font-size-sm);
 }
 
 .course-logistics,
@@ -470,7 +498,7 @@ body {
 .course-logistics h3,
 .course-contact h3 {
   margin-bottom: 0.45rem;
-  font-size: 1.1rem;
+  font-size: var(--font-size-h3);
 }
 
 .course-logistics p,
@@ -488,7 +516,7 @@ body {
 
 .course-syllabus > h3 {
   margin-bottom: 1rem;
-  font-size: 1.35rem;
+  font-size: var(--font-size-h3);
 }
 
 .course-contact-tas {
@@ -509,13 +537,13 @@ body {
 
 .syllabus-item h4 {
   margin-bottom: 0.4rem;
-  font-size: 1rem;
+  font-size: var(--font-size-base);
 }
 
 .syllabus-item p {
   margin: 0;
-  color: #333;
-  font-size: 0.9rem;
+  color: var(--text-color);
+  font-size: var(--font-size-sm);
 }
 
 .course-components {
@@ -528,13 +556,17 @@ body {
 .course-component h3,
 .course-details h3 {
   margin-bottom: 0.65rem;
-  font-size: 1.1rem;
+  font-size: var(--font-size-h3);
 }
 
 .course-component p,
 .course-details p {
   margin: 0;
-  color: #333;
+  color: var(--text-color);
+}
+
+.course-details p + p {
+  margin-top: 0.75rem;
 }
 
 .course-evaluation {
@@ -543,7 +575,7 @@ body {
 
 .course-evaluation > h3 {
   margin-bottom: 1rem;
-  font-size: 1.35rem;
+  font-size: var(--font-size-h3);
 }
 
 .evaluation-grid {
@@ -566,8 +598,8 @@ body {
 }
 
 .evaluation-item > strong {
-  color: #000;
-  font-size: 1rem;
+  color: var(--primary-color);
+  font-size: var(--font-size-base);
 }
 
 .evaluation-item > span {
@@ -576,8 +608,8 @@ body {
 
 .evaluation-item p {
   margin: 0;
-  color: #444;
-  font-size: 0.9rem;
+  color: var(--text-color);
+  font-size: var(--font-size-sm);
 }
 
 .course-calendar {
@@ -586,26 +618,26 @@ body {
 
 .course-calendar > h3 {
   margin-bottom: 0.25rem;
-  font-size: 1.35rem;
+  font-size: var(--font-size-h3);
 }
 
 .calendar-note {
   margin: 0 0 1rem;
-  color: #666;
-  font-size: 0.9rem;
+  color: var(--muted-color);
+  font-size: var(--font-size-sm);
 }
 
 .calendar-table-wrap {
   overflow-x: auto;
   border: 1px solid var(--border-color);
-  border-radius: 8px;
+  border-radius: var(--radius);
 }
 
 .calendar-table {
   width: 100%;
   min-width: 720px;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--font-size-sm);
 }
 
 .calendar-table th,
@@ -617,7 +649,7 @@ body {
 }
 
 .calendar-table th {
-  background: #222;
+  background: var(--primary-color);
   color: #fff;
   font-weight: 700;
 }
@@ -678,12 +710,12 @@ body {
   }
 
   .teaching-section > h1 {
-    font-size: 2rem;
+    font-size: var(--font-size-h1-mobile);
   }
 }
 
 .research-section h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 0.75rem;
@@ -701,10 +733,10 @@ body {
   border: 2px solid var(--link-color);
   background: white;
   color: var(--link-color);
-  font-size: 0.85rem;
+  font-size: var(--font-size-sm);
   font-weight: 500;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: var(--control-radius);
   transition: all 0.3s;
   font-family: "Noto Sans", sans-serif;
 }
@@ -724,7 +756,7 @@ body {
 }
 
 .year-header {
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   color: var(--primary-color);
   margin: 1rem 0 0.6rem 0;
   padding-bottom: 0.3rem;
@@ -745,7 +777,7 @@ body {
 /* Briefly highlight a paper when deep-linked from another page */
 .publication-item:target {
   background: var(--bg-light);
-  border-radius: 8px;
+  border-radius: var(--radius);
   box-shadow: 0 0 0 0.5rem var(--bg-light);
 }
 
@@ -759,9 +791,9 @@ body {
   width: 150px;
   height: 113px;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: var(--radius);
   border: 1px solid var(--border-color);
-  background: #f5f5f5;
+  background: var(--bg-light);
 }
 
 .pub-thumbnail img {
@@ -777,8 +809,8 @@ body {
   background: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.85rem;
+  border-radius: var(--control-radius);
+  font-size: var(--font-size-xs);
   font-weight: 600;
 }
 
@@ -787,7 +819,7 @@ body {
 }
 
 .pub-title {
-  font-size: 1.1rem;
+  font-size: var(--font-size-lead);
   font-weight: 600;
   color: var(--primary-color);
   margin-bottom: 0.4rem;
@@ -795,14 +827,14 @@ body {
 }
 
 .pub-authors {
-  color: #666;
+  color: var(--muted-color);
   margin-bottom: 0.3rem;
   line-height: 1.4;
 }
 
 .pub-venue {
   font-style: italic;
-  color: #555;
+  color: var(--muted-color);
   margin-bottom: 0.5rem;
   line-height: 1.4;
 }
@@ -817,10 +849,10 @@ body {
 .pub-links a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: var(--font-size-xs);
   padding: 0.2rem 0.6rem;
   border: 1px solid var(--link-color);
-  border-radius: 4px;
+  border-radius: var(--control-radius);
   transition: all 0.3s;
 }
 
@@ -835,11 +867,11 @@ a.pub-link-text {
 }
 
 .pub-link-text {
-  color: #888;
-  font-size: 0.8rem;
+  color: var(--muted-color);
+  font-size: var(--font-size-xs);
   padding: 0.2rem 0.6rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--control-radius);
   cursor: not-allowed;
 }
 
@@ -850,8 +882,8 @@ a.pub-link-text {
 }
 
 .person-card .role {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: var(--font-size-sm);
+  color: var(--muted-color);
 }
 
 .person-links {
@@ -864,7 +896,7 @@ a.pub-link-text {
 
 .person-links a {
   color: var(--link-color);
-  font-size: 1rem;
+  font-size: var(--font-size-base);
   transition: color 0.3s;
 }
 
@@ -874,7 +906,7 @@ a.pub-link-text {
 
 /* Research Page */
 .research-section h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 0.75rem;
@@ -891,20 +923,20 @@ a.pub-link-text {
 }
 
 .pub-title {
-  font-size: 1.1rem;
+  font-size: var(--font-size-lead);
   font-weight: 600;
   color: var(--primary-color);
   margin-bottom: 0.5rem;
 }
 
 .pub-authors {
-  color: #666;
+  color: var(--muted-color);
   margin-bottom: 0.5rem;
 }
 
 .pub-venue {
   font-style: italic;
-  color: #555;
+  color: var(--muted-color);
   margin-bottom: 0.75rem;
 }
 
@@ -917,10 +949,10 @@ a.pub-link-text {
 .pub-links a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: var(--font-size-xs);
   padding: 0.2rem 0.6rem;
   border: 1px solid var(--link-color);
-  border-radius: 4px;
+  border-radius: var(--control-radius);
   transition: all 0.3s;
 }
 
@@ -937,7 +969,7 @@ a.pub-link-text {
 .pub-preview img,
 .pub-preview video {
   width: 100%;
-  border-radius: 4px;
+  border-radius: var(--radius);
 }
 
 /* Responsive */
@@ -1009,7 +1041,7 @@ a.pub-link-text {
   }
 
   .nav-link {
-    font-size: 1rem;
+    font-size: var(--font-size-base);
     padding: 0.8rem 1.5rem;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
@@ -1020,11 +1052,11 @@ a.pub-link-text {
   }
 
   .hero-text h1 {
-    font-size: 1.75rem;
+    font-size: var(--font-size-h1-mobile);
   }
 
   .hero-text p {
-    font-size: 1rem;
+    font-size: var(--font-size-base);
   }
 
   .main-content {
@@ -1033,13 +1065,13 @@ a.pub-link-text {
 
   .people-section h1,
   .research-section h1 {
-    font-size: 2rem;
+    font-size: var(--font-size-h1-mobile);
   }
 
   .people-section h2,
   .research-section h2,
   .lab-section h2 {
-    font-size: 1.5rem;
+    font-size: var(--font-size-h2-mobile);
   }
 
   .people-grid {
@@ -1060,12 +1092,12 @@ a.pub-link-text {
   }
 
   .pub-title {
-    font-size: 1rem;
+    font-size: var(--font-size-base);
   }
 
   .pub-authors,
   .pub-venue {
-    font-size: 0.9rem;
+    font-size: var(--font-size-sm);
   }
 
   .filter-buttons {
@@ -1074,7 +1106,7 @@ a.pub-link-text {
 
   .filter-btn {
     padding: 0.4rem 1rem;
-    font-size: 0.9rem;
+    font-size: var(--font-size-sm);
   }
 
   .research-area {
@@ -1084,11 +1116,11 @@ a.pub-link-text {
   }
 
   .research-area-content h2 {
-    font-size: 1.4rem;
+    font-size: var(--font-size-h2-mobile);
   }
 
   .research-area-content p {
-    font-size: 0.95rem;
+    font-size: var(--font-size-base);
   }
 
   .research-area-image {
@@ -1120,7 +1152,7 @@ a.pub-link-text {
   }
 
   .funding-section h2 {
-    font-size: 1.5rem;
+    font-size: var(--font-size-h2-mobile);
   }
 
   .funding-logo {
@@ -1139,7 +1171,7 @@ a.pub-link-text {
   }
 
   .year-header {
-    font-size: 1.5rem;
+    font-size: var(--font-size-h2-mobile);
     margin: 2rem 0 0.8rem 0;
   }
 
@@ -1149,7 +1181,7 @@ a.pub-link-text {
   }
 
   .contact-page h1 {
-    font-size: 2rem;
+    font-size: var(--font-size-h1-mobile);
   }
 }
 
@@ -1179,14 +1211,14 @@ a:hover {
 .research-header-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: var(--radius);
 }
 
 .research-intro {
-  font-size: 1.1rem;
+  font-size: var(--font-size-lead);
   line-height: 1.7;
   margin-bottom: 0.75rem;
-  color: #555;
+  color: var(--text-color);
 }
 
 .research-areas {
@@ -1220,15 +1252,15 @@ a:hover {
 }
 
 .research-area-content h2 {
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   color: var(--primary-color);
   margin-bottom: 0.6rem;
 }
 
 .research-area-content p {
-  font-size: 1rem;
+  font-size: var(--font-size-base);
   line-height: 1.7;
-  color: #666;
+  color: var(--text-color);
 }
 
 .research-area-image {
@@ -1238,7 +1270,7 @@ a:hover {
 
 .research-area-image img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: var(--radius);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -1255,12 +1287,12 @@ a:hover {
 
 /* Contact Page Styles */
 .contact-page {
-  max-width: 1200px;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
 .contact-page h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 2rem;
@@ -1282,7 +1314,7 @@ a:hover {
 }
 
 .contact-section h2 {
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 0.6rem;
@@ -1290,7 +1322,7 @@ a:hover {
 
 .contact-section p {
   line-height: 1.6;
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 0.5rem;
 }
 
@@ -1313,18 +1345,18 @@ a:hover {
 .contact-links a {
   padding: 1rem;
   background: var(--bg-light);
-  border-radius: 8px;
+  border-radius: var(--radius);
   transition: background 0.3s;
 }
 
 .contact-links a:hover {
-  background: #e9ecef;
+  background: var(--border-color);
   text-decoration: none;
 }
 
 /* Past Members / Alumni */
 .people-section h3 {
-  font-size: 1.25rem;
+  font-size: var(--font-size-h3);
   font-weight: 600;
   color: var(--primary-color);
   margin: 1.5rem 0 1rem 0;
@@ -1339,11 +1371,11 @@ a:hover {
 
 .past-members li {
   padding: 0.4rem 0;
-  font-size: 1.05rem;
+  font-size: var(--font-size-base);
 }
 
 .past-members .now {
-  color: #666;
+  color: var(--muted-color);
 }
 
 /* Lab location: address left, map on the right half */
@@ -1363,7 +1395,7 @@ a:hover {
   height: 100%;
   min-height: 300px;
   border: 0;
-  border-radius: 8px;
+  border-radius: var(--radius);
 }
 
 @media (max-width: 768px) {
@@ -1386,4 +1418,299 @@ a:hover {
 .work-link:hover {
   text-decoration: underline;
   opacity: 0.85;
+}
+
+/* Shared visual rhythm across primary pages */
+.hero-text h1,
+.people-section > h1,
+.research-section > h1,
+.teaching-section > h1,
+.contact-page > h1 {
+  font-size: var(--font-size-h1);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.funding-section h2,
+.people-section h2,
+.year-header,
+.research-area-content h2,
+.contact-section h2 {
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.people-section h3,
+.course-logistics h3,
+.course-contact h3,
+.course-syllabus > h3,
+.course-component h3,
+.course-details h3,
+.course-evaluation > h3,
+.course-calendar > h3 {
+  font-size: var(--font-size-h3);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.hero-text p,
+.research-intro,
+.course-intro {
+  font-size: var(--font-size-lead);
+  line-height: 1.7;
+}
+
+.course-code,
+.pub-links a,
+.pub-link-text,
+.pub-venue-tag {
+  font-size: var(--font-size-xs);
+}
+
+.person-card .role,
+.pub-authors,
+.pub-venue,
+.calendar-note,
+.syllabus-item p,
+.evaluation-item p {
+  font-size: var(--font-size-sm);
+}
+
+.person-card .role,
+.pub-authors,
+.pub-venue,
+.past-members .now,
+.course-back-link,
+.calendar-note {
+  color: var(--muted-color);
+}
+
+.research-intro,
+.research-area-content p,
+.contact-section p,
+.course-component p,
+.course-details p,
+.syllabus-item p,
+.evaluation-item p {
+  color: var(--text-color);
+}
+
+.hero-media img,
+.hero-media video,
+.person-card img,
+.pub-thumbnail,
+.pub-preview img,
+.pub-preview video,
+.research-header-image img,
+.research-area-image img,
+.contact-links a,
+.lab-location .lab-map iframe,
+.calendar-table-wrap {
+  border-radius: var(--radius);
+}
+
+.filter-btn,
+.pub-links a,
+.pub-link-text,
+.pub-venue-tag {
+  border-radius: var(--control-radius);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .hero-text h1,
+  .people-section > h1,
+  .research-section > h1,
+  .teaching-section > h1,
+  .contact-page > h1 {
+    font-size: var(--font-size-h1-mobile);
+  }
+
+  .funding-section h2,
+  .people-section h2,
+  .research-area-content h2,
+  .contact-section h2 {
+    font-size: var(--font-size-h2-mobile);
+  }
+
+  .people-section h3,
+  .course-logistics h3,
+  .course-contact h3,
+  .course-syllabus > h3,
+  .course-component h3,
+  .course-details h3,
+  .course-evaluation > h3,
+  .course-calendar > h3 {
+    font-size: var(--font-size-h3-mobile);
+  }
+}
+
+/* Faculty profile page */
+.faculty-profile-page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.faculty-profile-page table {
+  width: 100% !important;
+  border-collapse: collapse;
+}
+
+.faculty-profile-content > tbody > tr > td {
+  padding: 0;
+}
+
+.faculty-profile-page table table td {
+  padding: 1rem;
+}
+
+.faculty-profile-page p {
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+.faculty-profile-page a {
+  color: var(--link-color);
+}
+
+.faculty-profile-page a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.faculty-profile-header {
+  margin-bottom: 0.5rem;
+}
+
+.faculty-profile-bio {
+  vertical-align: middle;
+}
+
+.faculty-name {
+  margin: 0 0 0.5rem;
+  color: var(--primary-color);
+  font-size: var(--font-size-h1);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.faculty-email {
+  text-align: center;
+}
+
+.profile-picture {
+  width: 225px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+}
+
+.profile-picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.faculty-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.faculty-social-links a {
+  display: inline-flex;
+}
+
+.faculty-social-links img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.faculty-profile-page .line {
+  width: 100%;
+  height: 1px;
+  margin: 1.5rem 0;
+  background: var(--border-color);
+}
+
+.faculty-profile-page heading {
+  display: block;
+  color: var(--primary-color);
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.faculty-profile-page papertitle {
+  color: var(--primary-color);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.faculty-profile-page td > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: var(--radius);
+}
+
+.faculty-profile-page span.highlight {
+  background: var(--bg-light);
+}
+
+.faculty-profile-page .vertical_dotted_line {
+  height: 100px;
+  border-left: 1px dotted var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .faculty-profile-page table,
+  .faculty-profile-page tbody {
+    display: block;
+    width: 100% !important;
+  }
+
+  .faculty-profile-page tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .faculty-profile-page td {
+    display: block;
+    width: 100% !important;
+    padding: 0.75rem 0 !important;
+  }
+
+  .faculty-profile-photo {
+    text-align: center;
+  }
+
+  .faculty-name {
+    font-size: var(--font-size-h1-mobile);
+  }
+
+  .faculty-profile-page heading {
+    font-size: var(--font-size-h2-mobile);
+  }
 }

@@ -18,7 +18,6 @@ permalink: /
     
     <div class="hero-links">
       <a href="https://www.linkedin.com/company/hiro-iisc/">LinkedIn</a>
-      <a href="https://github.com/IISc-HiRo">Github</a>
       <a href="https://www.youtube.com/@HiRo-IISc">YouTube</a>
       <a href="https://hiro.cps.iisc.ac.in/contact/">Open Position</a>
     </div>

@@ -7,11 +7,11 @@ permalink: /publications/
 <div class="research-section">
   <h1>Publications</h1>
 
-  <div class="filter-buttons">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="conference">Conference</button>
-    <button class="filter-btn" data-filter="journal">Journal</button>
-    <button class="filter-btn" data-filter="workshop">Workshop</button>
+  <div class="filter-buttons" role="group" aria-label="Filter publications by type">
+    <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" class="filter-btn" data-filter="conference" aria-pressed="false">Conference</button>
+    <button type="button" class="filter-btn" data-filter="journal" aria-pressed="false">Journal</button>
+    <button type="button" class="filter-btn" data-filter="workshop" aria-pressed="false">Workshop</button>
   </div>
 
   <div class="publications-list">
@@ -55,42 +55,59 @@ permalink: /publications/
   // Publication filtering functionality
   document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
+    const allButton = document.querySelector('.filter-btn[data-filter="all"]');
+    const categoryButtons = document.querySelectorAll('.filter-btn:not([data-filter="all"])');
     const publications = document.querySelectorAll('.publication-item');
     const yearHeaders = document.querySelectorAll('.year-header');
 
+    function setButtonState(button, isActive) {
+      button.classList.toggle('active', isActive);
+      button.setAttribute('aria-pressed', String(isActive));
+    }
+
+    function updatePublicationFilters() {
+      const selectedCategories = new Set(
+        Array.from(categoryButtons)
+          .filter(button => button.classList.contains('active'))
+          .map(button => button.getAttribute('data-filter'))
+      );
+      const showAll = selectedCategories.size === 0;
+
+      setButtonState(allButton, showAll);
+
+      publications.forEach(pub => {
+        const category = pub.getAttribute('data-category');
+        const isVisible = showAll || selectedCategories.has(category);
+        pub.style.display = isVisible ? 'flex' : 'none';
+      });
+
+      yearHeaders.forEach(header => {
+        let nextElement = header.nextElementSibling;
+        let hasVisiblePubs = false;
+
+        while (nextElement && !nextElement.classList.contains('year-header')) {
+          if (nextElement.classList.contains('publication-item') && nextElement.style.display !== 'none') {
+            hasVisiblePubs = true;
+            break;
+          }
+          nextElement = nextElement.nextElementSibling;
+        }
+
+        header.style.display = hasVisiblePubs ? 'block' : 'none';
+      });
+    }
+
     filterButtons.forEach(button => {
       button.addEventListener('click', function() {
-        // Update active button
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-        this.classList.add('active');
-
         const filterValue = this.getAttribute('data-filter');
 
-        // Filter publications
-        publications.forEach(pub => {
-          if (filterValue === 'all') {
-            pub.style.display = 'flex';
-          } else {
-            const category = pub.getAttribute('data-category');
-            pub.style.display = category === filterValue ? 'flex' : 'none';
-          }
-        });
+        if (filterValue === 'all') {
+          categoryButtons.forEach(categoryButton => setButtonState(categoryButton, false));
+        } else {
+          setButtonState(this, !this.classList.contains('active'));
+        }
 
-        // Show/hide year headers based on visible publications
-        yearHeaders.forEach(header => {
-          let nextElement = header.nextElementSibling;
-          let hasVisiblePubs = false;
-          
-          while (nextElement && !nextElement.classList.contains('year-header')) {
-            if (nextElement.classList.contains('publication-item') && nextElement.style.display !== 'none') {
-              hasVisiblePubs = true;
-              break;
-            }
-            nextElement = nextElement.nextElementSibling;
-          }
-          
-          header.style.display = hasVisiblePubs || filterValue === 'all' ? 'block' : 'none';
-        });
+        updatePublicationFilters();
       });
     });
 

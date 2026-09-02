@@ -9,7 +9,7 @@ permalink: /teaching/
 
   <div class="course-list">
     <article class="course-list-item">
-      <span class="course-code">CP 322 · August term · 2:1 credits</span>
+      <span class="course-code">CP 322 · August term 2026 · 2:1 credits</span>
       <h2><a href="/teaching/cp322/">Robot Manipulation</a></h2>
       <p class="course-list-logistics">
         <strong>Class timings:</strong> Tuesday and Thursday, 11:30 to 13:00;
