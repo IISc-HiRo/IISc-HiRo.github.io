@@ -19,7 +19,11 @@ permalink: /publications/
     {%- for year in years %}
     <h2 class="year-header">{{ year }}</h2>
     {%- assign year_pubs = site.data.publications | where: "year", year -%}
-    {%- for pub in year_pubs %}
+    {%- assign journal_pubs = year_pubs | where: "type", "journal" | sort: "sort_date" | reverse -%}
+    {%- assign conference_pubs = year_pubs | where: "type", "conference" | sort: "sort_date" | reverse -%}
+    {%- assign workshop_pubs = year_pubs | where: "type", "workshop" | sort: "sort_date" | reverse -%}
+    {%- assign ordered_pubs = journal_pubs | concat: conference_pubs | concat: workshop_pubs -%}
+    {%- for pub in ordered_pubs %}
     <div class="publication-item" id="{{ pub.id }}" data-category="{{ pub.type }}">
       <div class="pub-thumbnail">
         <img src="/assets/img/publication_preview/{{ pub.image }}" alt="{{ pub.title | strip_html }}">

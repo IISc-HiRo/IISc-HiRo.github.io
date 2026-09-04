@@ -101,7 +101,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/sasidharalavala/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Sasidhar Reddy Alavala</span>
-      <span class="role">Multimodal Perception, Physical AI</span>
+      <span class="role">Geometric World Models for Multimodal Robot Interaction</span>
     </div>
     <div class="person-card">
       <div class="person-image-link">

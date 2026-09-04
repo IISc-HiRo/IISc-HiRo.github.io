@@ -2,8 +2,8 @@
 # Publications
 # -----------------------------------------------------------------------------
 # This file drives the Publications page (/publications/). To add a paper, copy
-# an entry below and fill it in. Entries are grouped on the page by `year`
-# (newest first) in the order they appear here within each year.
+# an entry below and fill it in. Entries are grouped by `year` (newest first),
+# then by type (journal, conference, workshop), and newest first within each type.
 #
 # Fields:
 #   id       Unique anchor slug. Lets other pages deep-link to this paper, e.g.
@@ -13,6 +13,7 @@
 #   venue    Full venue name (shown under the authors)
 #   tag      Short venue badge shown on the thumbnail (e.g. ICRA'26)
 #   year     Publication year (controls grouping/sorting)
+#   sort_date Hidden chronological key in YYYY-MM-DD format (not displayed)
 #   type     conference | journal | workshop  (controls the filter buttons)
 #   image    Filename in assets/img/publication_preview/
 #   links    List of { label, url }. Omit `url` to show a non-clickable label.
@@ -24,6 +25,7 @@
   venue: "RSS 2026 Workshop: Semantic Reasoning and Goal Understanding in Robotics (SemRob)"
   tag: "RSSW'26"
   year: 2026
+  sort_date: "2026-07-17"
   type: workshop
   image: placeholder.png
   links:
@@ -35,6 +37,7 @@
   venue: "CVPR 2026 Workshop: 4D Vision"
   tag: "CVPRW'26"
   year: 2026
+  sort_date: "2026-06-04"
   type: workshop
   image: placeholder.png
   links:
@@ -46,6 +49,7 @@
   venue: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
   tag: "ICMLW'26"
   year: 2026
+  sort_date: "2026-07-11"
   type: workshop
   image: placeholder.png
   links:
@@ -57,6 +61,7 @@
   venue: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
   tag: "ICMLW'26"
   year: 2026
+  sort_date: "2026-07-11"
   type: workshop
   image: placeholder.png
   links:
@@ -68,6 +73,7 @@
   venue: "ICRA 2026 Workshop: Geometry in the Age of Data-Driven Robotics"
   tag: "ICRAW'26"
   year: 2026
+  sort_date: "2026-06-05"
   type: workshop
   image: placeholder.png
   links:
@@ -79,6 +85,7 @@
   venue: "ICRA 2026 Workshop: Semantics for Reliable Robot Autonomy"
   tag: "ICRAW'26"
   year: 2026
+  sort_date: "2026-06-05"
   type: workshop
   image: placeholder.png
   links:
@@ -90,6 +97,7 @@
   venue: "ICRA 2026 Workshop: Long-term Deployments in the Wild (LoWi)"
   tag: "ICRAW'26"
   year: 2026
+  sort_date: "2026-06-01"
   type: workshop
   image: placeholder.png
   links:
@@ -101,6 +109,7 @@
   venue: "European Conference on Computer Vision (ECCV)"
   tag: "ECCV'26"
   year: 2026
+  sort_date: "2026-09-12"
   type: conference
   image: placeholder.png
   links:
@@ -113,6 +122,7 @@
   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
   tag: "IROS'26"
   year: 2026
+  sort_date: "2026-10-01"
   type: conference
   image: placeholder.png
   links:
@@ -125,6 +135,7 @@
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   tag: "CVPR'26"
   year: 2026
+  sort_date: "2026-06-07"
   type: conference
   image: affordmatcher_cvpr_26.png
   links:
@@ -138,6 +149,7 @@
   venue: "Reinforcement Learning Conference (RLC)"
   tag: "RLC'26"
   year: 2026
+  sort_date: "2026-08-18"
   type: conference
   image: placeholder.png
   links:
@@ -149,6 +161,7 @@
   venue: "Transactions on Machine Learning Research"
   tag: "TMLR'26"
   year: 2026
+  sort_date: "2026-03-27"
   type: journal
   image: placeholder.png
   links:
@@ -162,6 +175,7 @@
   venue: "IEEE Robotics and Automation Magazine"
   tag: "RA-M'26"
   year: 2026
+  sort_date: "2026-03-01"
   type: journal
   image: ram_26.jpg
   links:
@@ -173,6 +187,7 @@
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'26"
   year: 2026
+  sort_date: "2026-06-04"
   type: conference
   image: safedmps_26.png
   links:
@@ -185,6 +200,7 @@
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'26"
   year: 2026
+  sort_date: "2026-06-02"
   type: conference
   image: rlcgms_26.png
   links:
@@ -197,6 +213,7 @@
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'26"
   year: 2026
+  sort_date: "2026-06-03"
   type: conference
   image: byt_26.png
   links:
@@ -210,6 +227,7 @@
   venue: "IROS 2025 Workshop: LeaPRIDE: Learning, Planning, and Reasoning in Dynamic Environments"
   tag: "IROSW'25"
   year: 2025
+  sort_date: "2025-10-25"
   type: workshop
   image: irosw_leap_25.png
   links:
@@ -221,6 +239,7 @@
   venue: "NeurIPS 2025 Workshop: Bridging Language, Agent, and World Models for Robotics"
   tag: "NeurIPSW'25"
   year: 2025
+  sort_date: "2025-12-07"
   type: workshop
   image: neuripsw_law_25.png
   links:
@@ -232,6 +251,7 @@
   venue: "IEEE Robotics and Automation Letters"
   tag: "RA-L'25"
   year: 2025
+  sort_date: "2025-08-13"
   type: journal
   image: ovita_25.gif
   links:
@@ -244,6 +264,7 @@
   venue: "CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World"
   tag: "CoRLW'25"
   year: 2025
+  sort_date: "2025-09-27"
   type: workshop
   image: corlw_saferol_25.png
   links:
@@ -255,6 +276,7 @@
   venue: "CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches"
   tag: "CoRLW'25"
   year: 2025
+  sort_date: "2025-09-27"
   type: workshop
   image: corlw_data_25.png
   links:
@@ -266,6 +288,7 @@
   venue: "CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches"
   tag: "CoRLW'25"
   year: 2025
+  sort_date: "2025-09-27"
   type: workshop
   image: corlw_data_25.png
   links:
@@ -277,6 +300,7 @@
   venue: "IEEE Transactions on Robotics"
   tag: "T-RO'25"
   year: 2025
+  sort_date: "2025-06-25"
   type: journal
   image: tro_25.gif
   links:
@@ -289,6 +313,7 @@
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   tag: "ICRA'25"
   year: 2025
+  sort_date: "2025-05-23"
   type: conference
   image: icra_imphrl_25.gif
   links:
@@ -300,6 +325,7 @@
   venue: "IEEE Transactions on Control Systems Technology"
   tag: "T-CST'24"
   year: 2024
+  sort_date: "2024-10-14"
   type: journal
   image: tcst_ac_24.gif
   links:
@@ -311,6 +337,7 @@
   venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
   tag: "HRI'24"
   year: 2024
+  sort_date: "2024-03-15"
   type: workshop
   image: hri_24.png
   links:
