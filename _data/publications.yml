@@ -16,8 +16,41 @@
 #   sort_date Hidden chronological key in YYYY-MM-DD format (not displayed)
 #   type     conference | journal | workshop  (controls the filter buttons)
 #   image    Filename in assets/img/publication_preview/
+#   also     Optional. Another venue where the same work appeared (e.g. an earlier
+#            workshop version); shown as "Preliminary version appeared at ..." under the venue.
+#   pinned   Optional. Set to true to show this paper first within its year.
 #   links    List of { label, url }. Omit `url` to show a non-clickable label.
 # -----------------------------------------------------------------------------
+
+- id: bridging-safety-neurips26
+  title: "Bridging Safety and Performance in Autonomous Systems using Offline Reinforcement Learning"
+  authors: "M Tayal, M Tayal, R Prakash"
+  venue: "40th Annual Conference on Neural Information Processing Systems (NeurIPS)"
+  also: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
+  tag: "NeurIPS'26"
+  year: 2026
+  sort_date: "2026-12-01"
+  type: conference
+  pinned: true
+  image: placeholder.png
+  links:
+    - { label: Paper }
+    - { label: Workshop Paper, url: "https://openreview.net/forum?id=ffX7tGwAD8" }
+
+- id: diffusionpack
+  title: "DiffusionPack: Offline Bin Packing with Custom Human Preferences"
+  authors: "A Maurya, S Vats, G Balachandran, R Prakash"
+  venue: "IEEE Robotics and Automation Letters"
+  also: "NeurIPS 2025 Workshop: Bridging Language, Agent, and World Models for Robotics"
+  tag: "RA-L'26"
+  year: 2026
+  sort_date: "2026-10-12"
+  type: journal
+  pinned: true
+  image: neuripsw_law_25.png
+  links:
+    - { label: Paper }
+    - { label: Workshop Paper, url: "https://openreview.net/forum?id=uReNc199fG" }
 
 - id: where-reasoning-does-not-matter
   title: "Where Reasoning Does Not Matter: Isolating Chain-of-Thought in a Modular, Agentic VLM Manipulation Pipeline"
@@ -42,30 +75,6 @@
   image: placeholder.png
   links:
     - { label: Paper }
-
-- id: bridging-safety-aiwild26
-  title: "Bridging Safety and Performance in Autonomous Systems using Offline Reinforcement Learning"
-  authors: "M Tayal, M Tayal, R Prakash"
-  venue: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
-  tag: "ICMLW'26"
-  year: 2026
-  sort_date: "2026-07-11"
-  type: workshop
-  image: placeholder.png
-  links:
-    - { label: Paper, url: "https://openreview.net/forum?id=ffX7tGwAD8" }
-
-- id: safe-flow-q-learning-aiwild26
-  title: "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies"
-  authors: "M Tayal, M Tayal, R Prakash"
-  venue: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
-  tag: "ICMLW'26"
-  year: 2026
-  sort_date: "2026-07-11"
-  type: workshop
-  image: placeholder.png
-  links:
-    - { label: Paper, url: "https://openreview.net/forum?id=glZK5wks9X" }
 
 - id: topological-cage
   title: "The Topological Cage: A Search-Less Geometric Handshake for Medial Axis Injection"
@@ -147,6 +156,7 @@
   title: "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies"
   authors: "M Tayal, M Tayal, R Prakash"
   venue: "Reinforcement Learning Conference (RLC)"
+  also: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
   tag: "RLC'26"
   year: 2026
   sort_date: "2026-08-18"
@@ -154,6 +164,7 @@
   image: placeholder.png
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2603.15136" }
+    - { label: Workshop Paper, url: "https://openreview.net/forum?id=glZK5wks9X" }
 
 - id: v-ocbf
   title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
@@ -185,6 +196,7 @@
   title: "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI"
   authors: "P Tiwari, S Nath, R Prakash"
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  also: "CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World"
   tag: "ICRA'26"
   year: 2026
   sort_date: "2026-06-04"
@@ -193,6 +205,7 @@
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2603.29708" }
     - { label: Project Site, url: "https://tiwari-pranav.github.io/SafeDMPs/" }
+    - { label: Workshop Paper, url: "https://openreview.net/forum?id=Xj3V96qTpf" }
 
 - id: variable-impedance-icra26
   title: "Safe and Optimal Variable Impedance Control via Certified Reinforcement Learning"
@@ -211,6 +224,7 @@
   title: "Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning"
   authors: "S Saharsh, S Sonkar, P Jagtap, R Prakash"
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  also: "CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches"
   tag: "ICRA'26"
   year: 2026
   sort_date: "2026-06-03"
@@ -220,6 +234,7 @@
     - { label: Paper }
     - { label: Code, url: "https://github.com/FocasLab/ICRA-IL-2026" }
     - { label: Project Site, url: "https://focaslab.github.io/beyondtheteacher/" }
+    - { label: Workshop Paper, url: "https://openreview.net/forum?id=7Ox8aKIFbA" }
 
 - id: rise
   title: "RISE: Robust Imitation through Stochastic Encodings"
@@ -233,18 +248,6 @@
   links:
     - { label: Paper, url: "https://openreview.net/forum?id=GEexdUmA67" }
 
-- id: diffusionpack
-  title: "DiffusionPack: Bin Packing with Custom Human Preferences"
-  authors: "A Maurya, S Vats, G Balachandran, R Prakash"
-  venue: "NeurIPS 2025 Workshop: Bridging Language, Agent, and World Models for Robotics"
-  tag: "NeurIPSW'25"
-  year: 2025
-  sort_date: "2025-12-07"
-  type: workshop
-  image: neuripsw_law_25.png
-  links:
-    - { label: Paper, url: "https://openreview.net/forum?id=uReNc199fG" }
-
 - id: ovita
   title: "OVITA: Open-Vocabulary Interpretable Trajectory Adaptations"
   authors: "A Maurya, T Ghosh, A Nguyen, R Prakash"
@@ -257,30 +260,6 @@
   links:
     - { label: Paper, url: "https://ieeexplore.ieee.org/abstract/document/11150730" }
     - { label: Code, url: "https://github.com/anurag1000101/OVITA" }
-
-- id: safedmps-corlw25
-  title: "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI"
-  authors: "S Nath, P Tiwari, R Prakash"
-  venue: "CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World"
-  tag: "CoRLW'25"
-  year: 2025
-  sort_date: "2025-09-27"
-  type: workshop
-  image: corlw_saferol_25.png
-  links:
-    - { label: Paper, url: "https://openreview.net/forum?id=Xj3V96qTpf" }
-
-- id: beyond-the-teacher-corlw25
-  title: "Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning"
-  authors: "S Saharsh, S Sonkar, P Jagtap, R Prakash"
-  venue: "CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches"
-  tag: "CoRLW'25"
-  year: 2025
-  sort_date: "2025-09-27"
-  type: workshop
-  image: corlw_data_25.png
-  links:
-    - { label: Paper, url: "https://openreview.net/forum?id=7Ox8aKIFbA" }
 
 - id: pacer
   title: "PACER: Progress-Aligned Curation for Error-Resilient Imitation Learning"

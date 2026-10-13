@@ -18,11 +18,12 @@ permalink: /publications/
     {%- assign years = site.data.publications | map: "year" | uniq | sort | reverse -%}
     {%- for year in years %}
     <h2 class="year-header">{{ year }}</h2>
-    {%- assign year_pubs = site.data.publications | where: "year", year -%}
+    {%- assign pinned_pubs = site.data.publications | where: "year", year | where: "pinned", true | sort: "sort_date" | reverse -%}
+    {%- assign year_pubs = site.data.publications | where: "year", year | where_exp: "pub", "pub.pinned != true" -%}
     {%- assign journal_pubs = year_pubs | where: "type", "journal" | sort: "sort_date" | reverse -%}
     {%- assign conference_pubs = year_pubs | where: "type", "conference" | sort: "sort_date" | reverse -%}
     {%- assign workshop_pubs = year_pubs | where: "type", "workshop" | sort: "sort_date" | reverse -%}
-    {%- assign ordered_pubs = journal_pubs | concat: conference_pubs | concat: workshop_pubs -%}
+    {%- assign ordered_pubs = pinned_pubs | concat: journal_pubs | concat: conference_pubs | concat: workshop_pubs -%}
     {%- for pub in ordered_pubs %}
     <div class="publication-item" id="{{ pub.id }}" data-category="{{ pub.type }}">
       <div class="pub-thumbnail">
@@ -33,6 +34,9 @@ permalink: /publications/
         <div class="pub-title">{{ pub.title }}</div>
         <div class="pub-authors">{{ pub.authors }}</div>
         <div class="pub-venue">{{ pub.venue }}</div>
+        {%- if pub.also %}
+        <div class="pub-also">Preliminary version appeared at {{ pub.also }}</div>
+        {%- endif %}
         <div class="pub-links">
           {%- for link in pub.links %}
           {%- if link.url %}
