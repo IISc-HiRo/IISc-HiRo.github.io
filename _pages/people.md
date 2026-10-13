@@ -332,10 +332,10 @@ permalink: /people/
   <h3>Master's Students</h3>
   <ul class="past-members">
     <li><a href="https://ashrithsagar.github.io/" target="_blank">Ashrith Sagar Yedlapalli</a> (2024&ndash;26), MTech (RAS): <em>Task-Parameterized Interactive Imitation Learning</em> <span class="now">(Now: PhD student, Dept. of Cyber-Physical Systems, IISc)</span></li>
-    <li><a href="https://www.linkedin.com/in/shubhampurigoswami" target="_blank">Shubham Puri Goswami</a> (2024&ndash;26), MTech (RAS): <em>Bimanual Collaborative Manipulation with Diverse Tools</em></li>
+    <li><a href="https://www.linkedin.com/in/shubhampurigoswami" target="_blank">Shubham Puri Goswami</a> (2024&ndash;26), MTech (RAS): <em>Geometric Motion Planning with Signed Distance Fields and the Medial Axis</em> &middot; paper: <a href="/publications/#topological-cage">The Topological Cage (ICRAW'26)</a></li>
     <li><a href="https://www.linkedin.com/in/siddharth-jain-in" target="_blank">Siddharth Jain</a> (2024&ndash;26), MTech (RAS): <em>Reinforcement Learning for Safe and Robust Control</em> <span class="now">(Now: Honeywell, Bengaluru)</span></li>
     <li>Jwalakar Vishnu Dutt (2023&ndash;25), MTech (CPS): <em>Visual Imitation Learning for Long-horizon Tasks</em> <span class="now">(Now: Netradyne, Bengaluru)</span></li>
     <li>Md. Farhad Hussain (2023&ndash;25), MTech (CPS): <em>Language-Conditioned Affordance-Based Grasp Pose Learning from 3D Point Clouds</em> <span class="now">(Now: John Deere, Pune)</span></li>
-    <li>Sahil Kishor Bobade (2023&ndash;25), MTech (CPS): <em>Zero-Shot Robotic Task Generalization Using Vision-Language Models and Keypoint Constraints</em></li>
+    <li>Sahil Kishor Bobade (2023&ndash;25), MTech (CPS): <em>Zero-Shot Robotic Task Generalization Using Vision-Language Models and Keypoint Constraints</em> <span class="now">(Now: ExxonMobil)</span></li>
   </ul>
 </div>

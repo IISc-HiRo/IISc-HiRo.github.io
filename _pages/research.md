@@ -40,7 +40,10 @@ permalink: /research/
           demonstrations, <a href="/publications/#diffusionpack" class="work-link">DiffusionPack (RA-L'26)</a>
           uses diffusion models to plan 3D bin packing that respects custom human preferences, and
           <a href="/publications/#state-corrected-ppl" class="work-link">State-Corrected Predictive Preference Learning (ICRAW'26)</a>
-          brings RL and imitation together through preference feedback for robot navigation on uneven terrain. We
+          brings RL and imitation together through preference feedback for robot navigation on uneven terrain.
+          When people correct a robot, <a href="/publications/#corrections-are-evidence" class="work-link">Operator-Aware Inversion (CoRLW'26)</a>
+          treats each correction as evidence of what the operator intended, modelling their reaction lag, jitter and
+          bias, so that frozen generative policies adapt from more accurate targets. We
           also co-organized the
           <a href="/publications/#hirl-workshop" class="work-link">3rd Workshop on Human-Interactive Robot Learning (HRI'24)</a>.
         </p>

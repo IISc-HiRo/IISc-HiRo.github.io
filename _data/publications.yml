@@ -52,6 +52,18 @@
     - { label: Paper }
     - { label: Workshop Paper, url: "https://openreview.net/forum?id=uReNc199fG" }
 
+- id: corrections-are-evidence
+  title: "Corrections Are Evidence, Not Targets: Operator-Aware Inversion for Adapting Frozen Generative Robot Policies"
+  authors: "R Jadhav, S Bobade, S Viswanathan, SK Vidyarthi, L Nageswar, R Prakash"
+  venue: "CoRL 2026 Workshop: Learning from Corrections (LfC)"
+  tag: "CoRLW'26"
+  year: 2026
+  sort_date: "2026-10-13"
+  type: workshop
+  image: placeholder.png
+  links:
+    - { label: Paper }
+
 - id: where-reasoning-does-not-matter
   title: "Where Reasoning Does Not Matter: Isolating Chain-of-Thought in a Modular, Agentic VLM Manipulation Pipeline"
   authors: "B Hela, R Prakash"
