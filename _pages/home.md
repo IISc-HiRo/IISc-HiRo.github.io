@@ -5,8 +5,14 @@ permalink: /
 ---
 
 <div class="hero-section">
+  <h1 class="visually-hidden">Human-interactive Robotics Lab</h1>
+
+  <div class="hero-media">
+    <video src="/assets/videos/research_highlights.mp4" autoplay muted loop playsinline preload="auto"
+      aria-label="HiRo Lab research highlights: robots learning from and working safely alongside people"></video>
+  </div>
+
   <div class="hero-text">
-    <h1>Human-interactive Robotics Lab</h1>
     
     <p>
       The Human-interactive Robotics (HiRo) Lab is a research group in the <a href='https://cps.iisc.ac.in'>Department of Cyber-Physical Systems</a> at the <a href='https://iisc.ac.in'>Indian Institute of Science Bangalore</a> set up and led by <a href='/people/drraviprakash/'>Prof. Ravi Prakash</a>.
@@ -25,10 +31,6 @@ permalink: /
       <a href="https://www.youtube.com/@HiRo-IISc">YouTube</a>
       <a href="https://hiro.cps.iisc.ac.in/contact/">Open Position</a>
     </div>
-  </div>
-  
-  <div class="hero-media">
-    <img src="/assets/img/logos/hiro_lab.jpg" alt="HiRo Lab">
   </div>
 </div>
 

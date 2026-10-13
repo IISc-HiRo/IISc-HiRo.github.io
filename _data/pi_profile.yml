@@ -1,0 +1,72 @@
+# -----------------------------------------------------------------------------
+# Prof. Ravi Prakash: curated highlights shown on /people/drraviprakash/
+# -----------------------------------------------------------------------------
+# Keep each list short: this is a professional page, not the full CV. Add new
+# items at the top. HTML is allowed in `what`. Publications come from
+# publications.yml + pi_publications.yml.
+# -----------------------------------------------------------------------------
+
+recognition:
+  - when: "2027"
+    what: "Associate Editor, IEEE International Conference on Robotics and Automation (ICRA)"
+  - when: "2024"
+    what: "Co-organizer, 3rd Workshop on Human-Interactive Robot Learning (HIRL), ACM/IEEE HRI"
+  - when: "2023"
+    what: "Associate Editor, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  - when: "2022"
+    what: "DAAD AInet Fellow (AI and Robotics), with a funded research visit to the German Aerospace Center (DLR), Munich"
+  - when: "2017"
+    what: "3rd place worldwide in Picking, Amazon Robotics Challenge, Nagoya (Team IITK-TCS)"
+
+teaching:
+  - when: "August term"
+    what: "<a href=\"/teaching/cp322/\">CP 322 Robot Manipulation</a>"
+  - when: "January term"
+    what: "CP 321 Imitation Learning for Robotics"
+  - when: "January term"
+    what: "AE 372 Applied Optimal Control and State Estimation"
+
+talks:
+  - when: "2026"
+    what: "Invited talk, \"Manifold-Constrained Learning and Spatio-Temporal Safety for Provably Stable Robot Manipulation\", <a href=\"https://sites.google.com/nyu.edu/imitation2certification-wsrss2/speakers\">RSS 2026 Workshop: From Imitation to Certification</a>, Sydney"
+  - when: "2025"
+    what: "Expert lecture, Workshop on Advanced Guidance, Control and State Estimation, IISc (with DRDO and IEEE CSS)"
+  - when: "2025"
+    what: "\"Adaptive and Reactive Learning and Control for Robots\", FDP on Cyber-Physical Systems &amp; Control"
+  - when: "2024"
+    what: "\"Robots for the Future\", Distinguished Lecture, IEEE Day, IEEE RAS India"
+  - when: "2024"
+    what: "\"Generalization of Task-Parameterized Interactive Imitation Learning\", EECS Symposium, IISc"
+
+challenges:
+  - id: arc-2017
+    tag: "ARC'17"
+    title: "Amazon Robotics Challenge 2017, Nagoya, Japan"
+    detail: "Team IITK-TCS (lead: Prof. Laxmidhar Behera). <strong>3rd place in Picking</strong> and 5th in the Combined Finals among 40 international teams. Responsible for robot motion control: Cartesian movement primitives for approach, grasp, lift and retreat with point-cloud-based collision avoidance."
+    image: /people/drraviprakash/projectpics/arc17/arc17.gif
+    links:
+      - { label: News, url: "https://iitk.ac.in/new/index.php/iit-kanpur-made-it-to-podium-finish-in-amazon-robotics-challenge-2017" }
+      - { label: Videos, url: "https://youtube.com/playlist?list=PL2MsSQ6rMtptKkrLphDPUNuVevfRZERDm" }
+  - id: apc-2016
+    tag: "APC'16"
+    title: "Amazon Picking Challenge 2016, Leipzig, Germany"
+    detail: "Team IITK-TCS. <strong>5th place in Stowing</strong> among 40 international teams. Responsible for motion control of the mobile manipulator."
+    image: /people/drraviprakash/projectpics/arc16/arc16.gif
+    links:
+      - { label: News, url: "https://robotnik.eu/iit-kanpur-and-tata-will-take-part-in-the-amazon-picking-challenge-2016-with-the-manipulator-x-wam/" }
+  - id: mbzirc-2020
+    tag: "MBZIRC'20"
+    title: "Mohamed Bin Zayed International Robotics Challenge 2020, Abu Dhabi"
+    detail: "Team IIT Kanpur. UAVs and a UGV autonomously locating, picking, transporting and assembling bricks into predefined structures outdoors. Designed learning-from-demonstration motion planning and control for the UR5 mobile manipulator, and integrated the system in ROS."
+    image: /people/drraviprakash/projectpics/mbzirc/mbzirc.gif
+    links:
+      - { label: Challenge, url: "https://www.mbzirc.com/" }
+      - { label: Video 1, url: "https://youtu.be/M4PYIDFA6wA" }
+      - { label: Video 2, url: "https://youtu.be/nV9la97dabw" }
+  - id: ocrtoc-2020
+    tag: "OCRTOC'20"
+    title: "IROS 2020 Open Cloud Robot Table Organization Challenge"
+    detail: "Team ISCon_IITK. Table organization with a cloud-based robot. Responsible for motion control using Dynamic Movement Primitives."
+    image: /people/drraviprakash/projectpics/ocrtoc/ocrtoc.jpg
+    links:
+      - { label: Challenge, url: "http://www.ocrtoc.org/ocrtoc2020/#/" }

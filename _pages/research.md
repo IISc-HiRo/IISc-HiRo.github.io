@@ -7,91 +7,6 @@ permalink: /research/
 <div class="research-section">
   <h1>Research</h1>
 
-  <style>
-    #researchCarousel .carousel-caption {
-      background: rgba(0, 0, 0, 0.55);
-      border-radius: 6px;
-      padding: 0.4rem 0.75rem;
-      left: 10%;
-      right: 10%;
-      bottom: 1rem;
-    }
-    #researchCarousel .carousel-caption a.work-link {
-      color: #fff;
-      font-weight: 600;
-      text-decoration: none;
-    }
-    #researchCarousel .carousel-caption a.work-link:hover {
-      text-decoration: underline;
-    }
-  </style>
-
-  <!-- Research Videos Carousel -->
-  <div class="research-video-carousel" style="max-width: 960px; margin: 1.5rem auto 2.5rem;">
-    <div id="researchCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000" data-bs-pause="hover">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Gripper-aware VLA"></button>
-        <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="1" aria-label="Beyond Visual Grasping"></button>
-        <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="2" aria-label="Beyond the Teacher"></button>
-        <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="3" aria-label="Certified RL for Variable Impedance"></button>
-        <button type="button" data-bs-target="#researchCarousel" data-bs-slide-to="4" aria-label="SafeDMPs"></button>
-      </div>
-      <div class="carousel-inner" style="background:#000; border-radius:8px;">
-        <div class="carousel-item active">
-          <video class="d-block w-100" style="height:480px; object-fit:contain; background:#000;" muted loop playsinline preload="none">
-            <source src="/assets/videos/eccv_2026_5218.mp4" type="video/mp4">
-          </video>
-          <div class="carousel-caption">
-            <a href="/publications/#gripper-aware-vla" class="work-link">Gripper-aware Vision Language Action Models (ECCV'26)</a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <video class="d-block w-100" style="height:480px; object-fit:contain; background:#000;" muted loop playsinline preload="none">
-            <source src="/assets/videos/iros_2026.mp4" type="video/mp4">
-          </video>
-          <div class="carousel-caption">
-            <a href="/publications/#beyond-visual-grasping" class="work-link">Beyond Visual Grasping: Complex Grasping from Detection to Execution (IROS'26)</a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <video class="d-block w-100" style="height:480px; object-fit:contain; background:#000;" muted loop playsinline preload="none">
-            <source src="/assets/videos/icra_2026_beyond_the_teacher.mp4" type="video/mp4">
-          </video>
-          <div class="carousel-caption">
-            <a href="/publications/#beyond-the-teacher-icra26" class="work-link">Beyond the Teacher: Mixed-Skill Demonstrations for Robust Imitation (ICRA'26)</a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <video class="d-block w-100" style="height:480px; object-fit:contain; background:#000;" muted loop playsinline preload="none">
-            <source src="/assets/videos/icra_2026_certified_rl.mp4" type="video/mp4">
-          </video>
-          <div class="carousel-caption">
-            <a href="/publications/#variable-impedance-icra26" class="work-link">Certified RL for Variable Impedance Control (ICRA'26)</a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <video class="d-block w-100" style="height:480px; object-fit:contain; background:#000;" muted loop playsinline preload="none">
-            <source src="/assets/videos/icra_2026_safedmps.mp4" type="video/mp4">
-          </video>
-          <div class="carousel-caption">
-            <a href="/publications/#safedmps-icra26" class="work-link">SafeDMPs: Formal Safety with DMPs for Adaptive HRI (ICRA'26)</a>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <p style="text-align:center; font-size:0.85rem; color:#666; margin-top:0.5rem;">
-      Videos play continuously; hover to pause the carousel, or use the arrows to browse.
-    </p>
-  </div>
-
   <div class="research-intro">
     <p>
       Physical AI, meaning systems that perceive, reason, and act in the real world, is moving robotics from scripted
@@ -131,8 +46,9 @@ permalink: /research/
         </p>
       </div>
       <div class="research-area-image">
-        <video src="/assets/videos/tro_25.mp4" autoplay muted loop playsinline preload="metadata"
-          aria-label="Generalizable motion policies through keypoint parameterization and transportation maps"></video>
+        <video src="/assets/videos/tro_reshelving_dressing.mp4" autoplay muted loop playsinline preload="metadata"
+          aria-label="Robot reshelving and robot dressing skills learned from demonstration and generalized to new configurations"></video>
+        <p class="research-area-caption">From <a href="/publications/#transportation-maps">Generalizable motion policies through keypoint parameterization and transportation maps (T-RO'25)</a></p>
       </div>
     </div>
 
@@ -154,12 +70,16 @@ permalink: /research/
           embeds Signal Temporal Logic (STL) safety specifications directly into Dynamic Movement Primitives, so
           that adaptive motions remain provably safe during physical contact, while
           <a href="/publications/#variable-impedance-icra26" class="work-link">certified RL for variable impedance control (ICRA'26)</a>
-          pairs RL with Lyapunov-based stability certificates to modulate impedance optimally with guaranteed
-          stability.
+          introduces Certified Gaussian-Manifold Sampling (C-GMS), which keeps every impedance profile sampled during
+          RL within Lyapunov-based stability certificates, so impedance is modulated optimally with guaranteed
+          stability. Without C-GMS, unconstrained exploration drives the robot past its limits and triggers a hard
+          stop, as the video shows.
         </p>
       </div>
       <div class="research-area-image">
-        <img src="/assets/img/publication_preview/safedmps_26.png" alt="Safe DMPs for HRI">
+        <video src="/assets/videos/cgms_comparison.mp4" autoplay muted loop playsinline preload="metadata"
+          aria-label="Certified RL for variable impedance control: with C-GMS the robot stays within safe limits; without it, RL violates the limits and the robot hard-stops"></video>
+        <p class="research-area-caption">From <a href="/publications/#variable-impedance-icra26">Safe and Optimal Variable Impedance Control via Certified Reinforcement Learning (ICRA'26)</a></p>
       </div>
     </div>
 
@@ -185,7 +105,9 @@ permalink: /research/
         </p>
       </div>
       <div class="research-area-image">
+        <img src="/assets/img/publication_preview/ovita_25_original.gif" alt="OVITA: original drone trajectory surveilling an area">
         <img src="/assets/img/publication_preview/ovita_25_instruction.gif" alt="OVITA adapting a drone trajectory from the language instruction: Can you approach the person closely and slowly?">
+        <p class="research-area-caption">From <a href="/publications/#ovita">OVITA: Open-Vocabulary Interpretable Trajectory Adaptations (RA-L'25)</a></p>
       </div>
     </div>
 
@@ -208,7 +130,12 @@ permalink: /research/
         </p>
       </div>
       <div class="research-area-image">
-        <img src="/assets/img/publication_preview/affordmatcher_cvpr_26.png" alt="AffordMatcher: Affordance Learning in 3D Scenes">
+        <video src="/assets/videos/gca_bench_clip.mp4" autoplay muted loop playsinline preload="metadata"
+          aria-label="GCA-Bench evaluating the full grasping pipeline from detection to task completion for the instruction: Pass me a cup of water"></video>
+        <p class="research-area-caption">From <a href="/publications/#beyond-visual-grasping">Beyond Visual Grasping: Benchmarking Complex Grasping from Detection to Execution (IROS'26)</a></p>
+        <video src="/assets/videos/affordmatcher_demo.mp4" autoplay muted loop playsinline preload="metadata"
+          aria-label="AffordMatcher localizing the tip-push affordance of a lamp in a 3D bedroom scene from a visual signifier"></video>
+        <p class="research-area-caption">From <a href="/publications/#affordmatcher">AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers (CVPR'26)</a></p>
       </div>
     </div>
 
@@ -228,6 +155,7 @@ permalink: /research/
       </div>
       <div class="research-area-image">
         <img src="/assets/img/publication_preview/tcst_ac_24.gif" alt="Adaptive Critic Optimal Control">
+        <p class="research-area-caption">From <a href="/publications/#adaptive-critic">Adaptive Critic Optimal Control of an Uncertain Robot Manipulator With Applications (T-CST'24)</a></p>
       </div>
     </div>
 
@@ -242,25 +170,6 @@ permalink: /research/
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Only play the video on the currently visible carousel slide (saves bandwidth)
-    const carousel = document.getElementById('researchCarousel');
-    if (carousel) {
-      const playActive = function () {
-        carousel.querySelectorAll('.carousel-item').forEach(function (item) {
-          const video = item.querySelector('video');
-          if (!video) return;
-          if (item.classList.contains('active')) {
-            video.play().catch(function () {});
-          } else {
-            video.pause();
-          }
-        });
-      };
-      // Play the first slide once, and switch playback whenever the slide changes
-      playActive();
-      carousel.addEventListener('slid.bs.carousel', playActive);
-    }
-
     const modal = document.getElementById('imageModal');
     const modalImg = document.getElementById('modalImage');
     const images = document.querySelectorAll('.research-area-image img, .research-header-image img');

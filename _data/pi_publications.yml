@@ -1,0 +1,241 @@
+# -----------------------------------------------------------------------------
+# Prof. Ravi Prakash: publications from before the HiRo Lab
+# -----------------------------------------------------------------------------
+# Shown only on /people/drraviprakash/, together with every entry in
+# _data/publications.yml (the lab's list). Same fields as that file, except:
+#   image    A full path (starting with /) is used as-is; a bare filename is
+#            looked up in assets/img/publication_preview/.
+#   type     book | journal | conference | workshop
+# -----------------------------------------------------------------------------
+
+- id: iil-survey
+  title: "Interactive Imitation Learning in Robotics: A Survey"
+  authors: "C Celemin, R Pérez-Dattari, E Chisari, G Franzese, L de Souza Rosa, R Prakash, Z Ajanović, M Ferraz, A Valada, J Kober"
+  venue: "Foundations and Trends® in Robotics, Vol. 10, No. 1-2, pp. 1-197"
+  tag: "FnT'22"
+  year: 2022
+  sort_date: "2022-11-30"
+  type: book
+  image: /people/drraviprakash/projectpics/bookIIL.jpg
+  links:
+    - { label: NOW Publishers, url: "https://www.nowpublishers.com/article/Details/ROB-072" }
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/document/9962783" }
+    - { label: arXiv, url: "https://arxiv.org/abs/2211.00600" }
+
+- id: neural-optimal-visual-servoing
+  title: "Neural Optimal Control for Constrained Visual Servoing via Learning from Demonstration"
+  authors: "R Prakash, L Behera"
+  venue: "IEEE Transactions on Automation Science and Engineering, pp. 1-14, 2023"
+  tag: "T-ASE'23"
+  year: 2023
+  sort_date: "2023-06-01"
+  type: journal
+  image: /people/drraviprakash/projectpics/tase2/tase2.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/document/10161692" }
+
+- id: pv-adaptive-neural
+  title: "Model Free Adaptive Neural Controller for Standalone Photovoltaic Distributed Generation Systems With Disturbances"
+  authors: "M Korukonda, R Prakash, S Samanta, L Behera"
+  venue: "IEEE Transactions on Sustainable Energy, vol. 13, no. 2, pp. 653-667, 2022"
+  tag: "T-STE'22"
+  year: 2022
+  sort_date: "2022-04-01"
+  type: journal
+  image: /people/drraviprakash/projectpics/tste.png
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9591394" }
+
+- id: dual-loop-warehouse
+  title: "Dual-loop Optimal Control of a Robot Manipulator and its Application in Warehouse Automation"
+  authors: "R Prakash, L Behera, S Mohan, S Jagannathan"
+  venue: "IEEE Transactions on Automation Science and Engineering, vol. 19, no. 1, pp. 262-279, 2022"
+  tag: "T-ASE'22"
+  year: 2022
+  sort_date: "2022-01-01"
+  type: journal
+  image: /people/drraviprakash/projectpics/tase1/tase1.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9238478" }
+    - { label: PDF, url: "https://drive.google.com/file/d/1TV3lJIsR81hSu-vSXok3b31yEkr__ny-/view" }
+
+- id: intercept-moving-ball
+  title: "Dynamic Trajectory Generation and a Robust Controller to Intercept a Moving Ball in a Game Setting"
+  authors: "R Prakash, L Behera, S Mohan, S Jagannathan"
+  venue: "IEEE Transactions on Control Systems Technology, vol. 28, no. 4, pp. 1418-1432, 2020"
+  tag: "T-CST'20"
+  year: 2020
+  sort_date: "2020-07-01"
+  type: journal
+  image: /people/drraviprakash/projectpics/tcst1/tcst1.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/8715375" }
+    - { label: PDF, url: "https://drive.google.com/file/d/1tDJWUHYmXAuj2ZKuQMszJJo6-zUBjQCX/view" }
+
+- id: closed-form-hjb
+  title: "Closed Form HJB Solution for Path Planning of a Robot Manipulator with Warehousing Applications"
+  authors: "R Prakash, JK Mohanta, L Behera"
+  venue: "IEEE International Conference on Automation Science and Engineering (CASE), Mexico City, 2022"
+  tag: "CASE'22"
+  year: 2022
+  sort_date: "2022-08-20"
+  type: conference
+  image: /people/drraviprakash/projectpics/case2022/case2022.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9926505" }
+    - { label: DOI, url: "https://doi.org/10.1109/CASE49997.2022.9926505" }
+
+- id: construction-perception
+  title: "End-To-End Real-Time Visual Perception Framework for Construction Automation"
+  authors: "M Vohra, A Kumar, R Prakash, L Behera"
+  venue: "IEEE International Conference on Systems, Man, and Cybernetics (SMC), Melbourne, 2021"
+  tag: "SMC'21"
+  year: 2021
+  sort_date: "2021-10-17"
+  type: conference
+  image: /people/drraviprakash/projectpics/smc2021/smc2021.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9658630" }
+    - { label: DOI, url: "https://doi.org/10.1109/SMC52423.2021.9658630" }
+
+- id: edge-corner-point-clouds
+  title: "Edge and Corner Detection in Unorganized Point Clouds for Robotic Pick and Place Applications"
+  authors: "M Vohra, R Prakash, L Behera"
+  venue: "International Conference on Informatics in Control, Automation and Robotics (ICINCO), 2021"
+  tag: "ICINCO'21"
+  year: 2021
+  sort_date: "2021-07-06"
+  type: conference
+  image: /people/drraviprakash/projectpics/icinco2021/icinco2021.gif
+  links:
+    - { label: PDF, url: "https://www.scitepress.org/Papers/2021/105012/105012.pdf" }
+    - { label: DOI, url: "https://doi.org/10.5220/0010501202450253" }
+    - { label: arXiv, url: "https://arxiv.org/abs/2104.09099" }
+
+- id: uav-manipulation-gps-denied
+  title: "Towards Deep Learning Assisted Autonomous UAVs for Manipulation Tasks in GPS-Denied Environments"
+  authors: "A Kumar, M Vohra, R Prakash, L Behera"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Las Vegas, 2020"
+  tag: "IROS'20"
+  year: 2020
+  sort_date: "2020-10-25"
+  type: conference
+  image: /people/drraviprakash/projectpics/iros2020/iros2020.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9341802" }
+    - { label: DOI, url: "https://doi.org/10.1109/IROS45743.2020.9341802" }
+
+- id: adaptive-backstepping
+  title: "Adaptive Backstepping Neural Tracking Control of an Uncertain Robot Manipulator with Dynamic Disturbances"
+  authors: "R Prakash, KV Gupta, L Behera"
+  venue: "IEEE Symposium Series on Computational Intelligence (SSCI), Canberra, 2020"
+  tag: "SSCI'20"
+  year: 2020
+  sort_date: "2020-12-01"
+  type: conference
+  image: /people/drraviprakash/projectpics/ssci2020/robot.JPG
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9308160/" }
+    - { label: DOI, url: "https://doi.org/10.1109/SSCI47803.2020.9308160" }
+
+- id: lyapunov-actor-critic
+  title: "Discrete-Time Lyapunov based Kinematic Control of Robot Manipulator using Actor-Critic Framework"
+  authors: "A Kamboj, R Prakash, JK Mohanta, L Behera"
+  venue: "International Joint Conference on Neural Networks (IJCNN), Glasgow, 2020"
+  tag: "IJCNN'20"
+  year: 2020
+  sort_date: "2020-07-19"
+  type: conference
+  image: /people/drraviprakash/projectpics/ijcnn2020/ur10.png
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9207522" }
+    - { label: DOI, url: "https://doi.org/10.1109/IJCNN48605.2020.9207522" }
+
+- id: inverse-dynamics-learning
+  title: "Combined Online and Offline Inverse Dynamics Learning for a Robot Manipulator"
+  authors: "AS Panda, R Prakash, L Behera, A Dutta"
+  venue: "International Joint Conference on Neural Networks (IJCNN), Glasgow, 2020"
+  tag: "IJCNN'20"
+  year: 2020
+  sort_date: "2020-07-18"
+  type: conference
+  image: /people/drraviprakash/projectpics/ijcnn2020/ur5_ijcnn.png
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/9206604" }
+    - { label: DOI, url: "https://doi.org/10.1109/IJCNN48605.2020.9206604" }
+
+- id: adaptive-critic-kinematic
+  title: "Adaptive Critic Based Optimal Kinematic Control for a Robot Manipulator"
+  authors: "A Menon, R Prakash, L Behera"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), Montreal, 2019"
+  tag: "ICRA'19"
+  year: 2019
+  sort_date: "2019-05-20"
+  type: conference
+  image: /people/drraviprakash/projectpics/icra2019/ur10e.png
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/8793684" }
+    - { label: DOI, url: "https://doi.org/10.1109/ICRA.2019.8793684" }
+
+- id: game-strategy-policy
+  title: "Learning Optimal Parameterized Policy for High Level Strategies in a Game Setting"
+  authors: "R Prakash, M Vohra, L Behera"
+  venue: "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), New Delhi, 2019"
+  tag: "RO-MAN'19"
+  year: 2019
+  sort_date: "2019-10-15"
+  type: conference
+  image: /people/drraviprakash/projectpics/roman2019/roman2019.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/8956383" }
+    - { label: DOI, url: "https://doi.org/10.1109/RO-MAN46459.2019.8956383" }
+
+- id: grasp-pose-clutter
+  title: "Real-time Grasp Pose Estimation for Novel Objects in Densely Cluttered Environment"
+  authors: "M Vohra, R Prakash, L Behera"
+  venue: "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), New Delhi, 2019"
+  tag: "RO-MAN'19"
+  year: 2019
+  sort_date: "2019-10-14"
+  type: conference
+  image: /people/drraviprakash/projectpics/roman2019/roman2019mohit.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/8956438" }
+    - { label: DOI, url: "https://doi.org/10.1109/RO-MAN46459.2019.8956438" }
+
+- id: snac-redundant
+  title: "Reward based Single Network Adaptive Critic for Optimal Kinematic Control of a Redundant Robot Manipulator"
+  authors: "J Jose, R Prakash, L Behera"
+  venue: "IEEE Symposium Series on Computational Intelligence (SSCI), Bangalore, 2018"
+  tag: "SSCI'18"
+  year: 2018
+  sort_date: "2018-11-18"
+  type: conference
+  image: /people/drraviprakash/projectpics/ssci2018/plant_block_diagram.jpg
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/8628659" }
+    - { label: DOI, url: "https://doi.org/10.1109/SSCI.2018.8628659" }
+
+- id: barrett-wam-lfd
+  title: "Learning Object Manipulation from Demonstration through Vision for the 7-DOF Barrett WAM"
+  authors: "N Das, R Prakash, L Behera"
+  venue: "IEEE International Conference on Control, Measurement and Instrumentation (CMI), Kolkata, 2016"
+  tag: "CMI'16"
+  year: 2016
+  sort_date: "2016-01-08"
+  type: conference
+  image: /people/drraviprakash/projectpics/conf2016/conf2016.gif
+  links:
+    - { label: IEEE Xplore, url: "https://ieeexplore.ieee.org/abstract/document/7413777" }
+    - { label: DOI, url: "https://doi.org/10.1109/CMI.2016.7413777" }
+
+- id: induction-motor-propulsion
+  title: "Design of a Three Phase Squirrel Cage Induction Motor for Electric Propulsion System"
+  authors: "R Prakash, MJ Akhtar, RK Behera, SK Parida"
+  venue: "IFAC Proceedings Volumes, vol. 47, no. 1, pp. 801-806, 2014"
+  tag: "IFAC'14"
+  year: 2014
+  sort_date: "2014-03-01"
+  type: conference
+  image: placeholder.png
+  links: []
