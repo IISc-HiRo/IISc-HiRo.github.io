@@ -55,7 +55,7 @@
 - id: corrections-are-evidence
   title: "Corrections Are Evidence, Not Targets: Operator-Aware Inversion for Adapting Frozen Generative Robot Policies"
   authors: "R Jadhav, S Bobade, S Viswanathan, SK Vidyarthi, L Nageswar, R Prakash"
-  venue: "CoRL 2026 Workshop: Learning from Corrections (LfC)"
+  venue: "CoRL 2026 Workshop on Learning from Corrections and Interventions (LfC)"
   tag: "CoRLW'26"
   year: 2026
   sort_date: "2026-10-13"
