@@ -47,7 +47,7 @@
   sort_date: "2026-10-12"
   type: journal
   pinned: true
-  image: neuripsw_law_25.png
+  image: diffusionpack_26.webp
   links:
     - { label: Paper }
     - { label: Workshop Paper, url: "https://openreview.net/forum?id=uReNc199fG" }
@@ -120,7 +120,7 @@
   year: 2026
   sort_date: "2026-09-12"
   type: conference
-  image: placeholder.png
+  image: gripper_aware_vla_26.webp
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2608.24603" }
     - { label: Project Site, url: "https://airvlab.github.io/G-VLA/" }
@@ -133,7 +133,7 @@
   year: 2026
   sort_date: "2026-10-01"
   type: conference
-  image: placeholder.png
+  image: beyond_visual_grasping_26.webp
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2607.14341" }
     - { label: Project Site, url: "https://airvlab.github.io/GCA-Bench/" }
@@ -146,7 +146,7 @@
   year: 2026
   sort_date: "2026-06-07"
   type: conference
-  image: affordmatcher_cvpr_26.png
+  image: affordmatcher_cvpr_26.webp
   links:
     - { label: Paper, url: "https://openaccess.thecvf.com/content/CVPR2026/html/Vu_AffordMatcher_Affordance_Learning_in_3D_Scenes_from_Visual_Signifiers_CVPR_2026_paper.html" }
     - { label: Code, url: "https://github.com/aioz-ai/AffordMatcher" }
@@ -202,7 +202,7 @@
   year: 2026
   sort_date: "2026-06-04"
   type: conference
-  image: safedmps_26.png
+  image: safedmps_icra_26.webp
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2603.29708" }
     - { label: Project Site, url: "https://tiwari-pranav.github.io/SafeDMPs/" }
@@ -216,7 +216,7 @@
   year: 2026
   sort_date: "2026-06-02"
   type: conference
-  image: rlcgms_26.png
+  image: cgms_icra_26.webp
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2511.16330" }
     - { label: Code, url: "https://github.com/shr-eyas/safe-vic" }
@@ -230,7 +230,7 @@
   year: 2026
   sort_date: "2026-06-03"
   type: conference
-  image: byt_26.png
+  image: byt_icra_26.webp
   links:
     - { label: Paper }
     - { label: Code, url: "https://github.com/FocasLab/ICRA-IL-2026" }

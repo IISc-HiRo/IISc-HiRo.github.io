@@ -250,6 +250,42 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
+/* Site footer (every page): one slim row */
+.site-footer {
+  margin-top: 3rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.site-footer-inner {
+  max-width: var(--wide-content-width);
+  margin: 0 auto;
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-footer-inner img {
+  height: 34px;
+  width: auto;
+}
+
+.site-footer-inner p {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--muted-color);
+}
+
+@media (max-width: 768px) {
+  .site-footer-inner {
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.75rem 1rem 1rem;
+    text-align: center;
+  }
+}
+
 /* Funding Section */
 .funding-section {
   margin-top: 1.5rem;
@@ -345,8 +381,8 @@ body {
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 2rem 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -355,8 +391,8 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
 }
 
-.robots-grid .person-card {
-  max-width: 185px;
+.robots-grid .person-card img {
+  max-width: 150px;
 }
 
 .person-card {
@@ -367,7 +403,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 165px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -383,6 +419,7 @@ body {
 
 .person-card img {
   width: 100%;
+  max-width: 170px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top;
@@ -434,6 +471,81 @@ body {
 
 .course-list-logistics {
   margin-top: 0.75rem;
+}
+
+/* Teaching page: one clickable tile per course */
+.course-tiles {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.course-tile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.course-tile:hover {
+  color: var(--text-color);
+  border-color: #c7cdd4;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.course-tile-logo {
+  width: 220px;
+  height: 150px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.course-tile .course-tile-body h2,
+.course-tile .course-tile-body p {
+  color: var(--text-color);
+}
+
+.course-tile-body h2 {
+  margin: 0.25rem 0 0.5rem;
+  font-size: var(--font-size-subheading);
+}
+
+.course-tile-body p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.course-tile .course-tile-meta {
+  font-size: var(--font-size-sm);
+  color: var(--muted-color);
+}
+
+.course-tile-cta {
+  font-weight: 700;
+  color: var(--link-color);
+}
+
+.course-tile:hover .course-tile-cta {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .course-tile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .course-tile-logo {
+    width: 100%;
+    height: 130px;
+  }
 }
 
 .course-details-link,
@@ -915,12 +1027,92 @@ a.pub-link-text {
   color: var(--muted-color);
 }
 
+.person-card .topic {
+  font-size: var(--font-size-xs);
+  line-height: 1.35;
+  color: var(--muted-color);
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+/* People page group photos: polaroid-style frames on the page background */
+.group-carousel {
+  max-width: 960px;
+  margin: 2rem auto;
+}
+
+.group-carousel .carousel-item {
+  height: 560px;
+  padding: 1.5rem 3.5rem 3rem;
+}
+
+.group-carousel .carousel-item.active,
+.group-carousel .carousel-item-next,
+.group-carousel .carousel-item-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-frame {
+  margin: 0;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 0;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14), 0 2px 6px rgba(0, 0, 0, 0.08);
+  transform: rotate(-1deg);
+}
+
+.carousel-item:nth-child(even) .photo-frame {
+  transform: rotate(1deg);
+}
+
+.photo-frame img {
+  display: block;
+  max-width: 100%;
+  max-height: 440px;
+  min-height: 0;
+  object-fit: contain;
+}
+
+.photo-frame figcaption {
+  padding: 0.6rem 0 0.75rem;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text-color);
+  font-style: italic;
+}
+
+.group-carousel .carousel-indicators {
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .group-carousel .carousel-item {
+    height: 340px;
+    padding: 1rem 2rem 2.5rem;
+  }
+
+  .photo-frame {
+    padding: 8px 8px 0;
+  }
+
+  .photo-frame img {
+    max-height: 250px;
+  }
+}
+
 .person-links {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  min-height: 1.6rem; /* keeps names aligned when someone has no links yet */
 }
 
 .person-links a {
@@ -1114,8 +1306,8 @@ a.pub-link-text {
   }
 
   .people-grid {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1.5rem 1rem;
   }
 
   .publication-item {
@@ -1360,6 +1552,85 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.contact-banner {
+  margin: 1.5rem 0 1.5rem;
+}
+
+.contact-banner img {
+  display: block;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 12%;
+  border-radius: var(--radius);
+}
+
+.contact-banner figcaption {
+  margin-top: 0.4rem;
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: var(--muted-color);
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.contact-cards-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-card {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  background: var(--bg-light);
+}
+
+.contact-card h3 {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card p {
+  margin-bottom: 0.4rem;
+  line-height: 1.55;
+}
+
+.contact-card-note {
+  font-size: var(--font-size-sm);
+  color: var(--muted-color);
+}
+
+.contact-social {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.contact-apply {
+  margin-top: 1.25rem;
+}
+
+.contact-apply h3 {
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact-banner img {
+    height: 200px;
+  }
+
+  .contact-cards-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
 .contact-content {
   display: flex;
   flex-direction: column;
@@ -1428,7 +1699,6 @@ a:hover {
   list-style: none;
   padding: 0;
   margin: 0 0 2rem 0;
-  max-width: 800px;
 }
 
 .past-members li {

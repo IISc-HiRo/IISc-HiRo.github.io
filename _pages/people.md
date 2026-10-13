@@ -7,35 +7,53 @@ permalink: /people/
 <div class="people-section">
   <h1>People</h1>
 
-  <!-- Group Photos Carousel -->
-  <div class="group-carousel" style="max-width: 900px; margin: 2rem auto;">
-    <div id="groupCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Group Photos Carousel: whole lab first; photos are shown uncropped -->
+  <div class="group-carousel">
+    <div id="groupCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="ICRA 2026 Group 1"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="1" aria-label="ICRA 2026 Group 2"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="2" aria-label="ICRA 2026 Group 3"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="3" aria-label="ICRA 2026 Group 4"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="4" aria-label="Group 2026"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="5" aria-label="Group 2025"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="HiRo Lab, January 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="1" aria-label="HiRo Lab at ICRA 2026, Vienna"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="2" aria-label="Lab dinner, August 2025"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="3" aria-label="ICRA 2026 trip, Austria"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="4" aria-label="ICRA 2026 trip, Austria"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="5" aria-label="ICRA 2026 trip, Vienna"></button>
       </div>
-      <div class="carousel-inner" style="height: 450px;">
+      <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/assets/img/people/group_icra26_1.jpeg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 1" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/group_1_26.jpeg" alt="HiRo Lab, January 2026">
+            <figcaption>HiRo Lab, January 2026</figcaption>
+          </figure>
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/people/group_icra26_2.jpg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 2" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/group_icra26_1.jpeg" alt="HiRo Lab at ICRA 2026, Vienna">
+            <figcaption>HiRo Lab at ICRA 2026, Vienna</figcaption>
+          </figure>
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/people/group_icra26_3.jpg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 3" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/group_8_25.jpg" alt="Lab dinner, August 2025">
+            <figcaption>Lab dinner, August 2025</figcaption>
+          </figure>
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/people/group_icra26_4.jpg" class="d-block w-100" alt="HiRo Lab ICRA 2026 Group 4" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/group_icra26_3.jpg" alt="ICRA 2026 trip, Austria">
+            <figcaption>ICRA 2026 trip, Austria</figcaption>
+          </figure>
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/people/group_1_26.jpeg" class="d-block w-100" alt="HiRo Lab Group 2026" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/group_icra26_4.jpg" alt="ICRA 2026 trip, Austria">
+            <figcaption>ICRA 2026 trip, Austria</figcaption>
+          </figure>
         </div>
         <div class="carousel-item">
-          <img src="/assets/img/people/group_8_25.jpg" class="d-block w-100" alt="HiRo Lab Group 2025" style="border-radius: 8px; height: 450px; object-fit: cover; object-position: center;">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/group_icra26_2.jpg" alt="ICRA 2026 trip, Vienna">
+            <figcaption>ICRA 2026 trip, Vienna</figcaption>
+          </figure>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#groupCarousel" data-bs-slide="prev">
@@ -108,40 +126,34 @@ permalink: /people/
         <img src="/assets/img/people/soumyajit_kushari.jpg" alt="Soumyajit Kushari"/>
       </div>
       <div class="person-links">
-        <a href="#" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Soumyajit Kushari</span>
       <span class="role">Control Systems, Imitation Learning</span>
+    </div>
+    <div class="person-card">
+      <div class="person-image-link">
+        <img src="/assets/img/people/basu_hela.jpg" alt="Basu Hela"/>
+      </div>
+      <div class="person-links">
+        <a href="https://www.linkedin.com/in/basu-hela-a51533159" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Basu Hela</span>
+      <span class="role">Foundation Models for Robotics</span>
     </div>
   </div>
 
   <h2>MTech(R) &amp; MTech Students</h2>
   <div class="people-grid">
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
-        <img src="/assets/img/people/basu_hela.jpg" alt="Basu Hela"/>
-      </a>
-      <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://www.linkedin.com/in/basu-hela-a51533159" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <span class="name">Basu Hela</span>
-      <span class="role">MTech(R) (CPS)</span>
-    </div>
-    <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/akhil_r_kurup.jpg" alt="Akhil R Kurup"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/akhil-r-kurup" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Akhil R Kurup</span>
       <span class="role">MTech(R) (CPS)</span>
+      <span class="topic">Safe and Efficient Abstraction Learning for Robotic Planning</span>
     </div>
     <div class="person-card">
       <a href="https://mumukshtayal.github.io/" target="_blank" class="person-image-link">
@@ -154,130 +166,110 @@ permalink: /people/
       </div>
       <span class="name">Mumuksh Tayal</span>
       <span class="role">MTech(R) (CPS)</span>
+      <span class="topic">Safe and Robust Deep Learning for Robotics</span>
     </div>
     <div class="person-card">
-      <a href="https://ashrithsagar.github.io/" target="_blank" class="person-image-link">
-        <img src="/assets/img/people/ashrith_yedlapalli.jpeg" alt="Ashrith Sagar Yedlapalli"/>
-      </a>
-      <div class="person-links">
-        <a href="https://ashrithsagar.github.io/" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="https://scholar.google.com/citations?user=io_P3R0AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://www.linkedin.com/in/ashrith9sagar/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <span class="name">Ashrith Sagar Yedlapalli</span>
-      <span class="role">MTech (RAS)</span>
-    </div>
-    <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
-        <img src="/assets/img/people/shubham_puri_goswami.png" alt="Shubham Puri Goswami"/>
-      </a>
-      <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://www.linkedin.com/in/shubhampurigoswami" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <span class="name">Shubham Puri Goswami</span>
-      <span class="role">MTech (RAS)</span>
-    </div>
-    <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
-        <img src="/assets/img/people/siddharth_jain.jpg" alt="Siddharth Jain"/>
-      </a>
-      <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="https://scholar.google.com/citations?user=Fk_2ncoAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://www.linkedin.com/in/siddharth-jain-in" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <span class="name">Siddharth Jain</span>
-      <span class="role">MTech (RAS)</span>
-    </div>
-    <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/swapnil_joshi.jpeg" alt="Swapnil Joshi"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/swapnil-joshi-059731357/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Swapnil Joshi</span>
       <span class="role">MTech (AI)</span>
+      <span class="topic">Diffusion-Based Task and Motion Planning</span>
     </div>
     <div class="person-card">
       <a href="https://aryansingh27022003.github.io/Portfolio/" target="_blank" class="person-image-link">
-        <img src="/assets/img/people/aryan_kumar_singh.png" alt="Aryan Kumar Singh"/>
+        <img src="/assets/img/people/aryan_kumar_singh.jpg" alt="Aryan Kumar Singh"/>
       </a>
       <div class="person-links">
         <a href="https://aryansingh27022003.github.io/Portfolio/" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/aryan-kumar-singh-334865227/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Aryan Kumar Singh</span>
       <span class="role">MTech (AI)</span>
+      <span class="topic">Predictive Preference Learning for Autonomous Driving</span>
     </div>
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/nithish_m.jpg" alt="Nithish M"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/nithish-m-48182220b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Nithish M</span>
       <span class="role">MTech (EE)</span>
+      <span class="topic">Riemannian Manifold Robot Learning and Generalization</span>
     </div>
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/shanmukha_rao.jpg" alt="Shanmukha Rao Jammalamadugu"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://in.linkedin.com/in/shanmukha-rao-jammalamadugu-a94677269" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Shanmukha Rao Jammalamadugu</span>
       <span class="role">MTech (EE)</span>
+      <span class="topic">Learning from Demonstration with Imperfect Teachers</span>
     </div>
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/aryan_dahiya.jpg" alt="Aryan Dahiya"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/aryan-dahiya-908703255" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Aryan Dahiya</span>
       <span class="role">MTech (ME)</span>
+      <span class="topic">Learning-Based Navigation</span>
     </div>
   </div>
 
   <h2>Research Staff</h2>
   <div class="people-grid">
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/manthan_goyal.jpeg" alt="Manthan Goyal"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/manthan-goyal-00a4601b7" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Manthan Goyal</span>
       <span class="role">Research Associate</span>
+      <span class="topic">Interactive Robot Learning for Manipulation and HRI</span>
     </div>
     <div class="person-card">
-      <a href="#" target="_blank" class="person-image-link">
+      <div class="person-image-link">
         <img src="/assets/img/people/ahan_panda.jpg" alt="Ahan Panda"/>
-      </a>
+      </div>
       <div class="person-links">
-        <a href="#" target="_blank" title="Personal Page"><i class="fas fa-globe"></i></a>
-        <a href="#" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/ahan-panda-54a895242" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Ahan Panda</span>
       <span class="role">Research Associate</span>
+      <span class="topic">Robust Imitation Learning from Imperfect Data</span>
+    </div>
+    <div class="person-card">
+      <div class="person-image-link">
+        <img src="/assets/img/people/rushikesh_jadhav.jpg" alt="Rushikesh Jadhav"/>
+      </div>
+      <div class="person-links">
+        <a href="https://www.linkedin.com/in/rushikesh-jadhav-05460b169/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <span class="name">Rushikesh Jadhav</span>
+      <span class="role">Research Associate</span>
+      <span class="topic">Predictive Preference Learning for Navigation</span>
+    </div>
+    <div class="person-card">
+      <div class="person-image-link">
+        <img src="/assets/img/people/ishita_chaudhary.jpg" alt="Ishita Chaudhary"/>
+      </div>
+      <div class="person-links">
+      </div>
+      <span class="name">Ishita Chaudhary</span>
+      <span class="role">Research Associate</span>
+      <span class="topic">Generalizing Robot Skills across Embodiments and Objects</span>
     </div>
   </div>
 
@@ -335,5 +327,15 @@ permalink: /people/
   <ul class="past-members">
     <li><a href="https://in.linkedin.com/in/anurag-maurya-617287215" target="_blank">Anurag Maurya</a> (2024&ndash;25)</li>
     <li><a href="https://www.linkedin.com/in/shr-eyas/" target="_blank">Shreyas Kumar</a> (2025&ndash;26) <span class="now">(Now: Founding Engineer at DexSent Robotics)</span></li>
+  </ul>
+
+  <h3>Master's Students</h3>
+  <ul class="past-members">
+    <li><a href="https://ashrithsagar.github.io/" target="_blank">Ashrith Sagar Yedlapalli</a> (2024&ndash;26), MTech (RAS): <em>Task-Parameterized Interactive Imitation Learning</em> <span class="now">(Now: PhD student, Dept. of Cyber-Physical Systems, IISc)</span></li>
+    <li><a href="https://www.linkedin.com/in/shubhampurigoswami" target="_blank">Shubham Puri Goswami</a> (2024&ndash;26), MTech (RAS): <em>Bimanual Collaborative Manipulation with Diverse Tools</em></li>
+    <li><a href="https://www.linkedin.com/in/siddharth-jain-in" target="_blank">Siddharth Jain</a> (2024&ndash;26), MTech (RAS): <em>Reinforcement Learning for Safe and Robust Control</em> <span class="now">(Now: Honeywell, Bengaluru)</span></li>
+    <li>Jwalakar Vishnu Dutt (2023&ndash;25), MTech (CPS): <em>Visual Imitation Learning for Long-horizon Tasks</em> <span class="now">(Now: Netradyne, Bengaluru)</span></li>
+    <li>Md. Farhad Hussain (2023&ndash;25), MTech (CPS): <em>Language-Conditioned Affordance-Based Grasp Pose Learning from 3D Point Clouds</em> <span class="now">(Now: John Deere, Pune)</span></li>
+    <li>Sahil Kishor Bobade (2023&ndash;25), MTech (CPS): <em>Zero-Shot Robotic Task Generalization Using Vision-Language Models and Keypoint Constraints</em></li>
   </ul>
 </div>

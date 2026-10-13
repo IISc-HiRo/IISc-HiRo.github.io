@@ -15,7 +15,7 @@ permalink: /
   <div class="hero-text">
     
     <p>
-      The Human-interactive Robotics (HiRo) Lab is a research group in the <a href='https://cps.iisc.ac.in'>Department of Cyber-Physical Systems</a> at the <a href='https://iisc.ac.in'>Indian Institute of Science Bangalore</a> set up and led by <a href='/people/drraviprakash/'>Prof. Ravi Prakash</a>.
+      The Human-interactive Robotics (HiRo) Lab is a research group in the <a href='https://cps.iisc.ac.in'>Department of Cyber-Physical Systems</a> at the <a href='https://iisc.ac.in'>Indian Institute of Science Bangalore</a> set up in 2024 and led by <a href='/people/drraviprakash/'>Prof. Ravi Prakash</a>.
     </p>
     
     <p>
