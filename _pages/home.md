@@ -15,6 +15,10 @@ permalink: /
     <p>
       The group's research interests lie at the intersection of robotics, machine learning, and human-robot interaction, with a focus on robot manipulation for real-world applications, including healthcare, retail, and space robots. The central principle is to enable humans with varying levels of robotic expertise to transfer their knowledge and experience of skills and tasks to the robot, enabling it to explore and execute tasks in unstructured, novel scenarios.
     </p>
+
+    <p>
+      As AI moves into the physical world, our work focuses on what it takes for robots to be deployed alongside people: learning from human expertise, acting safely under uncertainty, and adapting to unstructured environments.
+    </p>
     
     <div class="hero-links">
       <a href="https://www.linkedin.com/company/hiro-iisc/">LinkedIn</a>

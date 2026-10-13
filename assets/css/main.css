@@ -1281,7 +1281,9 @@ a:hover {
   max-width: 340px;
 }
 
-.research-area-image img {
+.research-area-image img,
+.research-area-image video {
+  display: block;
   width: 100%;
   border-radius: var(--radius);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -1519,6 +1521,7 @@ a:hover {
 .pub-preview video,
 .research-header-image img,
 .research-area-image img,
+.research-area-image video,
 .contact-links a,
 .lab-location .lab-map iframe,
 .calendar-table-wrap {
