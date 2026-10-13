@@ -170,6 +170,7 @@
   title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
   authors: "M Tayal, M Tayal, A Singh, S Kolathaya, R Prakash"
   venue: "Transactions on Machine Learning Research"
+  also: "AAAI 2026 Workshop on Deployable AI (DAI) (Oral)"
   tag: "TMLR'26"
   year: 2026
   sort_date: "2026-03-27"
