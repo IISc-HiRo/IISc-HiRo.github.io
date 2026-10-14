@@ -2033,6 +2033,10 @@ button:focus-visible {
 .profile-bio p {
   font-size: var(--font-size-lead);
   line-height: 1.75;
+  margin-bottom: 0.75rem;
+}
+
+.profile-bio p:last-child {
   margin-bottom: 1.5rem;
 }
 
