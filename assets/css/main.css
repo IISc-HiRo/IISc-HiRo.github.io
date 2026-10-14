@@ -955,8 +955,100 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
+/* Publication type colors (venue badges and filter legend) */
+:root {
+  --pub-journal: #2e8b57;
+  --pub-conference: #2459a8;
+  --pub-workshop: #b7791f;
+  --pub-book: #7a4a2f;
+}
+
+/* Type is shown by the venue badge's color; the thumbnail keeps its thin grey border */
+.pub-type-journal .pub-venue-tag { background: var(--pub-journal); }
+.pub-type-conference .pub-venue-tag { background: var(--pub-conference); }
+.pub-type-workshop .pub-venue-tag { background: var(--pub-workshop); }
+.pub-type-book .pub-venue-tag { background: var(--pub-book); }
+
+.pub-coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--bg-light);
+}
+
+.pub-coming-soon span {
+  font-size: var(--font-size-xs);
+  font-style: italic;
+  line-height: 1.5;
+  color: #9aa0a6;
+}
+
+/* Type filter buttons are solid boxes in their type's color and double as the legend.
+   While a filter is on, the unselected types dim. */
+.filter-btn[data-filter="all"] {
+  border-color: #3c4043;
+  color: #3c4043;
+}
+
+.filter-btn[data-filter="all"].active,
+.filter-btn[data-filter="all"]:hover {
+  background: #3c4043;
+  color: #fff;
+}
+
+.filter-btn[data-filter="journal"],
+.filter-btn[data-filter="conference"],
+.filter-btn[data-filter="workshop"] {
+  color: #fff;
+  font-weight: 600;
+}
+
+.filter-btn[data-filter="journal"] { background: var(--pub-journal); border-color: var(--pub-journal); }
+.filter-btn[data-filter="conference"] { background: var(--pub-conference); border-color: var(--pub-conference); }
+.filter-btn[data-filter="workshop"] { background: var(--pub-workshop); border-color: var(--pub-workshop); }
+
+.filter-btn[data-filter="journal"]:hover,
+.filter-btn[data-filter="conference"]:hover,
+.filter-btn[data-filter="workshop"]:hover {
+  color: #fff;
+  filter: brightness(1.1);
+}
+
+.filter-buttons:has(.filter-btn[data-filter="all"]:not(.active)) .filter-btn:not([data-filter="all"]):not(.active) {
+  opacity: 0.35;
+}
+
 .pub-content {
   flex: 1;
+}
+
+.pub-venue .venue-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #9aa0a6;
+}
+
+.pub-venue .venue-link:hover {
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
+}
+
+.pub-authors .author-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #9aa0a6;
+}
+
+.pub-authors .author-link:hover {
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
+}
+
+.pub-equal {
+  font-size: var(--font-size-xs);
+  color: var(--muted-color);
+  margin-top: -0.15rem;
 }
 
 .pub-title {

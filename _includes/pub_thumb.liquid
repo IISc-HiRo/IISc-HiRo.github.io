@@ -1,0 +1,22 @@
+{%- comment -%}
+  Publication thumbnail. The venue badge is colored by type (journal /
+  conference / workshop / book). Papers without a figure (image:
+  placeholder.png) show a quiet "Preview coming soon" tile.
+  Usage: {% include pub_thumb.liquid pub=pub %}
+{%- endcomment -%}
+{%- assign p = include.pub -%}
+{%- if p.image == "placeholder.png" or p.image == nil -%}
+<div class="pub-thumbnail pub-type-{{ p.type }} pub-coming-soon">
+  <span>Preview coming soon</span>
+  <div class="pub-venue-tag">{{ p.tag }}</div>
+</div>
+{%- else -%}
+<div class="pub-thumbnail pub-type-{{ p.type }}">
+  {%- if p.image contains "/" %}
+  <img src="{{ p.image }}" alt="{{ p.title | strip_html }}" loading="lazy">
+  {%- else %}
+  <img src="/assets/img/publication_preview/{{ p.image }}" alt="{{ p.title | strip_html }}" loading="lazy">
+  {%- endif %}
+  <div class="pub-venue-tag">{{ p.tag }}</div>
+</div>
+{%- endif -%}

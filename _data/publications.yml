@@ -9,8 +9,12 @@
 #   id       Unique anchor slug. Lets other pages deep-link to this paper, e.g.
 #            /publications/#ovita. Keep it short, lowercase, and stable.
 #   title    Paper title (HTML allowed, e.g. <sup>2</sup>)
-#   authors  Author list as a single string
-#   venue    Full venue name (shown under the authors)
+#   authors  Author list as a single string. Mark equal first authors with *
+#            (e.g. "A Author*, B Author*, R Prakash"); the page then adds an
+#            "* Equal contribution" note.
+#   venue    Full venue name (shown under the authors). Linked via _data/venues.yml
+#            by tag; workshops set their own `venue_url` instead.
+#   location City, country for conferences and workshops (omit for journals)
 #   tag      Short venue badge shown on the thumbnail (e.g. ICRA'26)
 #   year     Publication year (controls grouping/sorting)
 #   sort_date Hidden chronological key in YYYY-MM-DD format (not displayed)
@@ -24,8 +28,9 @@
 
 - id: bridging-safety-neurips26
   title: "Bridging Safety and Performance in Autonomous Systems using Offline Reinforcement Learning"
-  authors: "M Tayal, M Tayal, R Prakash"
+  authors: "Mumuksh Tayal*, Manan Tayal*, R Prakash"
   venue: "40th Annual Conference on Neural Information Processing Systems (NeurIPS)"
+  location: "Sydney, Australia"
   also: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
   tag: "NeurIPS'26"
   year: 2026
@@ -56,6 +61,8 @@
   title: "Corrections Are Evidence, Not Targets: Operator-Aware Inversion for Adapting Frozen Generative Robot Policies"
   authors: "R Jadhav, S Bobade, S Viswanathan, SK Vidyarthi, L Nageswar, R Prakash"
   venue: "CoRL 2026 Workshop on Learning from Corrections and Interventions (LfC)"
+  location: "Austin, USA"
+  venue_url: "https://2026.corl.org/"
   tag: "CoRLW'26"
   year: 2026
   sort_date: "2026-10-13"
@@ -68,6 +75,8 @@
   title: "Where Reasoning Does Not Matter: Isolating Chain-of-Thought in a Modular, Agentic VLM Manipulation Pipeline"
   authors: "B Hela, R Prakash"
   venue: "RSS 2026 Workshop: Semantic Reasoning and Goal Understanding in Robotics (SemRob)"
+  location: "Sydney, Australia"
+  venue_url: "https://semrob.github.io/"
   tag: "RSSW'26"
   year: 2026
   sort_date: "2026-07-17"
@@ -80,6 +89,8 @@
   title: "GenieMotion: Learning Object-Centric 4D Motion Representations from a Single Image via Generative Demonstrations"
   authors: "M Halder, R Prakash"
   venue: "CVPR 2026 Workshop: 4D Vision"
+  location: "Denver, USA"
+  venue_url: "https://cvpr.thecvf.com/virtual/2026/workshop/36020"
   tag: "CVPRW'26"
   year: 2026
   sort_date: "2026-06-04"
@@ -92,6 +103,8 @@
   title: "The Topological Cage: A Search-Less Geometric Handshake for Medial Axis Injection"
   authors: "SP Goswami, R Prakash"
   venue: "ICRA 2026 Workshop: Geometry in the Age of Data-Driven Robotics"
+  location: "Vienna, Austria"
+  venue_url: "https://2026.ieee-icra.org/program/workshops-tutorials/"
   tag: "ICRAW'26"
   year: 2026
   sort_date: "2026-06-05"
@@ -104,6 +117,8 @@
   title: "Latent Dynamics Modulation Guidance for Semantic Obstacle Avoidance in Diffusion Policies"
   authors: "S Alavala, V Buereddy, R Prakash"
   venue: "ICRA 2026 Workshop: Semantics for Reliable Robot Autonomy"
+  location: "Vienna, Austria"
+  venue_url: "https://www.dynsyslab.org/icra2026-workshop-on-semantics-for-reliable-robot-autonomy/"
   tag: "ICRAW'26"
   year: 2026
   sort_date: "2026-06-05"
@@ -116,6 +131,8 @@
   title: "State-Corrected Predictive Preference Learning for Multimodal Robot Navigation on Uneven Terrain"
   authors: "R Jadhav, AK Singh, S Ganguly, R Prakash, V Kumar"
   venue: "ICRA 2026 Workshop: Long-term Deployments in the Wild (LoWi)"
+  location: "Vienna, Austria"
+  venue_url: "https://2026.ieee-icra.org/program/workshops-tutorials/"
   tag: "ICRAW'26"
   year: 2026
   sort_date: "2026-06-01"
@@ -128,6 +145,7 @@
   title: "Gripper-aware Vision Language Action Models"
   authors: "H Zhang, Z Luo, T Li, K Nguyen, B Hela, S Kumar, ND Tran, F Dai, C Munasinghe, J Peña Queralta, G Toffetti, K Vo, N Le, R Prakash, Q Vuong, TD Ta, L Hu, A Nguyen, B Huang"
   venue: "European Conference on Computer Vision (ECCV)"
+  location: "Malmö, Sweden"
   tag: "ECCV'26"
   year: 2026
   sort_date: "2026-09-12"
@@ -141,6 +159,7 @@
   title: "Beyond Visual Grasping: Benchmarking Complex Grasping from Detection to Execution"
   authors: "H Zhang, K Nguyen, C Munasinghe, B Hela, T Li, Z Luo, H Nguyen, HW van de Venn, Y Zheng, R Prakash, TD Ta, A Nguyen, B Huang"
   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  location: "Pittsburgh, USA"
   tag: "IROS'26"
   year: 2026
   sort_date: "2026-10-01"
@@ -154,6 +173,7 @@
   title: "AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers"
   authors: "N Vu, T Do, K Nguyen, B Huang, N Le, BX Nguyen, E Tjiputra, QD Tran, R Prakash, T-C Chiu, A Nguyen"
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  location: "Denver, USA"
   tag: "CVPR'26"
   year: 2026
   sort_date: "2026-06-07"
@@ -166,8 +186,9 @@
 
 - id: safe-flow-q-learning
   title: "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies"
-  authors: "M Tayal, M Tayal, R Prakash"
+  authors: "Mumuksh Tayal*, Manan Tayal*, R Prakash"
   venue: "Reinforcement Learning Conference (RLC)"
+  location: "Montréal, Canada"
   also: "ICML 2026 Workshop: Agents in the Wild (AIWILD)"
   tag: "RLC'26"
   year: 2026
@@ -180,7 +201,7 @@
 
 - id: v-ocbf
   title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
-  authors: "M Tayal, M Tayal, A Singh, S Kolathaya, R Prakash"
+  authors: "Mumuksh Tayal*, Manan Tayal*, A Singh, S Kolathaya, R Prakash"
   venue: "Transactions on Machine Learning Research"
   also: "AAAI 2026 Workshop on Deployable AI (DAI) (Oral)"
   tag: "TMLR'26"
@@ -209,6 +230,7 @@
   title: "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI"
   authors: "P Tiwari, S Nath, R Prakash"
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  location: "Vienna, Austria"
   also: "CoRL 2025 2nd Workshop: Safe and Robust Robot Learning for Operation in the Real World"
   tag: "ICRA'26"
   year: 2026
@@ -224,6 +246,7 @@
   title: "Safe and Optimal Variable Impedance Control via Certified Reinforcement Learning"
   authors: "S Kumar, R Prakash"
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  location: "Vienna, Austria"
   tag: "ICRA'26"
   year: 2026
   sort_date: "2026-06-02"
@@ -235,8 +258,9 @@
 
 - id: beyond-the-teacher-icra26
   title: "Beyond the Teacher: Leveraging Mixed-Skill Demonstrations for Robust Imitation Learning"
-  authors: "S Saharsh, S Sonkar, P Jagtap, R Prakash"
+  authors: "S Saharsh*, S Sonkar*, P Jagtap, R Prakash"
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  location: "Vienna, Austria"
   also: "CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches"
   tag: "ICRA'26"
   year: 2026
@@ -251,8 +275,10 @@
 
 - id: rise
   title: "RISE: Robust Imitation through Stochastic Encodings"
-  authors: "M Tayal, M Tayal, R Prakash"
+  authors: "Mumuksh Tayal, Manan Tayal, R Prakash"
   venue: "IROS 2025 Workshop: LeaPRIDE: Learning, Planning, and Reasoning in Dynamic Environments"
+  location: "Hangzhou, China"
+  venue_url: "https://www.iros2025.org/"
   tag: "IROSW'25"
   year: 2025
   sort_date: "2025-10-25"
@@ -278,6 +304,8 @@
   title: "PACER: Progress-Aligned Curation for Error-Resilient Imitation Learning"
   authors: "S Kumar, R Prakash"
   venue: "CoRL 2025 Workshop: Making Sense of Data in Robotics: Composition, Quality, and Data-centric Approaches"
+  location: "Seoul, South Korea"
+  venue_url: "https://2025.corl.org/"
   tag: "CoRLW'25"
   year: 2025
   sort_date: "2025-09-27"
@@ -303,6 +331,7 @@
   title: "Impedance Primitive-Augmented Hierarchical Reinforcement Learning for Sequential Tasks"
   authors: "AB Tahmaz, R Prakash, J Kober"
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  location: "Atlanta, USA"
   tag: "ICRA'25"
   year: 2025
   sort_date: "2025-05-23"
@@ -327,6 +356,8 @@
   title: "3rd Workshop on Human-Interactive Robot Learning (HIRL)"
   authors: "M Racca, R Mirsky, E Senft, X Xiao, I Idrees, A Kshirsagar, R Prakash"
   venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
+  location: "Boulder, USA"
+  venue_url: "https://humanrobotinteraction.org/2024/"
   tag: "HRI'24"
   year: 2024
   sort_date: "2024-03-15"

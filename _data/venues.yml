@@ -1,0 +1,31 @@
+# -----------------------------------------------------------------------------
+# Venue links, keyed by a publication's `tag`
+# -----------------------------------------------------------------------------
+# The venue line of each paper links here. Workshops vary per paper, so they
+# set `venue_url` in their own entry instead. Only link stable, official pages:
+# old conference domains expire and get taken over (several from 2018-2021 now
+# redirect to gambling sites), so older conferences are deliberately unlinked.
+# -----------------------------------------------------------------------------
+
+# Conferences
+"NeurIPS'26": "https://neurips.cc/Conferences/2026"
+"IROS'26": "https://2026.ieee-iros.org/"
+"ECCV'26": "https://eccv.ecva.net/Conferences/2026"
+"CVPR'26": "https://cvpr.thecvf.com/Conferences/2026"
+"RLC'26": "https://rl-conference.cc/"
+"ICRA'26": "https://2026.ieee-icra.org/"
+"ICRA'25": "https://2025.ieee-icra.org/"
+"ICINCO'21": "https://icinco.scitevents.org/"
+
+# Journals and books
+"RA-L'26": "https://www.ieee-ras.org/publications/ra-l/"
+"RA-L'25": "https://www.ieee-ras.org/publications/ra-l/"
+"TMLR'26": "https://jmlr.org/tmlr/"
+"RA-M'26": "https://www.ieee-ras.org/publications/ram/"
+"T-RO'25": "https://www.ieee-ras.org/publications/t-ro/"
+"T-CST'24": "https://ieeecss.org/publication/transactions-control-systems-technology"
+"T-CST'20": "https://ieeecss.org/publication/transactions-control-systems-technology"
+"T-ASE'23": "https://www.ieee-ras.org/publications/t-ase/"
+"T-ASE'22": "https://www.ieee-ras.org/publications/t-ase/"
+"T-STE'22": "https://ieee-pes.org/publications/transactions-on-sustainable-energy/"
+"FnT'22": "https://www.nowpublishers.com/ROB"

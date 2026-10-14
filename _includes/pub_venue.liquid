@@ -1,0 +1,4 @@
+{%- comment -%}Venue line, linked to the venue's page when known. Usage: {% include pub_venue.liquid pub=pub %}{%- endcomment -%}
+{%- assign vurl = include.pub.venue_url | default: site.data.venues[include.pub.tag] -%}
+{%- if vurl -%}<a href="{{ vurl }}" class="venue-link" target="_blank" rel="noopener">{{ include.pub.venue }}</a>{%- else -%}{{ include.pub.venue }}{%- endif -%}
+{%- if include.pub.location %}, {{ include.pub.location }}{% endif -%}

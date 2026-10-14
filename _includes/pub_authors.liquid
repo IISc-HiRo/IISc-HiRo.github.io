@@ -1,0 +1,16 @@
+{%- comment -%}
+  Author list with each name linked via _data/authors.yml.
+  Usage: {% include pub_authors.liquid authors=pub.authors bold_pi=true %}
+  bold_pi: bold "R Prakash" and leave it unlinked (used on his own page).
+{%- endcomment -%}
+{%- assign names = include.authors | split: ", " -%}
+{%- for raw in names -%}
+  {%- assign name = raw | strip -%}
+  {%- assign key = name | remove: "*" -%}
+  {%- assign url = site.data.authors[key] -%}
+  {%- if include.bold_pi and key == "R Prakash" -%}<strong>{{ name }}</strong>
+  {%- elsif url -%}<a href="{{ url }}" class="author-link"{% unless url contains "/people/drraviprakash/" %} target="_blank" rel="noopener"{% endunless %}>{{ name }}</a>
+  {%- else -%}{{ name }}
+  {%- endif -%}
+  {%- unless forloop.last %}, {% endunless -%}
+{%- endfor -%}

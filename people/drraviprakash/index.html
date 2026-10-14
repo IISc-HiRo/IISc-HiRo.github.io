@@ -136,18 +136,12 @@ permalink: /people/drraviprakash/
     <div class="publications-list">
       {%- for pub in list %}
       <div class="publication-item" id="{{ pub.id }}">
-        <div class="pub-thumbnail">
-          {%- if pub.image contains "/" %}
-          <img src="{{ pub.image }}" alt="{{ pub.title | strip_html }}" loading="lazy">
-          {%- else %}
-          <img src="/assets/img/publication_preview/{{ pub.image }}" alt="{{ pub.title | strip_html }}" loading="lazy">
-          {%- endif %}
-          <div class="pub-venue-tag">{{ pub.tag }}</div>
-        </div>
+        {% include pub_thumb.liquid pub=pub %}
         <div class="pub-content">
           <div class="pub-title">{{ pub.title }}</div>
-          <div class="pub-authors">{{ pub.authors | replace: "R Prakash", "<strong>R Prakash</strong>" }}</div>
-          <div class="pub-venue">{{ pub.venue }}</div>
+          <div class="pub-authors">{% include pub_authors.liquid authors=pub.authors bold_pi=true %}</div>
+          {%- if pub.authors contains "*" %}<div class="pub-equal">* Equal contribution</div>{% endif %}
+          <div class="pub-venue">{% include pub_venue.liquid pub=pub %}</div>
           {%- if pub.also %}
           <div class="pub-also">Preliminary version appeared at {{ pub.also }}</div>
           {%- endif %}

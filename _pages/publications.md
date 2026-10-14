@@ -26,14 +26,12 @@ permalink: /publications/
     {%- assign ordered_pubs = pinned_pubs | concat: journal_pubs | concat: conference_pubs | concat: workshop_pubs -%}
     {%- for pub in ordered_pubs %}
     <div class="publication-item" id="{{ pub.id }}" data-category="{{ pub.type }}">
-      <div class="pub-thumbnail">
-        <img src="/assets/img/publication_preview/{{ pub.image }}" alt="{{ pub.title | strip_html }}" loading="lazy">
-        <div class="pub-venue-tag">{{ pub.tag }}</div>
-      </div>
+      {% include pub_thumb.liquid pub=pub %}
       <div class="pub-content">
         <div class="pub-title">{{ pub.title }}</div>
-        <div class="pub-authors">{{ pub.authors }}</div>
-        <div class="pub-venue">{{ pub.venue }}</div>
+        <div class="pub-authors">{% include pub_authors.liquid authors=pub.authors %}</div>
+        {%- if pub.authors contains "*" %}<div class="pub-equal">* Equal contribution</div>{% endif %}
+        <div class="pub-venue">{% include pub_venue.liquid pub=pub %}</div>
         {%- if pub.also %}
         <div class="pub-also">Preliminary version appeared at {{ pub.also }}</div>
         {%- endif %}

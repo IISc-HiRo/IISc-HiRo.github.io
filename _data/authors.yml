@@ -1,0 +1,51 @@
+# -----------------------------------------------------------------------------
+# Author profile links
+# -----------------------------------------------------------------------------
+# Author names in publications.yml / pi_publications.yml are linked to these
+# pages on the Publications page and Prof. Prakash's page. The key must match
+# the name exactly as written in the author list (e.g. "A Maurya"). Prefer
+# LinkedIn; use a homepage or university page when there is no LinkedIn.
+# Names not listed here are shown as plain text.
+# -----------------------------------------------------------------------------
+
+# HiRo Lab (current and past members)
+"R Prakash": "/people/drraviprakash/"
+"A Maurya": "https://in.linkedin.com/in/anurag-maurya-617287215"
+"B Hela": "https://www.linkedin.com/in/basu-hela-a51533159"
+"M Halder": "https://www.linkedin.com/in/mritunjoyh/"
+"S Alavala": "https://www.linkedin.com/in/sasidharalavala/"
+"V Buereddy": "https://www.linkedin.com/in/varunibuereddy/"
+"Mumuksh Tayal": "https://www.linkedin.com/in/mumuksh-tayal-9802aa1b9"
+"AK Singh": "https://www.linkedin.com/in/aryan-kumar-singh-334865227/"
+"R Jadhav": "https://www.linkedin.com/in/rushikesh-jadhav-05460b169/"
+"S Kumar": "https://www.linkedin.com/in/shr-eyas/"
+"SP Goswami": "https://www.linkedin.com/in/shubhampurigoswami"
+
+# Collaborators
+"C Celemin": "https://sites.google.com/view/carloscelemin"
+"R Pérez-Dattari": "https://www.tudelft.nl/staff/r.j.perezdattari/"
+"E Chisari": "https://chisarie.github.io/"
+"G Franzese": "https://www.linkedin.com/in/giovanni-franzese-6a7318168/"
+"L de Souza Rosa": "https://www.linkedin.com/in/lsr/"
+"Z Ajanović": "https://www.linkedin.com/in/zlatanajanovic/"
+"M Ferraz": "https://www.linkedin.com/in/marta-ferraz-a6200551/"
+"A Valada": "https://rl.uni-freiburg.de/people/valada"
+"J Kober": "http://www.jenskober.de/"
+"C Della Santina": "https://cosimodellasantina.eu/"
+
+# IIT Kanpur collaborators
+"L Behera": "https://iitk.ac.in/new/laxmidhar-behera"
+"S Jagannathan": "https://web.mst.edu/~sarangap/index.htm"
+"S Mohan": "https://iitpkd.ac.in/people/santhakumar"
+"JK Mohanta": "https://iitj.irins.org/profile/206187"
+"A Dutta": "https://home.iitk.ac.in/~adutta/"
+"S Samanta": "https://home.iitk.ac.in/~suvendus/"
+"AS Panda": "https://dblp.org/pid/275/7423.html"
+"J Jose": "https://ieeexplore.ieee.org/author/37086611817"
+"KV Gupta": "https://scholar.google.co.in/citations?user=hrn7cfwAAAAJ&hl=en"
+"A Kamboj": "https://www.egr.msu.edu/d-cypher/profile/ankur-kamboj"
+"A Menon": "https://www.linkedin.com/in/aiswarya-menon-67a06813a/"
+"A Kumar": "https://www.linkedin.com/in/ashishkumar822/"
+"M Korukonda": "https://www.linkedin.com/in/meher-korukonda-788a7843/"
+"M Vohra": "https://www.linkedin.com/in/mohit-vohra-a519071b3/"
+"N Das": "https://www.niladridas.com/"
