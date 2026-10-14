@@ -27,6 +27,13 @@ The site is then available at http://localhost:4000.
 - **Publications:** add an entry to `_data/publications.yml`.
 - **People:** edit `_pages/people.md`; member photos go in `assets/img/people/`.
 
+## Naming the Institute
+
+Per the Registrar's circular Regr(RO)/2026/62/18 (15 July 2026):
+
+- Write only **"Indian Institute of Science"**. Do not add "Bangalore" or "Bengaluru" to the name.
+- Use **"Bengaluru"** (never "Bangalore") only in the Institute's postal address.
+
 ## Deployment
 
 Commits pushed to the `master` branch are built and deployed to GitHub Pages

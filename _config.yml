@@ -8,7 +8,7 @@ last_name: IISc
 email: hiro.cps.iisc@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The Human-interactive Robotics (HiRo) Lab is a research group in the Department of Cyber-Physical Systems at the 
-  Indian Institute of Science Bangalore set up and led by Prof. Ravi Prakash.
+  Indian Institute of Science set up and led by Prof. Ravi Prakash.
 footer_text: >
   Lab website at <a href="https://hiro.cps.iisc.ac.in" target="_blank">HiRo Lab</a>.
 keywords: iisc, hiro, robotics, human-robot-interaction, machine-learning, reinforcement-learning, imitation-learning, safe-robotics, impedance-control, variable-impedance, trajectory-adaptation, optimal-control

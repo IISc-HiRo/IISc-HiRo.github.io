@@ -6,8 +6,8 @@ permalink: /contact/
 
 <div class="contact-page">
   <figure class="contact-banner">
-    <img src="/assets/img/others/iisc_main_building.jpg" alt="Main Building, Indian Institute of Science, Bengaluru">
-    <figcaption>Main Building, Indian Institute of Science, Bengaluru</figcaption>
+    <img src="/assets/img/others/iisc_main_building.jpg" alt="Main Building, Indian Institute of Science">
+    <figcaption>Main Building, Indian Institute of Science</figcaption>
   </figure>
 
   <h1>Contact</h1>
