@@ -37,7 +37,7 @@
   sort_date: "2026-12-01"
   type: conference
   pinned: true
-  image: placeholder.png
+  image: bridging_safety_neurips_26.webp
   links:
     - { label: Paper }
     - { label: Workshop Paper, url: "https://openreview.net/forum?id=ffX7tGwAD8" }
@@ -195,10 +195,11 @@
   year: 2026
   sort_date: "2026-08-18"
   type: conference
-  image: placeholder.png
+  image: safefql_26.webp
   links:
     - { label: Paper, url: "https://arxiv.org/abs/2603.15136" }
     - { label: Workshop Paper, url: "https://openreview.net/forum?id=glZK5wks9X" }
+    - { label: Project Site, url: "https://tayalmanan28.github.io/safe-fql/" }
 
 - id: v-ocbf
   title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
@@ -223,7 +224,7 @@
   year: 2026
   sort_date: "2026-03-01"
   type: journal
-  image: ram_26.jpg
+  image: st2_ram_26.webp
   links:
     - { label: Paper, url: "https://ieeexplore.ieee.org/document/11369949" }
 
