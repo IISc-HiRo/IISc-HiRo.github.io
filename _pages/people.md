@@ -13,10 +13,16 @@ permalink: /people/
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="HiRo Lab, January 2026"></button>
         <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="1" aria-label="HiRo Lab at ICRA 2026, Vienna"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="2" aria-label="Lab dinner, August 2025"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="3" aria-label="ICRA 2026 trip, Austria"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="4" aria-label="ICRA 2026 trip, Austria"></button>
-        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="5" aria-label="ICRA 2026 trip, Vienna"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="2" aria-label="Visit from Fujitsu Research India, August 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="3" aria-label="ACM India Summer School on Edge AI and Robotics, IISc, July 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="4" aria-label="HiRo Lab's Robotic Lemonade Stand at IISc Open Day, March 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="5" aria-label="Invited talk by Prof. Ravi Prakash at IIT Delhi, June 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="6" aria-label="HiRo Lab dinner outing, July 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="7" aria-label="HiRo Lab dinner outing, July 2026"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="8" aria-label="Lab dinner, August 2025"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="9" aria-label="ICRA 2026 trip, Austria"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="10" aria-label="ICRA 2026 trip, Austria"></button>
+        <button type="button" data-bs-target="#groupCarousel" data-bs-slide-to="11" aria-label="ICRA 2026 trip, Vienna"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -29,6 +35,42 @@ permalink: /people/
           <figure class="photo-frame">
             <img src="/assets/img/people/group_icra26_1.jpeg" alt="HiRo Lab at ICRA 2026, Vienna">
             <figcaption>HiRo Lab at ICRA 2026, Vienna</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/fujitsu_visit_8_26.jpg" alt="Visit from Fujitsu Research India, August 2026">
+            <figcaption>Visit from Fujitsu Research India, August 2026</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/acm_summer_school_7_26.jpeg" alt="ACM India Summer School on Edge AI and Robotics, IISc, July 2026">
+            <figcaption>ACM India Summer School on Edge AI and Robotics, IISc, July 2026</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/open_day_lemonade.jpg" alt="HiRo Lab's Robotic Lemonade Stand at IISc Open Day, March 2026">
+            <figcaption>HiRo Lab's Robotic Lemonade Stand at IISc Open Day, March 2026</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/talk_iitd_6_26.jpg" alt="Invited talk by Prof. Ravi Prakash at IIT Delhi, June 2026">
+            <figcaption>Invited talk by Prof. Ravi Prakash at IIT Delhi, June 2026</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/dinner_7_26_1.jpg" alt="HiRo Lab dinner outing, July 2026">
+            <figcaption>HiRo Lab dinner outing, July 2026</figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="photo-frame">
+            <img src="/assets/img/people/dinner_7_26_2.jpg" alt="HiRo Lab dinner outing, July 2026">
+            <figcaption>HiRo Lab dinner outing, July 2026</figcaption>
           </figure>
         </div>
         <div class="carousel-item">
