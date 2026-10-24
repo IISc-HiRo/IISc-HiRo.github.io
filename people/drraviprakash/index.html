@@ -50,12 +50,62 @@ permalink: /people/drraviprakash/
   </section>
 
   <nav class="profile-jump" aria-label="Page sections">
+    <a href="#publications">Publications ({{ all_pubs | size }})</a>
     <a href="#recognition">Recognition &amp; Service</a>
     <a href="#teaching">Teaching</a>
     <a href="#talks">Selected Talks</a>
     <a href="#challenges">Robotics Challenges</a>
-    <a href="#publications">Publications ({{ all_pubs | size }})</a>
   </nav>
+
+  <section class="profile-section" id="publications">
+    <h2>Publications</h2>
+    <p class="profile-pub-jump">
+    {%- for s in sections -%}
+      {%- assign key = s | split: ":" | first -%}
+      {%- assign label = s | split: ":" | last -%}
+      {%- assign n = all_pubs | where: "type", key | size -%}
+      {%- if n > 0 %}
+      <a href="#{{ key }}">{{ label }} ({{ n }})</a>
+      {%- endif -%}
+    {%- endfor %}
+    </p>
+  </section>
+
+  {%- for s in sections -%}
+    {%- assign key = s | split: ":" | first -%}
+    {%- assign label = s | split: ":" | last -%}
+    {%- assign list = all_pubs | where: "type", key | sort: "sort_date" | reverse -%}
+    {%- if list.size > 0 %}
+  <section class="profile-section profile-subsection" id="{{ key }}">
+    <h3>{{ label }}</h3>
+    <div class="publications-list">
+      {%- for pub in list %}
+      <div class="publication-item" id="{{ pub.id }}">
+        {% include pub_thumb.liquid pub=pub %}
+        <div class="pub-content">
+          <div class="pub-title">{{ pub.title }}</div>
+          <div class="pub-authors">{% include pub_authors.liquid authors=pub.authors bold_pi=true %}</div>
+          {%- if pub.authors contains "*" %}<div class="pub-equal">* Equal contribution</div>{% endif %}
+          <div class="pub-venue">{% include pub_venue.liquid pub=pub %}</div>
+          {%- if pub.also %}
+          <div class="pub-also">Preliminary version appeared at {{ pub.also }}</div>
+          {%- endif %}
+          <div class="pub-links">
+            {%- for link in pub.links %}
+            {%- if link.url %}
+            <a href="{{ link.url }}" target="_blank" class="pub-link-text">{{ link.label }}</a>
+            {%- else %}
+            <span class="pub-link-text">{{ link.label }}</span>
+            {%- endif %}
+            {%- endfor %}
+          </div>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </section>
+    {%- endif -%}
+  {%- endfor %}
 
   <section class="profile-section" id="recognition">
     <h2>Recognition &amp; Service</h2>
@@ -115,56 +165,6 @@ permalink: /people/drraviprakash/
       {%- endfor %}
     </div>
   </section>
-
-  <section class="profile-section" id="publications">
-    <h2>Publications</h2>
-    <p class="profile-pub-jump">
-    {%- for s in sections -%}
-      {%- assign key = s | split: ":" | first -%}
-      {%- assign label = s | split: ":" | last -%}
-      {%- assign n = all_pubs | where: "type", key | size -%}
-      {%- if n > 0 %}
-      <a href="#{{ key }}">{{ label }} ({{ n }})</a>
-      {%- endif -%}
-    {%- endfor %}
-    </p>
-  </section>
-
-  {%- for s in sections -%}
-    {%- assign key = s | split: ":" | first -%}
-    {%- assign label = s | split: ":" | last -%}
-    {%- assign list = all_pubs | where: "type", key | sort: "sort_date" | reverse -%}
-    {%- if list.size > 0 %}
-  <section class="profile-section profile-subsection" id="{{ key }}">
-    <h3>{{ label }}</h3>
-    <div class="publications-list">
-      {%- for pub in list %}
-      <div class="publication-item" id="{{ pub.id }}">
-        {% include pub_thumb.liquid pub=pub %}
-        <div class="pub-content">
-          <div class="pub-title">{{ pub.title }}</div>
-          <div class="pub-authors">{% include pub_authors.liquid authors=pub.authors bold_pi=true %}</div>
-          {%- if pub.authors contains "*" %}<div class="pub-equal">* Equal contribution</div>{% endif %}
-          <div class="pub-venue">{% include pub_venue.liquid pub=pub %}</div>
-          {%- if pub.also %}
-          <div class="pub-also">Preliminary version appeared at {{ pub.also }}</div>
-          {%- endif %}
-          <div class="pub-links">
-            {%- for link in pub.links %}
-            {%- if link.url %}
-            <a href="{{ link.url }}" target="_blank" class="pub-link-text">{{ link.label }}</a>
-            {%- else %}
-            <span class="pub-link-text">{{ link.label }}</span>
-            {%- endif %}
-            {%- endfor %}
-          </div>
-        </div>
-      </div>
-      {%- endfor %}
-    </div>
-  </section>
-    {%- endif -%}
-  {%- endfor %}
 
 </div>
 

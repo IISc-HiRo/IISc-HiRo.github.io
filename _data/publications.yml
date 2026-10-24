@@ -293,6 +293,7 @@
   title: "OVITA: Open-Vocabulary Interpretable Trajectory Adaptations"
   authors: "A Maurya, T Ghosh, A Nguyen, R Prakash"
   venue: "IEEE Robotics and Automation Letters"
+  also: "CoRL 2024 Workshop on Language and Robot Learning (LangRob)"
   tag: "RA-L'25"
   year: 2025
   sort_date: "2025-08-13"
