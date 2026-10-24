@@ -149,7 +149,7 @@ permalink: /people/
         <a href="https://www.linkedin.com/in/mritunjoyh/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       </div>
       <span class="name">Mritunjoy Halder</span>
-      <span class="role">Field Robotics, Mobile Manipulation,  Spacecraft Navigation and Manipulation</span>
+      <span class="role">Mobile Manipulation, Field and Space Robotics</span>
     </div>
     <div class="person-card">
       <a href="https://sasidharalavala.notion.site" target="_blank" class="person-image-link">
