@@ -19,7 +19,7 @@ permalink: /
     </p>
     
     <p>
-      The group's research interests lie at the intersection of robotics, machine learning, and human-robot interaction, with a focus on robot manipulation for real-world applications, including healthcare, retail, and space robots. The central principle is to enable humans with varying levels of robotic expertise to transfer their knowledge and experience of skills and tasks to the robot, enabling it to explore and execute tasks in unstructured, novel scenarios.
+      The group's research lies at the intersection of robotics, machine learning, and human-robot interaction, with a focus on robot manipulation for real-world applications.
     </p>
 
     <p>
