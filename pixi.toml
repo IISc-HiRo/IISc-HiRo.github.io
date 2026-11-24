@@ -1,0 +1,17 @@
+[workspace]
+name = "iisc-hiro-website"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]
+
+[dependencies]
+ruby = "3.2.*"          # matches the GitHub deploy (Ruby 3.2.2)
+compilers = "*"         # native gem extensions
+make = "*"
+pkg-config = "*"
+imagemagick = "*"       # jekyll-imagemagick
+
+[tasks]
+# gems go to ./vendor/bundle (gitignored), never system-wide
+setup = "bundle config set --local path vendor/bundle && bundle install"
+serve = { cmd = "bundle exec jekyll serve --livereload", depends-on = ["setup"] }
+build = { cmd = "bundle exec jekyll build", depends-on = ["setup"] }
